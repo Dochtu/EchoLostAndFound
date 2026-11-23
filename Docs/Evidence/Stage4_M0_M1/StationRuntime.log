@@ -1,0 +1,47 @@
+2026-11-21T19:47:58 Reopened Assets/_Project/Scenes/Station.unity Console errors=0 warnings=0 messages=0
+2026-11-21T19:48:23 Play=True Camera=StationPreviewCamera Resolution=1101x534 CPU=AMD Ryzen 7 8745H with Radeon 780M Graphics GPU=NVIDIA GeForce RTX 4060 Laptop GPU Graphics=Direct3D12 Quality=High Fidelity Pipeline=HDRP High Fidelity
+2026-11-21T19:48:27 Progress shot=0 t=3.2 frame=136 paused=False samples=0 waitingForPNG=False focused=GameView
+2026-11-21T19:48:27 01_GameView_StationOverview real Game View 1101x534 samples=24 FPS=2.4 peakFrameMs=6443.6 framesOver100ms=4 cpuMainThreadMs=112.1 gpuFrameMs=12.3 bytes=602925
+2026-11-21T19:48:27 06_Editor_GameView_PlayMode Unity window 1936x1096 Play=True
+2026-11-21T19:48:30 02_GameView_LostAndFound real Game View 1101x534 samples=286 FPS=190.0 peakFrameMs=24.3 framesOver100ms=0 cpuMainThreadMs=3.8 gpuFrameMs=5.1 bytes=553808
+2026-11-21T19:48:33 03_GameView_PocketWatch real Game View 1101x534 samples=244 FPS=162.4 peakFrameMs=30.6 framesOver100ms=0 cpuMainThreadMs=4.6 gpuFrameMs=5.9 bytes=468131
+2026-11-21T19:48:35 Progress shot=3 t=1.0 frame=1285 paused=False samples=0 waitingForPNG=False focused=GameView
+2026-11-21T19:48:37 04_GameView_NPC real Game View 1101x534 samples=242 FPS=160.0 peakFrameMs=16.5 framesOver100ms=0 cpuMainThreadMs=4.8 gpuFrameMs=6.1 bytes=487844
+2026-11-21T19:48:40 05_GameView_PlatformRainNight real Game View 1101x534 samples=195 FPS=129.7 peakFrameMs=51.6 framesOver100ms=0 cpuMainThreadMs=6.2 gpuFrameMs=7.5 bytes=475114
+2026-11-21T19:48:40 Leaving Play Mode Console errors=0 warnings=0 messages=0
+2026-11-21T19:48:44 07_Editor_SceneHierarchy Unity window 1936x1096 Play=False
+2026-11-21T19:48:46 08_Editor_Console Unity window 1936x1096 Play=False
+2026-11-21T19:48:46 Capture completed Console errors=0 warnings=0 messages=0
+2026-11-21T19:52:04 Starting independent capture
+2026-11-21T19:52:04 Reopened Assets/_Project/Scenes/Station.unity Console errors=0 warnings=0 messages=1
+2026-11-21T19:52:16 Play=True Camera=StationPreviewCamera Resolution=1920x1080 CPU=AMD Ryzen 7 8745H with Radeon 780M Graphics GPU=NVIDIA GeForce RTX 4060 Laptop GPU Graphics=Direct3D12 Quality=High Fidelity Pipeline=HDRP High Fidelity
+2026-11-21T19:52:16 Progress shot=0 t=0.5 frame=2 paused=False samples=0 waitingForPNG=False focused=GameView
+2026-11-21T19:52:19 01_GameView_StationOverview real Game View 1920x1080 samples=90 FPS=59.3 peakFrameMs=18.8 framesOver100ms=0 cpuMainThreadMs=15.2 gpuFrameMs=16.8 bytes=2315260
+2026-11-21T19:52:19 06_Editor_GameView_PlayMode Unity window 1936x1096 Play=True
+2026-11-21T19:52:22 02_GameView_LostAndFound real Game View 1920x1080 samples=147 FPS=97.3 peakFrameMs=11.6 framesOver100ms=0 cpuMainThreadMs=8.7 gpuFrameMs=10.2 bytes=2008402
+2026-11-21T19:52:24 Progress shot=2 t=2.0 frame=597 paused=False samples=45 waitingForPNG=False focused=GameView
+2026-11-21T19:52:25 03_GameView_PocketWatch real Game View 1920x1080 samples=128 FPS=84.8 peakFrameMs=13.2 framesOver100ms=0 cpuMainThreadMs=10.2 gpuFrameMs=11.7 bytes=1711025
+2026-11-21T19:52:28 04_GameView_NPC real Game View 1920x1080 samples=112 FPS=73.9 peakFrameMs=15.3 framesOver100ms=0 cpuMainThreadMs=11.7 gpuFrameMs=13.5 bytes=1951817
+2026-11-21T19:52:32 05_GameView_PlatformRainNight real Game View 1920x1080 samples=108 FPS=71.2 peakFrameMs=16.1 framesOver100ms=0 cpuMainThreadMs=12.3 gpuFrameMs=14.0 bytes=1960007
+2026-11-21T19:52:32 Leaving Play Mode Console errors=0 warnings=0 messages=0
+2026-11-21T19:52:36 07_Editor_SceneHierarchy Unity window 1936x1096 Play=False
+2026-11-21T19:52:38 08_Editor_Console Unity window 1936x1096 Play=False
+2026-11-21T19:52:38 Capture completed Console errors=0 warnings=0 messages=0
+2026-11-21T19:55:24 07_Editor_SceneHierarchy Unity window 1936x1096 Play=False
+2026-11-21T19:55:26 08_Editor_Console Unity window 1936x1096 Play=False
+2026-11-21T19:55:26 Capture completed Console errors=0 warnings=0 messages=0
+2026-11-21T19:56:26 Starting independent capture
+2026-11-21T19:56:26 Reopened Assets/_Project/Scenes/Station.unity Console errors=0 warnings=0 messages=1
+2026-11-21T19:56:35 Play=True Camera=StationPreviewCamera Resolution=1103x581 CPU=AMD Ryzen 7 8745H with Radeon 780M Graphics GPU=NVIDIA GeForce RTX 4060 Laptop GPU Graphics=Direct3D12 Quality=High Fidelity Pipeline=HDRP High Fidelity
+2026-11-21T19:56:36 Progress shot=0 t=0.5 frame=2 paused=False samples=0 waitingForPNG=False focused=GameView
+2026-11-21T19:56:39 01_GameView_StationOverview real Game View 1920x1080 samples=88 FPS=49.2 peakFrameMs=306.3 framesOver100ms=1 cpuMainThreadMs=18.7 gpuFrameMs=17.0 bytes=2239404
+2026-11-21T19:56:39 06_Editor_GameView_PlayMode Unity window 1936x1096 Play=True
+2026-11-21T19:56:42 02_GameView_LostAndFound real Game View 1920x1080 samples=144 FPS=94.9 peakFrameMs=12.1 framesOver100ms=0 cpuMainThreadMs=8.9 gpuFrameMs=10.5 bytes=1972916
+2026-11-21T19:56:44 Progress shot=2 t=2.1 frame=584 paused=False samples=46 waitingForPNG=False focused=GameView
+2026-11-21T19:56:45 03_GameView_PocketWatch real Game View 1920x1080 samples=130 FPS=86.0 peakFrameMs=13.4 framesOver100ms=0 cpuMainThreadMs=10.1 gpuFrameMs=11.6 bytes=1654695
+2026-11-21T19:56:48 04_GameView_NPC real Game View 1920x1080 samples=122 FPS=80.9 peakFrameMs=13.9 framesOver100ms=0 cpuMainThreadMs=10.8 gpuFrameMs=12.3 bytes=1909770
+2026-11-21T19:56:51 05_GameView_PlatformRainNight real Game View 1920x1080 samples=112 FPS=74.2 peakFrameMs=15.2 framesOver100ms=0 cpuMainThreadMs=11.8 gpuFrameMs=13.4 bytes=1886540
+2026-11-21T19:56:51 Leaving Play Mode Console errors=0 warnings=0 messages=0
+2026-11-21T19:56:55 07_Editor_SceneHierarchy Unity window 1936x1096 Play=False
+2026-11-21T19:56:57 08_Editor_Console Unity window 1936x1096 Play=False
+2026-11-21T19:56:57 Capture completed Console errors=0 warnings=0 messages=0

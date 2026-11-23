@@ -1,0 +1,76 @@
+Source=Docs/Evidence/M1_5_R1/Run3\R1_moving_off.raw frames=121. Inclusive marker durations summed by name per thread per frame; nested samples overlap.
+thread / marker,mean ms per captured frame,highest frame total ms,frames with marker
+"Render Thread / ",16.933,22.542,121
+"Main Thread / Main Thread",16.928,20.220,121
+"Main Thread / PlayerLoop",16.834,20.177,120
+"Main Thread / TimeUpdate.WaitForLastPresentationAndUpdateTime",12.795,15.603,120
+"Main Thread / WaitForLastPresentation",12.786,15.594,119
+"Main Thread / DXGI.WaitOnSwapChain",12.778,15.586,119
+"Render Thread / Semaphore.WaitForSignal",10.667,13.512,120
+"Render Thread / Gfx.WaitForGfxCommandsFromMainThread",10.621,13.449,120
+"Render Thread / RenderLoop",6.294,21.370,120
+"Render Thread / HDRenderPipelineRenderCamera",4.074,6.418,120
+"Render Thread / ExecuteRenderGraph",3.927,6.220,120
+"Main Thread / PostLateUpdate.FinishFrameRendering",3.281,4.181,120
+"Main Thread / UnityEngine.CoreModule.dll!UnityEngine.Rendering::RenderPipelineManager.DoRenderLoop_Internal() [Invoke]",3.207,4.120,120
+"Main Thread / Inl_HDRenderPipelineAllRenderRequest",2.754,3.678,120
+"Render Thread / RenderShadowMaps",1.856,3.726,120
+"Main Thread / Inl_HDRenderPipelineRenderCamera",1.420,2.232,120
+"Main Thread / HDRenderPipelineRenderCamera",1.013,1.360,120
+"Main Thread / ExecuteRenderGraph",0.974,1.321,120
+"Render Thread / BufferD3D12.InitializeResource",0.710,1.801,120
+"Render Thread / BufferD3D12.CreateBufferResource",0.545,1.543,120
+"Main Thread / Inl_ExecuteRenderGraph",0.510,0.736,120
+"Render Thread / CreateResourceWithTag",0.475,1.391,120
+"Main Thread / RenderShadowMaps",0.422,0.721,120
+"Main Thread / Inl_RecordRenderGraph",0.405,0.577,120
+"Render Thread / async cmd",0.362,0.654,120
+"Main Thread / Inl_PrepareLightsForGPU",0.289,0.923,120
+"Render Thread / Gfx.PresentFrame",0.289,15.887,120
+"Main Thread / WaitForJobGroupID",0.253,0.529,121
+"Render Thread / BufferD3D12.UpdateInternal",0.251,1.295,120
+"Main Thread / Inl_CullResultsCull",0.209,0.395,120
+"Main Thread / CullScriptable",0.208,0.394,120
+"Render Thread / BuildLightList",0.203,0.430,120
+"Render Thread / Deferred Lighting",0.196,0.387,120
+"Render Thread / RenderDeferredLightingCompute",0.195,0.385,120
+"Main Thread / EndRenderQueueExtraction",0.181,0.310,120
+"Render Thread / DepthPyramid",0.171,0.342,120
+"Render Thread / BlitPunctualMixedCachedShadowMaps",0.158,0.321,120
+"Main Thread / Inl_ProcessVisibleLights",0.155,0.501,120
+"Render Thread / PlayerEndOfFrame",0.145,4.794,8
+"Main Thread / Deferred Lighting",0.142,0.203,120
+"Main Thread / RenderDeferredLightingCompute",0.139,0.200,120
+"Main Thread / ExecuteRenderQueueJob",0.136,0.208,120
+"Main Thread / PostLateUpdate.ProfilerEndFrame",0.126,1.085,120
+"Main Thread / Profiler.FlushCounters",0.125,1.084,120
+"Render Thread / PostProcessing",0.119,0.210,120
+"Main Thread / Shadows.PrepareDrawShadows",0.114,0.161,120
+"Render Thread / ColorPyramid",0.112,0.221,120
+"Main Thread / Director.ProcessFrame",0.110,0.276,120
+"Main Thread / Animators.Update",0.109,0.275,120
+"Render Thread / AmbientOcclusion",0.108,0.186,120
+"Main Thread / Profiler.FlushMemoryCounters",0.103,0.851,120
+"Main Thread / CullResults.CreateSharedRendererScene",0.100,0.299,120
+"Main Thread / EngineJob",0.090,0.132,120
+"Main Thread / PreLateUpdate.DirectorUpdateAnimationEnd",0.081,0.251,120
+"Main Thread / Inl_RenderShadowMaps",0.078,0.148,120
+"Render Thread / MeshSkinning.SkinOnGPU",0.075,0.203,120
+"Main Thread / HDShadowRequestUpdateJob (Burst)",0.073,0.109,120
+"Main Thread / Inl_BlitPunctualMixedCachedShadowMaps",0.071,0.111,120
+"Main Thread / PlayerConnection.Poll",0.065,1.792,120
+"Main Thread / Inl_PrepareGPULightdata",0.065,0.326,120
+"Main Thread / PostProcessing",0.063,0.089,120
+"Render Thread / GenerateLightAABBs",0.062,0.155,120
+"Render Thread / Push Global Camera Parameters",0.061,0.146,120
+"Render Thread / PrepareLightsForGPU",0.061,0.111,120
+"Render Thread / Bloom",0.058,0.125,120
+"Render Thread / DeferredDepthPrepass",0.057,0.129,120
+"Render Thread / Volumetric Lighting",0.056,0.151,120
+"Main Thread / PreLateUpdate.DirectorUpdateAnimationBegin",0.052,0.088,120
+"Main Thread / SceneCulling",0.051,0.088,120
+"Main Thread / Inl_PostProcessing",0.051,0.102,120
+"Render Thread / Fog Volume And VFX Voxelization",0.050,0.125,120
+"Main Thread / PostLateUpdate.PresentAfterDraw",0.000,0.027,1
+"Main Thread / Graphics.PresentAndSync",0.000,0.027,1
+"Main Thread / Device.Present",0.000,0.026,1

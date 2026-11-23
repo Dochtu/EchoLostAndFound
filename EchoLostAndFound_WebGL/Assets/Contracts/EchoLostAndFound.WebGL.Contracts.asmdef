@@ -1,0 +1,5 @@
+{
+  "name": "EchoLostAndFound.WebGL.Contracts",
+  "rootNamespace": "EchoLostAndFound.WebGL.Contracts",
+  "noEngineReferences": true
+}

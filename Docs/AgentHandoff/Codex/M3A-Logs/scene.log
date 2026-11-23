@@ -1,0 +1,488 @@
+VBCSCompilerServerWatchdog: watching VBCSCompiler (PID 33860)
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.29f1 (96d2fe17529c) revision 9884414'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-10509" at "2026-11-23T10:25:10.6464619Z"
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 15676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-23T10:25:10Z
+
+COMMAND LINE ARGUMENTS:
+F:\software\unity\6000.3.29f1\Editor\Unity.exe
+-batchmode
+-quit
+-nographics
+-projectPath
+F:\EchoBuilds\M3A-20261123-R1
+-buildTarget
+WebGL
+-executeMethod
+EchoStation.SceneSetup.Generate
+-logFile
+G:\projects\EchoLostAndFound\Docs\AgentHandoff\Codex\M3A-Logs/scene.log
+Successfully changed project path to: F:\EchoBuilds\M3A-20261123-R1
+F:/EchoBuilds/M3A-20261123-R1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [25544]  Target information:
+
+Player connection [25544]  * "[IP] 192.168.220.1 [Port] 55505 [Flags] 2 [Guid] 625348591 [EditorId] 625348591 [Version] 1048832 [Id] WindowsEditor(7,lifan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25544]  * "[IP] 192.168.94.1 [Port] 55505 [Flags] 2 [Guid] 625348591 [EditorId] 625348591 [Version] 1048832 [Id] WindowsEditor(7,lifan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25544]  * "[IP] 192.168.56.1 [Port] 55505 [Flags] 2 [Guid] 625348591 [EditorId] 625348591 [Version] 1048832 [Id] WindowsEditor(7,lifan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25544]  * "[IP] 172.27.48.1 [Port] 55505 [Flags] 2 [Guid] 625348591 [EditorId] 625348591 [Version] 1048832 [Id] WindowsEditor(7,lifan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25544]  * "[IP] 100.77.245.14 [Port] 55505 [Flags] 2 [Guid] 625348591 [EditorId] 625348591 [Version] 1048832 [Id] WindowsEditor(7,lifan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25544]  * "[IP] 192.168.1.139 [Port] 55505 [Flags] 2 [Guid] 625348591 [EditorId] 625348591 [Version] 1048832 [Id] WindowsEditor(7,lifan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25544] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-42800" after 0.3 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.19.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-10509"
+[Licensing::IpcConnector] LicenseClient-10509 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-10509-1.19.0" at "2026-11-23T10:25:12.7630005Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21980, path: "F:/software/unity/6000.3.29f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.19.0+4cc3dda
+  Session Id:              fb801f7de4954e7184a11b9fb4d346e4
+  Correlation Id:          04bdf3bd1c2dab7976d85f7058745d35
+  External correlation Id: 7214325655374190766
+  Machine Id:              nsSQqRjUn29lBoKkrBh55FLNwIE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-10509-1.19.0" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-10509-1.19.0-notifications" at "2026-11-23T10:25:12.8041481Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 15669807328315-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 2.17s
+[Licensing::Module] Licensing is initialized (took 1.47s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Targeting platform: WebGL
+Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.29f1 (96d2fe17529c)
+[Subsystems] Discovering subsystems at path F:/software/unity/6000.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/EchoBuilds/M3A-20261123-R1/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'F:/software/unity/6000.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'F:/software/unity/6000.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/software/unity/6000.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/software/unity/6000.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/software/unity/6000.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002728 seconds.
+- Loaded All Assemblies, in  0.505 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.393 seconds
+Domain Reload Profiling: 898ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (149ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (80ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 23 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.inputsystem@1.20.1 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
+    com.unity.searcher@4.9.5 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.31 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.burst@bfa84123c21a)
+    com.unity.mathematics@1.3.3 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.collections@2.7.1 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.collections@88d5bf65ce66)
+    com.unity.nuget.mono-cecil@1.11.6 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.7.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.test-framework.performance@abb028105431)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.3.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.render-pipelines.universal@04369b574bc4)
+    com.unity.ugui@2.0.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.ugui@a4256ae5f4a6)
+    com.unity.test-framework@1.6.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.test-framework@bd7f943e9647)
+    com.unity.modules.physics@1.0.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.jsonserialize@1.0.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.audio@1.0.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.ext.nunit@2.0.5 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.modules.imgui@1.0.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.ui@1.0.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.render-pipelines.core@17.3.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.render-pipelines.core@de95b9a65fe5)
+    com.unity.shadergraph@17.3.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.shadergraph@d526115bb944)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+    com.unity.modules.hierarchycore@1.0.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.modules.terrain@1.0.0 (location: F:\EchoBuilds\M3A-20261123-R1\Library\PackageCache\com.unity.modules.terrain)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: Assembly Definition File(s) changed
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: F:\software\unity\6000.3.29f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: F:/EchoBuilds/M3A-20261123-R1
+DisplayProgressbar: Compiling Scripts
+Starting: F:\software\unity\6000.3.29f1\Editor\Data\netcorerun\netcorerun.exe "F:\software\unity\6000.3.29f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/2000b0aE.dag.json" "Library/Bee/2000b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: F:/EchoBuilds/M3A-20261123-R1
+ExitCode: 4 Duration: 1s720ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/2000b0aE-inputdata.json
+[497/619    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[498/619    1s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+*** Tundra requires additional run (1.60 seconds), 2 items updated, 496 evaluated
+ExitCode: 0 Duration: 2s806ms
+Starting: F:\software\unity\6000.3.29f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\2000b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: F:/EchoBuilds/M3A-20261123-R1
+ExitCode: 0 Duration: 2s233ms
+Finished compiling graph: 662 nodes, 10122 flattened edges (8334 ToBuild, 96 ToUse), maximum node priority 688
+[314/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoStation.Editor.rsp
+[319/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoLostAndFound.WebGL.Contracts.UnityAdditionalFile.txt
+[324/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoStation.Editor.dll.mvfrm.rsp
+[328/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/M3A.EditMode.dll.mvfrm.rsp
+[338/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoLostAndFound.WebGL.Contracts.rsp2
+[358/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoLostAndFound.WebGL.Contracts.dll.mvfrm.rsp
+[359/659    0s] WriteResponseFile Library/Bee/artifacts/rsp/9764827894859564605.rsp
+[360/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoStation.Runtime.UnityAdditionalFile.txt
+[361/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/M3A.EditMode.rsp2
+[362/659    0s] WriteResponseFile Library/Bee/artifacts/rsp/17393612130358857736.rsp
+[363/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/M3A.EditMode.UnityAdditionalFile.txt
+[380/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/M3A.EditMode.rsp
+[383/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.rsp
+[385/659    0s] WriteResponseFile Library/Bee/artifacts/rsp/6506602406826607390.rsp
+[386/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoStation.Runtime.rsp2
+[387/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoLostAndFound.WebGL.Contracts.rsp
+[388/659    0s] WriteResponseFile Library/Bee/artifacts/rsp/15877642250943916490.rsp
+[389/659    0s] WriteResponseFile Library/Bee/artifacts/rsp/10017656952941242526.rsp
+[496/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoStation.Runtime.dll.mvfrm.rsp
+[503/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoStation.Runtime.rsp
+[504/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoStation.Editor.UnityAdditionalFile.txt
+[508/659    0s] WriteText Library/Bee/artifacts/2000b0aE.dag/EchoStation.Editor.rsp2
+[517/659    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[635/659    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/EchoLostAndFound.WebGL.Contracts.dll.mvfrm
+[636/659    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/EchoStation.Runtime.dll.mvfrm
+[637/659    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/M3A.EditMode.dll.mvfrm
+[638/659    0s] MovedFromExtractor-Combine Library/Bee/artifacts/2000b0aE.dag/EchoStation.Editor.dll.mvfrm
+[639/659    0s] Csc Library/Bee/artifacts/2000b0aE.dag/EchoLostAndFound.WebGL.Contracts.dll (+2 others)
+[640/659    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/EchoLostAndFound.WebGL.Contracts.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/EchoLostAndFound.WebGL.Contracts.dll, with 114 defines and 125 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[641/659    0s] CopyFiles Library/ScriptAssemblies/EchoLostAndFound.WebGL.Contracts.dll
+[642/659    0s] CopyFiles Library/ScriptAssemblies/EchoLostAndFound.WebGL.Contracts.pdb
+[643/659    0s] Csc Library/Bee/artifacts/2000b0aE.dag/EchoStation.Runtime.dll (+2 others)
+[644/659    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/EchoStation.Runtime.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/EchoStation.Runtime.dll, with 114 defines and 235 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[645/659    0s] CopyFiles Library/ScriptAssemblies/EchoStation.Runtime.pdb
+[646/659    0s] CopyFiles Library/ScriptAssemblies/EchoStation.Runtime.dll
+[647/659    0s] Csc Library/Bee/artifacts/2000b0aE.dag/M3A.EditMode.dll (+2 others)
+[648/659    0s] Csc Library/Bee/artifacts/2000b0aE.dag/EchoStation.Editor.dll (+2 others)
+[649/659    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/M3A.EditMode.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/M3A.EditMode.dll, with 112 defines and 272 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[650/659    0s] CopyFiles Library/ScriptAssemblies/M3A.EditMode.pdb
+[651/659    0s] CopyFiles Library/ScriptAssemblies/M3A.EditMode.dll
+[652/659    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/EchoStation.Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/EchoStation.Editor.dll, with 112 defines and 277 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[653/659    0s] CopyFiles Library/ScriptAssemblies/EchoStation.Editor.pdb
+[654/659    0s] CopyFiles Library/ScriptAssemblies/EchoStation.Editor.dll
+[655/659    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[656/659    0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll, with 112 defines and 308 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[657/659    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[658/659    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (2.19 seconds), 47 items updated, 659 evaluated
+AssetDatabase: script compilation time: 7.281137s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.000 seconds
+Start importing Assets/Station using Guid(50d64a5d7c8818d4b9184c14d79e6411) (DefaultImporter) -> (artifact id: '1c1a5b616d4125fabd6276de72603c36') in 0.0250169 seconds
+Start importing Assets/Contracts using Guid(2404b9028db546fd8198977bcd4dfae6) (DefaultImporter) -> (artifact id: '9397fc2ce6a2af8a2b0f5e132ad27083') in 0.0008174 seconds
+Start importing Assets/Tests using Guid(8ce32b0c45a846ebb3a2632993338221) (DefaultImporter) -> (artifact id: '8a3f4f506fd747cc348398c5bcc634bd') in 0.0006186 seconds
+Start importing Assets/Station/Models using Guid(d0babd0935b5c104da8955cbeacd6091) (DefaultImporter) -> (artifact id: '58376757e092c0f9c7b8d205f5512400') in 0.0111963 seconds
+Start importing Assets/Tests/Editor using Guid(733d016cb70746fab5019eec21f7d575) (DefaultImporter) -> (artifact id: '643aca193c15947d62bc3922263a453d') in 0.001022 seconds
+Start importing Assets/Contracts/Resources using Guid(83f78791c65642ed87953beecc92cb7e) (DefaultImporter) -> (artifact id: 'b7d2acfafd5c4c1d4841d89e212f706d') in 0.0007627 seconds
+Start importing Assets/Station/Materials using Guid(8946ce785891e3940a31cea7f82cd56a) (DefaultImporter) -> (artifact id: 'c5722e6037b371462f27134170c74624') in 0.0137153 seconds
+Start importing Assets/Station/Scenes using Guid(edac3fe67ff62074aac4ea59d23076af) (DefaultImporter) -> (artifact id: '7c7c9e2c11fd46f89633dd2b2e751956') in 0.0096181 seconds
+Start importing Assets/Station/Editor using Guid(2fe24c08a41c99a46881c169bbeb2855) (DefaultImporter) -> (artifact id: '38afe6039092e56e458b5ec72a2430dd') in 0.0102955 seconds
+Start importing Assets/Contracts/Resources/M3A using Guid(63f5a7b205a542afb8505fa06516904b) (DefaultImporter) -> (artifact id: 'b7d1d009d38da8ed1a67feaa07747eb6') in 0.0007548 seconds
+Start importing Assets/Station/Editor/Station.Editor.asmdef using Guid(356f5a78eb4c24045835e901ffa02d6b) (AssemblyDefinitionImporter) -> (artifact id: 'a06dd574b8d02bff3e38ea55ed86c059') in 0.0136521 seconds
+Start importing Assets/Tests/Editor/M3A.EditMode.asmdef using Guid(ab963ed6049a4bfea55ace8722e98e28) (AssemblyDefinitionImporter) -> (artifact id: '61c9816fbc75f55e9c9bd6b9fb0cf891') in 0.0017659 seconds
+Start importing Assets/Contracts/EchoLostAndFound.WebGL.Contracts.asmdef using Guid(7e295b83d50444c7909a02c73efbcc68) (AssemblyDefinitionImporter) -> (artifact id: '0d0174c40f6c5b774c8e33e12a45ee31') in 0.0020151 seconds
+Start importing Assets/Station/Station.Runtime.asmdef using Guid(4f093f4f1591f744ea912a93945e17a6) (AssemblyDefinitionImporter) -> (artifact id: '06bf78f1577a0a9e39356d6298b0773b') in 0.0118985 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.584 seconds
+Domain Reload Profiling: 3584ms
+	BeginReloadAssembly (349ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (151ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (578ms)
+		LoadAssemblies (607ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (71ms)
+			BuildScriptInfoCaches (24ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2219ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (1948ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Start importing Assets/Station/Models/HallSettee_LOD2.fbx using Guid(a1267628564142b44827c53da5979bbf) (FBXImporter)Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+File 'HallSettee_LOD2' has inconsistent LOD naming (_LOD2 found but no _LOD1).
+ -> (artifact id: '6e0c374d3c8d7e9b38fba8750417b67d') in 0.2231362 seconds
+Start importing Assets/Station/Models/EvidenceWatch.fbx using Guid(57c044297e424074b80e6dfa81b4dcfe) (FBXImporter) -> (artifact id: '6a5e4a8f121907d7f1b10fb16f7cfacc') in 0.1016169 seconds
+Start importing Assets/Station/Models/StationVisitor.fbx using Guid(0ad8f8c7227a35145a1d38bfe96cd760) (FBXImporter)Keyframe reduction: Ratio: 1.828459%;
+ -> (artifact id: '86ed8c4b41689cb1b33574ffb80620ca') in 0.1790375 seconds
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) (NativeFormatImporter) -> (artifact id: '65bfe8ff9ef5155bdf192d53d89d55a1') in 0.0099833 seconds
+Start importing Assets/Station/StationInput.inputactions using Guid(00b40c4c93462e84d8780daae668d9cf) (ScriptedImporter) -> (artifact id: 'a82c5e5c17d896ab77df8c57e6f0badf') in 0.0398269 seconds
+Start importing Assets/Contracts/Resources/M3A/StationPreview.json using Guid(226e4ce8837e42598d668c593d4280fe) (TextScriptImporter) -> (artifact id: 'c5ca41f23d9d72cd93ff3deb8b210945') in 0.0026326 seconds
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) (NativeFormatImporter) -> (artifact id: 'feb2e01939e0a6a52db50af19ca8af1f') in 0.0028648 seconds
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) (NativeFormatImporter) -> (artifact id: '71bca90e7e277fc8f226f814007c46fa') in 0.005416 seconds
+Start importing Assets/Station/StationInput.inputactions using Guid(00b40c4c93462e84d8780daae668d9cf) (ScriptedImporter) -> (artifact id: 'dbedee7df2c7071f95b97a30620227c8') in 0.0094551 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a8bf650285a576f468c97dc14ef767a4): Total: 12.460 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=23 (actual=23, local cache=0, cache server=0)
+		Asset DB Process Time: managed=90 ms, native=3701 ms
+		Asset DB Callback time: managed=326 ms, native=30 ms
+		Scripting: domain reloads=1, domain reload time=1001 ms, compile time=7283 ms, other=26 ms
+		Project Asset Count: scripts=802, non-scripts=1665
+		Asset File Changes: new=25, changed=30, moved=0, deleted=0
+		Scan Filter Count: 3
+	InvokeCustomDependenciesCallbacks: 0.004ms
+	InvokePackagesCallback: 22.621ms
+	ApplyChangesToAssetFolders: 0.911ms
+	Scan: 188.936ms
+	OnSourceAssetsModified: 1.829ms
+	CategorizeAssetsWithTransientArtifact: 21.046ms
+	ProcessAssetsWithTransientArtifactChanges: 39.871ms
+	CategorizeAssets: 91.751ms
+	ImportOutOfDateAssets: 3297.903ms (-4691.577ms without children)
+		ImportManagerImport: 701.157ms (6.789ms without children)
+			ImportInProcess: 694.094ms
+			UpdateCategorizedAssets: 0.274ms
+		CompileScripts: 7283.081ms
+		ReloadNativeAssets: 0.111ms
+		UnloadImportedAssets: 2.458ms
+		ReloadImportedAssets: 0.403ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.121ms
+		InitializingProgressBar: 0.030ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.005ms
+		OnDemandSchedulerStart: 1.115ms
+	PostProcessAllAssets: 462.498ms
+	Hotreload: 2.527ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.335ms
+	UnloadStreamsBegin: 1.820ms
+	PersistCurrentRevisions: 0.796ms
+	UnloadStreamsEnd: 0.007ms
+	GenerateScriptTypeHashes: 2.293ms
+	Untracked: 8326.967ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 2.236ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-EchoLostAndFound WebGL
+Unloading 69 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3671 unused Assets / (10.3 MB). Loaded Objects now: 4453.
+Memory consumption went from 193.7 MB to 183.4 MB.
+Total: 14.185500 ms (FindLiveObjects: 0.452600 ms CreateObjectMapping: 0.197600 ms MarkObjects: 7.775800 ms  DeleteObjects: 5.757700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4453.
+Memory consumption went from 182.8 MB to 182.8 MB.
+Total: 7.164900 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.090900 ms MarkObjects: 6.830600 ms  DeleteObjects: 0.008600 ms)
+
+Start importing Assets/Station/Materials/Enamel.mat using Guid(e4678b05b66e836488f2c9aa9e250c3b) (NativeFormatImporter) -> (artifact id: 'b0677796bdab556e859f0dd3c846c187') in 0.0019198 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b4b78289c62665d41b0921a729bca36f): Total: 0.055 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Station/Materials/Brass.mat using Guid(bab6b68f42b429744800b364472eba25) (NativeFormatImporter) -> (artifact id: 'fbac57333b7c5a0842a4c1cdb41934be') in 0.0023978 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7c9424391d0773141a9631a7fb2dcf03): Total: 0.046 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Station/Materials/Stone.mat using Guid(052adeaee8443b7479acb791cb9052d5) (NativeFormatImporter) -> (artifact id: '374bdd9522dac82221a3823c00445cc2') in 0.0020864 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=2aff4a5d51c21504cbae7863670582a5): Total: 0.040 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Station/Materials/Porcelain.mat using Guid(5c4f7465976d6a64d88933d7d584e56b) (NativeFormatImporter) -> (artifact id: 'b5aa997cc3154302386bc70da6f89fa4') in 0.0016821 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=03e133ae16744e64b9d71d45147b0438): Total: 0.045 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Station/Materials/Timber.mat using Guid(13ce7d1750eeb774281a865a7ad13f77) (NativeFormatImporter) -> (artifact id: 'd0609cf60a9ff79d7c09abe50ba33053') in 0.0018135 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=04d0753fec398154ebc9c2e98eca41ce): Total: 0.035 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing ProjectSettings/GraphicsSettings.asset using Guid(00000000000000006100000000000000) (LibraryAssetImporter) -> (artifact id: '93553874e5ebda964ade4588ce09420a') in 0.0035897 seconds
+Start importing Assets/Station/Materials/Timber.mat using Guid(13ce7d1750eeb774281a865a7ad13f77) (NativeFormatImporter) -> (artifact id: '555f1d86ded1feef0e3dc68f422764f0') in 0.0017981 seconds
+Start importing Assets/Station/Materials/Enamel.mat using Guid(e4678b05b66e836488f2c9aa9e250c3b) (NativeFormatImporter) -> (artifact id: 'f99c2003bd2a99872c14713e63b92364') in 0.0016575 seconds
+Start importing Assets/Station/Materials/Stone.mat using Guid(052adeaee8443b7479acb791cb9052d5) (NativeFormatImporter) -> (artifact id: 'ac494cbb5df2c3ac817ee2b0c1a6d9e6') in 0.0014617 seconds
+Start importing Assets/Station/Materials/Brass.mat using Guid(bab6b68f42b429744800b364472eba25) (NativeFormatImporter) -> (artifact id: '2a7022e0b4aa1944e2fb493ad1ad3b57') in 0.0013139 seconds
+Start importing Assets/Station/Materials/Porcelain.mat using Guid(5c4f7465976d6a64d88933d7d584e56b) (NativeFormatImporter) -> (artifact id: '6f32ac6b55b8adcf0bcd1e0d655f8840') in 0.0027741 seconds
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) (NativeFormatImporter) -> (artifact id: 'df3ea32d9d0ed0771eafbe8bb61c2a20') in 0.0022392 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=1bdaaef94f331494385397ba48a75e15): Total: 0.096 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Station/Scenes/Station.unity using Guid(a1909a2cd244bed4f941264730418188) (DefaultImporter) -> (artifact id: 'c319d1de3177fd0f1e7f058d640312f0') in 0.0011021 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=82a165ca0aa7ee742abaff0d2dbe65da): Total: 0.039 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing ProjectSettings/EditorBuildSettings.asset using Guid(0000000000000000b000000000000000) (LibraryAssetImporter) -> (artifact id: 'da6a51b92b356d9a2ec5226172ea3573') in 0.0021396 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a2422df2d0dc77946875b369cef4dbb3): Total: 0.029 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Batchmode quit successfully invoked - shutting down!
+Curl error 42: Callback aborted
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-10509-1.19.0-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-10509-1.19.0 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

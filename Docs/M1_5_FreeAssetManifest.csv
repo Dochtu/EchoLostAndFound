@@ -1,0 +1,153 @@
+﻿AssetName,AssetPath,SourceURL,Author,LicenseType,CommercialUse,AttributionRequired,AttributionText,DownloadDate,IsAIgenerated,IsSelfCreated,IsPlaceholder
+Brows,Assets/_Project/Art/Characters/M1_5/Brows.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+eyebrow001 / Brows_Color,Assets/_Project/Art/Characters/M1_5/Brows_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+Eyes,Assets/_Project/Art/Characters/M1_5/Eyes.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+"high-poly, brown / Eyes_Color",Assets/_Project/Art/Characters/M1_5/Eyes_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+Hair,Assets/_Project/Art/Characters/M1_5/Hair.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+short02 / Hair_Color,Assets/_Project/Art/Characters/M1_5/Hair_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+short02 / Hair_Normal,Assets/_Project/Art/Characters/M1_5/Hair_Normal.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+Lashes,Assets/_Project/Art/Characters/M1_5/Lashes.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+eyelashes01 / Lashes_Color,Assets/_Project/Art/Characters/M1_5/Lashes_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+Shoes,Assets/_Project/Art/Characters/M1_5/Shoes.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+shoes02 / Shoes_Color,Assets/_Project/Art/Characters/M1_5/Shoes_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+Skin,Assets/_Project/Art/Characters/M1_5/Skin.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+middleage_asian_male / Skin_Color,Assets/_Project/Art/Characters/M1_5/Skin_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+short02 contribution to Skin_Color,Assets/_Project/Art/Characters/M1_5/Skin_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+eyebrow001 contribution to Skin_Color,Assets/_Project/Art/Characters/M1_5/Skin_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+eyelashes01 contribution to Skin_Color,Assets/_Project/Art/Characters/M1_5/Skin_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+Skin region smoothness map,Assets/_Project/Art/Characters/M1_5/Skin_Mask.png,Tools/M1_5/build_character.py,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+middleage_asian_male contribution to Skin_Normal,Assets/_Project/Art/Characters/M1_5/Skin_Normal.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+"hm08 base mesh, MPFB 2.0.18 mixamo_unity skeleton and weights",Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/mpfb/faq/use_in_closed_source.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+male_casualsuit01,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+shoes02,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+short02,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+"high-poly, brown",Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+eyebrow001,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+eyelashes01,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+teeth_base,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+StationVisitor project fitting and StandingIdle / blink animation,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,Tools/M1_5/build_character.py,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+Teeth,Assets/_Project/Art/Characters/M1_5/Teeth.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+teeth_base / Teeth_Color,Assets/_Project/Art/Characters/M1_5/Teeth_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+Wardrobe,Assets/_Project/Art/Characters/M1_5/Wardrobe.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+male_casualsuit01 / Wardrobe_Color,Assets/_Project/Art/Characters/M1_5/Wardrobe_Color.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+male_casualsuit01 AO / Wardrobe mask map,Assets/_Project/Art/Characters/M1_5/Wardrobe_Mask.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+male_casualsuit01 contribution to Wardrobe_Mask,Assets/_Project/Art/Characters/M1_5/Wardrobe_Mask.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+male_casualsuit01 / Wardrobe_Normal,Assets/_Project/Art/Characters/M1_5/Wardrobe_Normal.png,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+HallColumn_LOD1,Assets/_Project/Art/Environment/M1_5/Detail/HallColumn_LOD1.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallColumn_LOD2,Assets/_Project/Art/Environment/M1_5/Detail/HallColumn_LOD2.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallPendant_LOD1,Assets/_Project/Art/Environment/M1_5/Detail/HallPendant_LOD1.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallPendant_LOD2,Assets/_Project/Art/Environment/M1_5/Detail/HallPendant_LOD2.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallSettee_LOD1,Assets/_Project/Art/Environment/M1_5/Detail/HallSettee_LOD1.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallSettee_LOD2,Assets/_Project/Art/Environment/M1_5/Detail/HallSettee_LOD2.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallColumn,Assets/_Project/Art/Environment/M1_5/HallColumn.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallPaving,Assets/_Project/Art/Environment/M1_5/HallPaving.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallPendant,Assets/_Project/Art/Environment/M1_5/HallPendant.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallSash,Assets/_Project/Art/Environment/M1_5/HallSash.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallSettee,Assets/_Project/Art/Environment/M1_5/HallSettee.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallVault,Assets/_Project/Art/Environment/M1_5/HallVault.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+PiercedVaultBracket,Assets/_Project/Art/Environment/M1_5/PiercedVaultBracket.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+Platform_CantileverCanopy_Context,Assets/_Project/Art/Environment/M1_5/Platform_CantileverCanopy_Context.asset,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+Platform_TrackBed_Context,Assets/_Project/Art/Environment/M1_5/Platform_TrackBed_Context.asset,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+PlatformCanopyBay,Assets/_Project/Art/Environment/M1_5/PlatformCanopyBay.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+PlatformDrainageUV,Assets/_Project/Art/Environment/M1_5/PlatformDrainageUV.asset,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+PlatformRailPanel,Assets/_Project/Art/Environment/M1_5/PlatformRailPanel.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+AgedWood,Assets/_Project/Art/Materials/M1_5/AgedWood.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+BluedSteel,Assets/_Project/Art/Materials/M1_5/BluedSteel.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+CastIron,Assets/_Project/Art/Materials/M1_5/CastIron.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+DarkWood,Assets/_Project/Art/Materials/M1_5/DarkWood.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+DeskFelt,Assets/_Project/Art/Materials/M1_5/DeskFelt.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+Grout,Assets/_Project/Art/Materials/M1_5/Grout.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallGlass,Assets/_Project/Art/Materials/M1_5/HallGlass.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+Leather,Assets/_Project/Art/Materials/M1_5/Leather.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+OldFabric,Assets/_Project/Art/Materials/M1_5/OldFabric.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+OldPlaster,Assets/_Project/Art/Materials/M1_5/OldPlaster.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+Opal,Assets/_Project/Art/Materials/M1_5/Opal.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+Paper,Assets/_Project/Art/Materials/M1_5/Paper.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+PolishedWood,Assets/_Project/Art/Materials/M1_5/PolishedWood.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+Terrazzo,Assets/_Project/Art/Materials/M1_5/Terrazzo.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+WeatheredConcrete,Assets/_Project/Art/Materials/M1_5/WeatheredConcrete.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+WetConcrete,Assets/_Project/Art/Materials/M1_5/WetConcrete.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+WetStone,Assets/_Project/Art/Materials/M1_5/WetStone.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+WornBrass,Assets/_Project/Art/Materials/M1_5/WornBrass.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+ArchiveCarton,Assets/_Project/Art/Props/M1_5/ArchiveCarton.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+BoundRegister,Assets/_Project/Art/Props/M1_5/BoundRegister.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+EvidenceWatch,Assets/_Project/Art/Props/M1_5/EvidenceWatch.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+FoundHoldall,Assets/_Project/Art/Props/M1_5/FoundHoldall.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+IntakeCabinet,Assets/_Project/Art/Props/M1_5/IntakeCabinet.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+IntakeLamp,Assets/_Project/Art/Props/M1_5/IntakeLamp.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+TiedFolios,Assets/_Project/Art/Props/M1_5/TiedFolios.fbx,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+Canvas Base,Assets/_Project/Art/Textures/M1_5/Canvas/Base.jpg,https://polyhaven.com/a/book_pattern,Rob Tuytel,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Canvas Mask,Assets/_Project/Art/Textures/M1_5/Canvas/Mask.png,https://polyhaven.com/a/book_pattern,Rob Tuytel,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Canvas Normal,Assets/_Project/Art/Textures/M1_5/Canvas/Normal.jpg,https://polyhaven.com/a/book_pattern,Rob Tuytel,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Concrete Base,Assets/_Project/Art/Textures/M1_5/Concrete/Base.jpg,https://ambientcg.com/view?id=Concrete031,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Concrete Mask,Assets/_Project/Art/Textures/M1_5/Concrete/Mask.png,https://ambientcg.com/view?id=Concrete031,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Concrete Normal,Assets/_Project/Art/Textures/M1_5/Concrete/Normal.jpg,https://ambientcg.com/view?id=Concrete031,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Iron Base,Assets/_Project/Art/Textures/M1_5/Iron/Base.jpg,https://polyhaven.com/a/metal_plate_02,Rob Tuytel,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Iron Mask,Assets/_Project/Art/Textures/M1_5/Iron/Mask.png,https://polyhaven.com/a/metal_plate_02,Rob Tuytel,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Iron Normal,Assets/_Project/Art/Textures/M1_5/Iron/Normal.jpg,https://polyhaven.com/a/metal_plate_02,Rob Tuytel,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Leather Base,Assets/_Project/Art/Textures/M1_5/Leather/Base.jpg,https://ambientcg.com/view?id=Leather001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Leather Mask,Assets/_Project/Art/Textures/M1_5/Leather/Mask.png,https://ambientcg.com/view?id=Leather001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Leather Normal,Assets/_Project/Art/Textures/M1_5/Leather/Normal.jpg,https://ambientcg.com/view?id=Leather001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Lime Base,Assets/_Project/Art/Textures/M1_5/Lime/Base.jpg,https://ambientcg.com/view?id=Plaster001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Lime Mask,Assets/_Project/Art/Textures/M1_5/Lime/Mask.png,https://ambientcg.com/view?id=Plaster001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Lime Normal,Assets/_Project/Art/Textures/M1_5/Lime/Normal.jpg,https://ambientcg.com/view?id=Plaster001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Paper Base,Assets/_Project/Art/Textures/M1_5/Paper/Base.jpg,https://ambientcg.com/view?id=Paper001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Paper Mask,Assets/_Project/Art/Textures/M1_5/Paper/Mask.png,https://ambientcg.com/view?id=Paper001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Paper Normal,Assets/_Project/Art/Textures/M1_5/Paper/Normal.jpg,https://ambientcg.com/view?id=Paper001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Plaster Base,Assets/_Project/Art/Textures/M1_5/Plaster/Base.jpg,https://polyhaven.com/a/worn_plaster_wall,Dimitrios Savva,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Plaster Mask,Assets/_Project/Art/Textures/M1_5/Plaster/Mask.png,https://polyhaven.com/a/worn_plaster_wall,Dimitrios Savva,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Plaster Normal,Assets/_Project/Art/Textures/M1_5/Plaster/Normal.jpg,https://polyhaven.com/a/worn_plaster_wall,Dimitrios Savva,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Terrazzo Base,Assets/_Project/Art/Textures/M1_5/Terrazzo/Base.jpg,https://ambientcg.com/view?id=Terrazzo001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Terrazzo Height,Assets/_Project/Art/Textures/M1_5/Terrazzo/Height.jpg,https://ambientcg.com/view?id=Terrazzo001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Terrazzo Mask,Assets/_Project/Art/Textures/M1_5/Terrazzo/Mask.png,https://ambientcg.com/view?id=Terrazzo001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Terrazzo Normal,Assets/_Project/Art/Textures/M1_5/Terrazzo/Normal.jpg,https://ambientcg.com/view?id=Terrazzo001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+WetConcrete Base,Assets/_Project/Art/Textures/M1_5/WetConcrete/Base.jpg,https://ambientcg.com/view?id=Concrete031,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+WetConcrete Mask,Assets/_Project/Art/Textures/M1_5/WetConcrete/Mask.png,https://ambientcg.com/view?id=Concrete031,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+WetConcrete Normal,Assets/_Project/Art/Textures/M1_5/WetConcrete/Normal.jpg,https://ambientcg.com/view?id=Concrete031,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Wood Base,Assets/_Project/Art/Textures/M1_5/Wood/Base.jpg,https://polyhaven.com/a/fine_grained_wood,Rob Tuytel,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Wood Mask,Assets/_Project/Art/Textures/M1_5/Wood/Mask.png,https://polyhaven.com/a/fine_grained_wood,Rob Tuytel,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+Wood Normal,Assets/_Project/Art/Textures/M1_5/Wood/Normal.jpg,https://polyhaven.com/a/fine_grained_wood,Rob Tuytel,CC0-1.0,Yes,No,,2026-11-21,No,No,No
+EditorEvidence,Assets/_Project/Editor/M1_5/EditorEvidence.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallIntegration,Assets/_Project/Editor/M1_5/HallIntegration.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallSurfaces,Assets/_Project/Editor/M1_5/HallSurfaces.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+StationAudit,Assets/_Project/Editor/M1_5/StationAudit.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+StationCharacter,Assets/_Project/Editor/M1_5/StationCharacter.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+StationFinish,Assets/_Project/Editor/M1_5/StationFinish.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+StationLods,Assets/_Project/Editor/M1_5/StationLods.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+StationPlayerBuild,Assets/_Project/Editor/M1_5/StationPlayerBuild.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+StationVisitor,Assets/_Project/Prefabs/Characters/M1_5/StationVisitor.controller,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+StationVisitor,Assets/_Project/Prefabs/Characters/M1_5/StationVisitor.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallColumn,Assets/_Project/Prefabs/Environment/M1_5/HallColumn.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallPaving,Assets/_Project/Prefabs/Environment/M1_5/HallPaving.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallPendant,Assets/_Project/Prefabs/Environment/M1_5/HallPendant.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallSash,Assets/_Project/Prefabs/Environment/M1_5/HallSash.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallSettee,Assets/_Project/Prefabs/Environment/M1_5/HallSettee.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+HallVault,Assets/_Project/Prefabs/Environment/M1_5/HallVault.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+PiercedVaultBracket,Assets/_Project/Prefabs/Environment/M1_5/PiercedVaultBracket.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+PlatformCanopyBay,Assets/_Project/Prefabs/Environment/M1_5/PlatformCanopyBay.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+PlatformRailPanel,Assets/_Project/Prefabs/Environment/M1_5/PlatformRailPanel.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+ArchiveCarton,Assets/_Project/Prefabs/Props/M1_5/ArchiveCarton.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+BoundRegister,Assets/_Project/Prefabs/Props/M1_5/BoundRegister.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+EvidenceWatch,Assets/_Project/Prefabs/Props/M1_5/EvidenceWatch.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+FoundHoldall,Assets/_Project/Prefabs/Props/M1_5/FoundHoldall.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+IntakeCabinet,Assets/_Project/Prefabs/Props/M1_5/IntakeCabinet.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+IntakeLamp,Assets/_Project/Prefabs/Props/M1_5/IntakeLamp.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+TiedFolios,Assets/_Project/Prefabs/Props/M1_5/TiedFolios.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+Station,Assets/_Project/Scenes/Station.unity,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+StationPlayerBenchmark,Assets/_Project/Tests/M1_5/StationPlayerBenchmark.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+bake_wet_surface,Tools/M1_5/bake_wet_surface.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_archive,Tools/M1_5/build_archive.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_bag,Tools/M1_5/build_bag.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_character,Tools/M1_5/build_character.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_column,Tools/M1_5/build_column.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_counter,Tools/M1_5/build_counter.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_hall,Tools/M1_5/build_hall.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_lamp,Tools/M1_5/build_lamp.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_lods,Tools/M1_5/build_lods.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_paving,Tools/M1_5/build_paving.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_platform,Tools/M1_5/build_platform.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_sash,Tools/M1_5/build_sash.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_vault,Tools/M1_5/build_vault.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+build_watch,Tools/M1_5/build_watch.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+project_portrait_uv,Tools/M1_5/project_portrait_uv.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+refine_portrait,Tools/M1_5/refine_portrait.py,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No

@@ -1,0 +1,142 @@
+// EchoLostAndFound · Unity WebGL 构建入口（片段，需由 Codex / unity-engineer 落位）
+// 目标路径：Assets/_Project/Editor/WebGLBuildEntry.cs
+// 归属说明：本文件是构建脚本的入口契约，由 DSH 起草；实际放入 Assets/ 须经 Codex，
+//           因为 Editor/ 与构建入口属于 Unity 工程架构范围，且会新增 .meta。
+//
+// 与 Tools/Build/Invoke-WebGLBuild.ps1 的契约：
+//   环境变量 DSH_WEBGL_OUTPUT      —— 产物目录（绝对路径），必须位于 Assets/ 之外
+//   环境变量 DSH_WEBGL_COMPRESSION —— brotli | gzip | disabled
+//   Unity 调用方式：
+//     -batchmode -quit -nographics -projectPath <proj> -buildTarget WebGL
+//     -executeMethod EchoLostAndFound.Build.WebGLBuildEntry.Build -logFile <log>
+//
+// 注意：本文件在非 URP 工程中编译可通过，但执行会因 HDRP 不支持 WebGL 而失败——
+//       这是有意的：宁可显式报错，也不要产出一个"看起来成功"的坏包。
+
+using System;
+using System.IO;
+using System.Linq;
+using UnityEditor;
+using UnityEditor.Build.Reporting;
+using UnityEngine;
+using UnityEngine.Rendering;
+
+namespace EchoLostAndFound.Build
+{
+    public static class WebGLBuildEntry
+    {
+        private const string HdrpTypeName = "UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset";
+
+        [MenuItem("Echo/Build/WebGL (CI Entry)")]
+        public static void BuildFromMenu()
+        {
+            Build();
+        }
+
+        public static void Build()
+        {
+            try
+            {
+                BuildInternal();
+                EditorApplication.Exit(0);
+            }
+            catch (Exception exception)
+            {
+                Debug.LogError("WebGL build failed: " + exception);
+                EditorApplication.Exit(1);
+            }
+        }
+
+        private static void BuildInternal()
+        {
+            var output = Environment.GetEnvironmentVariable("DSH_WEBGL_OUTPUT");
+            if (string.IsNullOrWhiteSpace(output))
+            {
+                throw new InvalidOperationException("DSH_WEBGL_OUTPUT is not set.");
+            }
+
+            var projectRoot = Path.GetFullPath(Path.Combine(Application.dataPath, ".."));
+            var target = Path.GetFullPath(output);
+            if (target.StartsWith(Path.GetFullPath(Application.dataPath), StringComparison.OrdinalIgnoreCase))
+            {
+                throw new InvalidOperationException("WebGL output must not be inside Assets/: " + target);
+            }
+
+            var pipeline = GraphicsSettings.defaultRenderPipeline;
+            if (pipeline != null && pipeline.GetType().FullName == HdrpTypeName)
+            {
+                throw new InvalidOperationException(
+                    "HDRP does not support WebGL. Keep the Windows project on HDRP and build the browser " +
+                    "slice from a URP project (see Docs/AgentHandoff/DSH/WebGLCompatibility.md).");
+            }
+
+            ApplyCompression(Environment.GetEnvironmentVariable("DSH_WEBGL_COMPRESSION"));
+            PlayerSettings.WebGL.decompressionFallback = false;
+            PlayerSettings.WebGL.threadsSupport = false;
+            PlayerSettings.WebGL.dataCaching = true;
+            PlayerSettings.WebGL.exceptionSupport = WebGLExceptionSupport.ExplicitlyThrownExceptionsOnly;
+
+            Directory.CreateDirectory(target);
+
+            var scenes = EditorBuildSettings.scenes
+                .Where(scene => scene.enabled)
+                .Select(scene => scene.path)
+                .ToArray();
+            if (scenes.Length == 0)
+            {
+                throw new InvalidOperationException("No enabled scenes in EditorBuildSettings.");
+            }
+
+            Debug.Log("WebGL scenes: " + string.Join(", ", scenes));
+
+            var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
+            {
+                scenes = scenes,
+                locationPathName = target,
+                target = BuildTarget.WebGL,
+                options = BuildOptions.None,
+            });
+
+            var summary = report.summary;
+            Debug.Log($"WebGL build {summary.result}: {summary.totalSize} bytes, {summary.totalTime}, errors {summary.totalErrors}");
+
+            if (summary.result != BuildResult.Succeeded)
+            {
+                throw new InvalidOperationException("BuildResult was " + summary.result);
+            }
+
+            if (!File.Exists(Path.Combine(target, "index.html")))
+            {
+                throw new InvalidOperationException("Build succeeded but index.html is missing in " + target);
+            }
+
+            // 记录体量明细，便于与 WebGLCompatibility.md 的预算对照。
+            var breakdown = Directory
+                .GetFiles(target, "*", SearchOption.AllDirectories)
+                .Select(path => new FileInfo(path))
+                .OrderByDescending(info => info.Length)
+                .Take(15)
+                .Select(info => $"  {info.Length,12:N0} B  {Path.GetRelativePath(target, info.FullName)}");
+            Debug.Log("WebGL artifact sizes (top 15):\n" + string.Join("\n", breakdown));
+        }
+
+        private static void ApplyCompression(string value)
+        {
+            switch ((value ?? string.Empty).Trim().ToLowerInvariant())
+            {
+                case "disabled":
+                    PlayerSettings.WebGL.compressionFormat = WebGLCompressionFormat.Disabled;
+                    break;
+                case "gzip":
+                    PlayerSettings.WebGL.compressionFormat = WebGLCompressionFormat.Gzip;
+                    break;
+                case "":
+                case "brotli":
+                    PlayerSettings.WebGL.compressionFormat = WebGLCompressionFormat.Brotli;
+                    break;
+                default:
+                    throw new ArgumentException("Unknown DSH_WEBGL_COMPRESSION: " + value);
+            }
+        }
+    }
+}

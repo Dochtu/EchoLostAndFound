@@ -1,0 +1,27 @@
+2026-11-21T19:56:26 QA inspection; editor 6000.3.29f1; objects 409
+PASS active scene Assets/_Project/Scenes/Station.unity
+PASS active pipeline HDRP High Fidelity (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset)
+PASS missing script owners 
+PASS unassigned MeshFilters 
+PASS visible renderer components 308, invalid material owners 
+PASS one active main HDRP camera
+PASS shot anchor Station_MainHall
+PASS shot anchor Station_LostFound
+PASS shot anchor Station_Watch
+PASS shot anchor Station_NPC
+PASS shot anchor Station_Platform
+PASS active global exposure, fog and tonemapping
+PASS enabled HDRP lights 26
+PASS reflection probe present
+PASS rain and eave emitters OpenPlatformRain, RoofDrips
+PASS prefab instances LostAndFound, Counter, WaitingHall, Platform, NPC_VisualSample, PocketWatch, Weather
+PASS mesh-bearing environment prefab LostAndFound
+PASS mesh-bearing environment prefab WaitingHall
+PASS mesh-bearing environment prefab Platform
+PASS watch back and rim inscriptions
+PASS analog hands at 9:17
+PASS reusable watch placed in scene
+PASS human sample limbs, height=1.717m, feet=0.001m
+PASS reusable NPC placed in scene
+PASS clear rendered doorway at (-6.00, 0.00, -3.05); occluders 
+PASS clear rendered doorway at (6.00, 0.00, 0.95); occluders 

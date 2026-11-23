@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-23 10:34:01Z" end-time="2026-11-23 10:34:01Z" duration="0.1653337">
+  <test-suite type="TestSuite" id="1000" name="EchoLostAndFound WebGL" fullname="EchoLostAndFound WebGL" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-23 10:34:01Z" end-time="2026-11-23 10:34:01Z" duration="0.165334" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1005" name="M3A.EditMode.dll" fullname="F:/EchoBuilds/M3A-20261123-QA1/Library/ScriptAssemblies/M3A.EditMode.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-23 10:34:01Z" end-time="2026-11-23 10:34:01Z" duration="0.158550" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32564" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1006" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-23 10:34:01Z" end-time="2026-11-23 10:34:01Z" duration="0.157914" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1007" name="QA" fullname="EchoLostAndFound.QA" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-23 10:34:01Z" end-time="2026-11-23 10:34:01Z" duration="0.157645" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="StationAcceptanceTests" fullname="EchoLostAndFound.QA.StationAcceptanceTests" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-23 10:34:01Z" end-time="2026-11-23 10:34:01Z" duration="0.156481" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="BothEntryPointsHaveDisplayableContentAndDistinctCommandIdentities" fullname="EchoLostAndFound.QA.StationAcceptanceTests.BothEntryPointsHaveDisplayableContentAndDistinctCommandIdentities" methodname="BothEntryPointsHaveDisplayableContentAndDistinctCommandIdentities" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" seed="1931738638" result="Passed" start-time="2026-11-23 10:34:01Z" end-time="2026-11-23 10:34:01Z" duration="0.023398" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="BuildStartsInStationWithInvestigatorAndBothInteractions" fullname="EchoLostAndFound.QA.StationAcceptanceTests.BuildStartsInStationWithInvestigatorAndBothInteractions" methodname="BuildStartsInStationWithInvestigatorAndBothInteractions" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" seed="1339422556" result="Passed" start-time="2026-11-23 10:34:01Z" end-time="2026-11-23 10:34:01Z" duration="0.115968" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="InvestigationRayHonoursRangeAndCannotReachThroughStationWalls" fullname="EchoLostAndFound.QA.StationAcceptanceTests.InvestigationRayHonoursRangeAndCannotReachThroughStationWalls" methodname="InvestigationRayHonoursRangeAndCannotReachThroughStationWalls" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" seed="1175858369" result="Passed" start-time="2026-11-23 10:34:01Z" end-time="2026-11-23 10:34:01Z" duration="0.006111" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/10509/AppData/LocalLow/Unity Technologies/EchoLostAndFound WebGL\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

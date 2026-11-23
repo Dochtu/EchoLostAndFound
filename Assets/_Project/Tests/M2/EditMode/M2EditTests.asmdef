@@ -1,0 +1,10 @@
+{
+  "name": "M2EditTests",
+  "rootNamespace": "EchoLostAndFound.QA",
+  "references": ["EchoLostAndFound.M2", "Unity.InputSystem", "UnityEngine.TestRunner", "UnityEditor.TestRunner"],
+  "includePlatforms": ["Editor"],
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}

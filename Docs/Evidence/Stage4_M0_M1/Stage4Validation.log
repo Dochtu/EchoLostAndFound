@@ -1,0 +1,43 @@
+Stage 4 / M0 + M1
+2026-11-21 | Preflight, before production
+Workspace: G:\projects\EchoLostAndFound
+Editor: Unity 6000.3.29f1 (96d2fe17529c)
+Package cache: HDRP 17.3.0 matches manifest and lock.
+Host CPU: AMD Ryzen 7 8745H with Radeon 780M Graphics
+User-session Unity window observed: EchoLostAndFound - OutdoorsScene - Windows, Mac, Linux - Unity 6.3 LTS (6000.3.29f1) <DX12>
+Project: Linear; High Fidelity / Balanced / Performant each resolve to their respective HDRP asset. Standalone default: High Fidelity.
+Graphics: HDRenderPipelineAsset + HDRenderPipelineGlobalSettings.
+OutdoorsScene SHA256 before production: B425C5F68DACC69E4DF8365E57B4EC9E2F54BF1E58B7FD57EF39D08FDE6EF5B4
+Independent QA: 7 GameObjects, camera, sun, global volume, 9 script references resolved, 0 MeshRenderer, 0 reflection probes.
+Last saved Scene View: pivot (-12.439, -41.087, 77.428); size 160.076; perspective.
+
+Final verification, 2026-11-21:
+M0 PASS. Interactive Editor, saved/reopened Stage4Baseline.unity, Play=True, Camera=Calibration Camera, Game View 1101x534, 0 missing scripts, 0 errors / 0 warnings.
+M1 PASS. Final saved scene Assets/_Project/Scenes/Station.unity. Reopened after final save, entered interactive Play Mode using StationPreviewCamera. Station is enabled first in Build Settings.
+Independent editor inspection: 26 PASS, 0 FAIL. 409 objects, 308 enabled non-particle renderers with valid materials, 26 active HDRP lights, 7 connected prefab instances. Two geometric door openings clear. 278.5/102 degree hands; caseback/rim inscriptions checked. NPC 1.717m; feet +0.001m.
+Five Station gameplay PNGs 1920x1080. Three additional Windows Unity Editor captures 1936x1096. All nine PNGs visually reviewed. Rain, reflections, inscriptions (resource checks), watch face/chain, NPC and signage reviewed. Console: 0 errors / 0 warnings. Active quality: High Fidelity / D3D12. GPU: NVIDIA GeForce RTX 4060 Laptop GPU.
+First lower-resolution hall sample included a 6443.6ms frame. Final 1080p hall sample included a 306.3ms frame; cause not profiled. No standalone Player benchmark.
+2026-11-21T19:56:26 Starting independent capture
+2026-11-21T19:56:26 Reopened Assets/_Project/Scenes/Station.unity Console errors=0 warnings=0 messages=1
+2026-11-21T19:56:35 Play=True Camera=StationPreviewCamera Resolution=1103x581 CPU=AMD Ryzen 7 8745H with Radeon 780M Graphics GPU=NVIDIA GeForce RTX 4060 Laptop GPU Graphics=Direct3D12 Quality=High Fidelity Pipeline=HDRP High Fidelity
+2026-11-21T19:56:36 Progress shot=0 t=0.5 frame=2 paused=False samples=0 waitingForPNG=False focused=GameView
+2026-11-21T19:56:39 01_GameView_StationOverview real Game View 1920x1080 samples=88 FPS=49.2 peakFrameMs=306.3 framesOver100ms=1 cpuMainThreadMs=18.7 gpuFrameMs=17.0 bytes=2239404
+2026-11-21T19:56:39 06_Editor_GameView_PlayMode Unity window 1936x1096 Play=True
+2026-11-21T19:56:42 02_GameView_LostAndFound real Game View 1920x1080 samples=144 FPS=94.9 peakFrameMs=12.1 framesOver100ms=0 cpuMainThreadMs=8.9 gpuFrameMs=10.5 bytes=1972916
+2026-11-21T19:56:44 Progress shot=2 t=2.1 frame=584 paused=False samples=46 waitingForPNG=False focused=GameView
+2026-11-21T19:56:45 03_GameView_PocketWatch real Game View 1920x1080 samples=130 FPS=86.0 peakFrameMs=13.4 framesOver100ms=0 cpuMainThreadMs=10.1 gpuFrameMs=11.6 bytes=1654695
+2026-11-21T19:56:48 04_GameView_NPC real Game View 1920x1080 samples=122 FPS=80.9 peakFrameMs=13.9 framesOver100ms=0 cpuMainThreadMs=10.8 gpuFrameMs=12.3 bytes=1909770
+2026-11-21T19:56:51 05_GameView_PlatformRainNight real Game View 1920x1080 samples=112 FPS=74.2 peakFrameMs=15.2 framesOver100ms=0 cpuMainThreadMs=11.8 gpuFrameMs=13.4 bytes=1886540
+2026-11-21T19:56:51 Leaving Play Mode Console errors=0 warnings=0 messages=0
+2026-11-21T19:56:55 07_Editor_SceneHierarchy Unity window 1936x1096 Play=False
+2026-11-21T19:56:57 08_Editor_Console Unity window 1936x1096 Play=False
+2026-11-21T19:56:57 Capture completed Console errors=0 warnings=0 messages=0
+00_GameView_HDRP_Baseline.png 140229 bytes SHA256=A4D083C34BBEA5D09CA2A780D345BAC90C3A09D96AC892A04608C81A32F7056D
+01_GameView_StationOverview.png 2239404 bytes SHA256=E1DE68216C8D8B6F7C67E38256C31F6BC3E73143A37EB2A9282D51ACDCD98F6F
+02_GameView_LostAndFound.png 1972916 bytes SHA256=3703DE3FE2891362474411F16D5285322ABACA0503D6F675952D5D69614FE2AA
+03_GameView_PocketWatch.png 1654695 bytes SHA256=68C1B3D63793480BACF61A16FE481E9FAE8A6E907E749BAD939C3DAC4AEE932F
+04_GameView_NPC.png 1909770 bytes SHA256=CEE92AE0343E4D6B8F40828CA728FDE779B8F062C823568D2515EE73A97777E4
+05_GameView_PlatformRainNight.png 1886540 bytes SHA256=42D92018E7097A17399E18BFB69DE70BA7938E46045417F0E739F87276A1B50C
+06_Editor_GameView_PlayMode.png 866192 bytes SHA256=E18100145FBA5B1019CF3B7AB78E343E63C81F59FEC80CE264E5F677F666C553
+07_Editor_SceneHierarchy.png 660027 bytes SHA256=CA062BFFE3FE2D24C72CC5B65F1A4B506FEF9A86B86209C4102B771591460A5E
+08_Editor_Console.png 659295 bytes SHA256=ECA498995FC2F5EAE72B8DDE7DB592F82DC55ACD349B60DF5E8924FB60C6AB33

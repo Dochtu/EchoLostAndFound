@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-23 01:04:27Z" end-time="2026-11-23 01:04:33Z" duration="5.67943">
+  <test-suite type="TestSuite" id="1013" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-23 01:04:27Z" end-time="2026-11-23 01:04:33Z" duration="5.679430" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1006" name="M2PlayTests.dll" fullname="G:/projects/EchoLostAndFound/Library/ScriptAssemblies/M2PlayTests.dll" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-23 01:04:27Z" end-time="2026-11-23 01:04:33Z" duration="5.669712" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="8272" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1007" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-23 01:04:27Z" end-time="2026-11-23 01:04:33Z" duration="5.667564" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1008" name="QA" fullname="EchoLostAndFound.QA" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-23 01:04:27Z" end-time="2026-11-23 01:04:33Z" duration="5.663237" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="M2PlayTests" fullname="EchoLostAndFound.QA.M2PlayTests" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-23 01:04:27Z" end-time="2026-11-23 01:04:33Z" duration="5.659463" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="CapsuleWalksBothDoorwaysReturnsAndCannotCrossWestHallWall" fullname="EchoLostAndFound.QA.M2PlayTests.CapsuleWalksBothDoorwaysReturnsAndCannotCrossWestHallWall" methodname="CapsuleWalksBothDoorwaysReturnsAndCannotCrossWestHallWall" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="69935784" result="Passed" start-time="2026-11-23 01:04:27Z" end-time="2026-11-23 01:04:30Z" duration="2.404355" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="ProbeHonoursSurfaceDistanceNearestHitAndBlockingGlass" fullname="EchoLostAndFound.QA.M2PlayTests.ProbeHonoursSurfaceDistanceNearestHitAndBlockingGlass" methodname="ProbeHonoursSurfaceDistanceNearestHitAndBlockingGlass" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="527253491" result="Passed" start-time="2026-11-23 01:04:30Z" end-time="2026-11-23 01:04:31Z" duration="1.210670" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="ReachAllFourAuthoredTargetsFromPlayableEyeHeight" fullname="EchoLostAndFound.QA.M2PlayTests.ReachAllFourAuthoredTargetsFromPlayableEyeHeight" methodname="ReachAllFourAuthoredTargetsFromPlayableEyeHeight" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="2124514671" result="Passed" start-time="2026-11-23 01:04:31Z" end-time="2026-11-23 01:04:32Z" duration="1.102852" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="RealInputDrivesPlayerButStopsDuringPreviewAndDialogue" fullname="EchoLostAndFound.QA.M2PlayTests.RealInputDrivesPlayerButStopsDuringPreviewAndDialogue" methodname="RealInputDrivesPlayerButStopsDuringPreviewAndDialogue" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="778550662" result="Passed" start-time="2026-11-23 01:04:32Z" end-time="2026-11-23 01:04:33Z" duration="0.921993" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: G:\projects\EchoLostAndFound\Docs\Evidence\Stage4_M2\PlayMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

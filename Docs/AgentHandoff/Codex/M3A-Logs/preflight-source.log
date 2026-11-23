@@ -1,0 +1,25 @@
+
+=== WebGL 构建预检 ===
+工程：G:\projects\EchoLostAndFound\EchoLostAndFound_WebGL
+  [ OK ] Unity 版本记录：m_EditorVersion: 6000.3.29f1
+  [ OK ] Unity 可执行文件：F:/software/unity/6000.3.29f1/Editor/Unity.exe
+  [ OK ] WebGL 模块已安装：F:\software\unity\6000.3.29f1\Editor\Data\PlaybackEngines\WebGLSupport
+  [WARN] 渲染管线未识别：Mobile_RPAsset.asset
+  [ OK ] URP 已安装：17.3.0
+  [ OK ] webGLCompressionFormat=0（0=Brotli,1=Gzip,2=Disabled），DecompressionFallback=0，Threads=0
+  [WARN] 未开解压回退：托管服务器必须返回正确的 Content-Encoding（br/gz），否则页面加载失败。本地测试用 Tools/Build/serve-webgl.mjs。
+  [WARN] webGLAnalyzeBuildSize 关闭：发布前建议开启一次做体积分析。
+  [WARN] 没有 Assets/WebGLTemplates：将使用 Unity 默认模板（无中文加载提示/无 pointer lock 引导）。
+  [ OK ] 构建入口：G:\projects\EchoLostAndFound\EchoLostAndFound_WebGL\Assets\_Project\Editor\WebGLBuildEntry.cs
+  [FAIL] 剩余空间 18.1 GB < 门槛 20 GB（WebGL 中间产物 + IL2CPP 很占空间）
+  [ OK ] 输出目录：G:\projects\EchoLostAndFound\EchoLostAndFound_WebGL\Builds\WebGL\20261123_183101
+
+=== 预检结果 ===
+警告 4 条：
+  - 渲染管线未识别：Mobile_RPAsset.asset
+  - 未开解压回退：托管服务器必须返回正确的 Content-Encoding（br/gz），否则页面加载失败。本地测试用 Tools/Build/serve-webgl.mjs。
+  - webGLAnalyzeBuildSize 关闭：发布前建议开启一次做体积分析。
+  - 没有 Assets/WebGLTemplates：将使用 Unity 默认模板（无中文加载提示/无 pointer lock 引导）。
+
+预检失败 1 项，未执行构建：
+  - 剩余空间 18.1 GB < 门槛 20 GB（WebGL 中间产物 + IL2CPP 很占空间）

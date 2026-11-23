@@ -1,0 +1,76 @@
+# Unity generated directories (project root only)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Bb]uild/
+/[Bb]uilds/
+/[Uu]ser[Ss]ettings/
+/MemoryCaptures/
+/Recordings/
+/TestResults/
+
+# IDE and generated solution/project files
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+
+# Python virtual environments and generated caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+/Server/build/
+/Server/dist/
+
+# Local secrets: templates must contain placeholders only
+.env
+.env.*
+!.env.example
+!.env.template
+secrets.local.*
+credentials.local.*
+
+# Local logs and temporary build/editor files
+*.log
+!/Docs/Evidence/Stage4_M0_M1/Stage4Validation.log
+!/Docs/Evidence/Stage4_M0_M1/BaselineRuntime.log
+!/Docs/Evidence/Stage4_M0_M1/StationRuntime.log
+!/Docs/Evidence/Stage4_M0_M1/QARuntime.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+/sysinfo.txt
+
+# Keep Unity metadata, package manifests, official resources and game configs.
+# Do not add blanket ignores for Assets, Packages, ProjectSettings, JSON or SQLite.
+
+# Local, verified project recovery archives
+/M3A-Backups/
+# M3-A validation logs retained as delivery evidence
+!/Docs/AgentHandoff/Codex/M3A-Logs/*.log

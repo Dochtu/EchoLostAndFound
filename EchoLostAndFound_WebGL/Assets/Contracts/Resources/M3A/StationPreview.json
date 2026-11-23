@@ -1,0 +1,12 @@
+{
+  "evidence": {
+    "field_id": "watch.dial",
+    "title": "Pocket watch",
+    "observation_text": "The hands are stopped at 9:17."
+  },
+  "dialogue": {
+    "npc_id": "npc_laozhou",
+    "speaker_name": "Lao Zhou",
+    "display_text": "Conversation opened at the lost property counter."
+  }
+}

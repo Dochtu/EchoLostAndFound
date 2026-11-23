@@ -1,0 +1,36 @@
+﻿AssetName,AssetPath,SourceURL,Author,LicenseType,CommercialUse,AttributionRequired,AttributionText,DownloadDate,IsAIgenerated,IsSelfCreated,IsPlaceholder
+Skin,Assets/_Project/Art/Characters/M1_5/Skin.mat,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+"hm08 base mesh, MPFB 2.0.18 mixamo_unity skeleton and weights",Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/mpfb/faq/use_in_closed_source.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+male_casualsuit01,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+shoes02,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+short02,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+"high-poly, brown",Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+eyebrow001,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+eyelashes01,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+teeth_base,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html,"MakeHuman Community (Data Collection AB, Joel Palmius, Jonas Hauquier)",CC0-1.0,Yes,No,,2026-11-22,No,No,No
+StationVisitor project fitting and StandingIdle / blink animation,Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,Tools/M1_5/build_character.py,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+"R1 visitor fitting, hair and idle refinements",Assets/_Project/Art/Characters/M1_5/StationVisitor.fbx,Tools/M1_5/refine_r1_character.py,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1HallThreshold,Assets/_Project/Art/Environment/M1_5/R1HallThreshold.fbx,Tools/M1_5/build_r1_environment.py,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1RailBoundary,Assets/_Project/Art/Environment/M1_5/R1RailBoundary.fbx,Tools/M1_5/build_r1_environment.py,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1ConcreteCoping,Assets/_Project/Art/Materials/M1_5/R1ConcreteCoping.mat,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1DistantRoof,Assets/_Project/Art/Materials/M1_5/R1DistantRoof.mat,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1HallIron,Assets/_Project/Art/Materials/M1_5/R1HallIron.mat,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1LimeMasonry,Assets/_Project/Art/Materials/M1_5/R1LimeMasonry.mat,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1RailBoundary,Assets/_Project/Art/Materials/M1_5/R1RailBoundary.mat,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1Terrazzo,Assets/_Project/Art/Materials/M1_5/R1Terrazzo.mat,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1ThresholdOak,Assets/_Project/Art/Materials/M1_5/R1ThresholdOak.mat,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1WetApron,Assets/_Project/Art/Materials/M1_5/R1WetApron.mat,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1 muted terrazzo / Terrazzo Base,Assets/_Project/Art/Textures/M1_5/R1MutedTerrazzo.png,https://ambientcg.com/view?id=Terrazzo001,Lennart Demes (ambientCG),CC0-1.0,Yes,No,,2026-11-21,No,No,No
+R1WetApronMask,Assets/_Project/Art/Textures/M1_5/R1WetApronMask.png,Tools/M1_5/build_r1_environment.py,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+EditorEvidence,Assets/_Project/Editor/M1_5/EditorEvidence.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+R1Environment,Assets/_Project/Editor/M1_5/R1Environment.cs,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1ProfilerAnalysis,Assets/_Project/Editor/M1_5/R1ProfilerAnalysis.cs,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1Station,Assets/_Project/Editor/M1_5/R1Station.cs,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+StationAudit,Assets/_Project/Editor/M1_5/StationAudit.cs,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+StationVisitor,Assets/_Project/Prefabs/Characters/M1_5/StationVisitor.prefab,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+Station,Assets/_Project/Scenes/Station.unity,,EchoLostAndFound,Project-created (internal project use),Yes,No,,,No,Yes,No
+R1CaptureRunner,Assets/_Project/Tests/M1_5/R1CaptureRunner.cs,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+R1PlayerBenchmark,Assets/_Project/Tests/M1_5/R1PlayerBenchmark.cs,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+build_r1_environment,Tools/M1_5/build_r1_environment.py,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+package_r1,Tools/M1_5/package_r1.py,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No
+refine_r1_character,Tools/M1_5/refine_r1_character.py,,EchoLostAndFound,Project original,Yes,No,,,No,Yes,No

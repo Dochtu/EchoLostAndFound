@@ -1,0 +1,5 @@
+{
+  "name": "EchoStation.Editor",
+  "includePlatforms": ["Editor"],
+  "references": ["EchoStation.Runtime","EchoLostAndFound.WebGL.Contracts","Unity.InputSystem","Unity.TextMeshPro","UnityEngine.UI"]
+}

@@ -1,0 +1,5 @@
+{
+    "name": "EchoLostAndFound.M2",
+    "rootNamespace": "EchoLostAndFound.M2",
+    "references": ["Unity.InputSystem"]
+}

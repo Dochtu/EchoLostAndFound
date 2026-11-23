@@ -1,0 +1,140 @@
+{
+  "content_version": "story-v1.0-phase2",
+  "npcs": [
+    {
+      "npc_id": "npc_laozhou",
+      "display_name": "老周",
+      "opening_node_id": "node.laozhou.opening",
+      "allowed_evidence_ids": ["E01", "E02", "E03", "E04", "E05"],
+      "nodes": [
+        {
+          "node_id": "node.laozhou.opening",
+          "content_ref": "dialogue.CH01.opening.laozhou",
+          "text": "这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。",
+          "options": [
+            {
+              "option_id": "opt.laozhou.ask_b01",
+              "label": "问站台那晚的照明",
+              "kind": "topic",
+              "target_node_id": "node.laozhou.b01"
+            },
+            {
+              "option_id": "opt.laozhou.repeat_b01",
+              "label": "再问站台那晚的照明",
+              "kind": "topic",
+              "target_node_id": "node.laozhou.b01",
+              "condition": {
+                "requires_disclosure_ids": ["D01"]
+              }
+            },
+            {
+              "option_id": "opt.laozhou.leave",
+              "label": "结束对话",
+              "kind": "end"
+            }
+          ]
+        },
+        {
+          "node_id": "node.laozhou.b01",
+          "content_ref": "dialogue.CH01.B01.initial",
+          "text": "站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。",
+          "options": [
+            {
+              "option_id": "opt.laozhou.b01.back",
+              "label": "先不问这个",
+              "kind": "topic",
+              "target_node_id": "node.laozhou.opening"
+            },
+            {
+              "option_id": "opt.laozhou.b01.leave",
+              "label": "结束对话",
+              "kind": "end"
+            }
+          ]
+        }
+      ],
+      "disclosures": [
+        {
+          "disclosure_id": "D01",
+          "kind": "testimony",
+          "required_evidence_ids": ["E02"],
+          "content_ref": "dialogue.CH01.D01.laozhou",
+          "text": "进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。"
+        },
+        {
+          "disclosure_id": "D02",
+          "kind": "verification",
+          "required_evidence_ids": ["E03", "E04"]
+        },
+        {
+          "disclosure_id": "D03",
+          "kind": "testimony",
+          "required_evidence_ids": ["E01", "E05"],
+          "content_ref": "dialogue.CH01.D03.laozhou",
+          "text": "她抓住小姑娘的胳膊，表掉到台沿。我弯腰拣的时候指针已经不动了，冠头是歪的。"
+        }
+      ]
+    },
+    {
+      "npc_id": "npc_linyao",
+      "display_name": "林遥",
+      "opening_node_id": "node.linyao.opening",
+      "allowed_evidence_ids": ["E01", "E03", "E04"],
+      "nodes": [
+        {
+          "node_id": "node.linyao.opening",
+          "content_ref": "dialogue.CH01.opening.linyao",
+          "text": "公告上有一张我妈留的领取凭号。我把原来的带来了。表还在吗？",
+          "options": [
+            {
+              "option_id": "opt.linyao.ask_other",
+              "label": "问表以外的事",
+              "kind": "topic",
+              "target_node_id": "node.linyao.refusal"
+            },
+            {
+              "option_id": "opt.linyao.leave",
+              "label": "结束对话",
+              "kind": "end"
+            }
+          ]
+        },
+        {
+          "node_id": "node.linyao.refusal",
+          "content_ref": "dialogue.CH01.linyao.refusal",
+          "text": "表的事按签单。别的今天先别问。",
+          "options": [
+            {
+              "option_id": "opt.linyao.refusal.back",
+              "label": "回到表的事",
+              "kind": "topic",
+              "target_node_id": "node.linyao.opening"
+            },
+            {
+              "option_id": "opt.linyao.refusal.leave",
+              "label": "结束对话",
+              "kind": "end"
+            }
+          ]
+        }
+      ],
+      "disclosures": [
+        {
+          "disclosure_id": "REC.engraving",
+          "kind": "recognition",
+          "required_evidence_ids": ["E01"],
+          "requires_observed_field_ids": ["watch.back_engraving"],
+          "content_ref": "dialogue.CH01.linyao.engraving",
+          "text": "四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。"
+        },
+        {
+          "disclosure_id": "D02",
+          "kind": "testimony",
+          "required_evidence_ids": ["E03", "E04"],
+          "content_ref": "dialogue.CH01.D02.linyao",
+          "text": "沈禾，是我妈妈。这个号和她放在家里那张一样。她写着要我自己领。"
+        }
+      ]
+    }
+  ]
+}
