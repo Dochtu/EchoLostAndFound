@@ -1,0 +1,2793 @@
+{
+  "phase": "online",
+  "url": "http://127.0.0.1:18841",
+  "profile": "C:\\Users\\10509\\AppData\\Local\\Temp\\echo-m4c-chrome-7JZXnz",
+  "renderer": "Chromium headless + SwiftShader (ANGLE)",
+  "resources": [
+    {
+      "url": "http://127.0.0.1:18841/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/style.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/unity-logo-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/progress-bar-empty-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/progress-bar-full-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/fullscreen-button.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.loader.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/unity-logo-title-footer.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.framework.js.gz",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.wasm.gz",
+      "status": 200,
+      "mimeType": "application/wasm"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/favicon.ico",
+      "status": 200,
+      "mimeType": "image/x-icon"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.data.gz",
+      "status": 200,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/meta",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions",
+      "status": 201,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/130226b6-f6a6-4d44-85d9-c73278e3ef5e/turns",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/130226b6-f6a6-4d44-85d9-c73278e3ef5e/turns",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/130226b6-f6a6-4d44-85d9-c73278e3ef5e/cancel",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/style.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.loader.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/unity-logo-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/progress-bar-empty-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/progress-bar-full-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/unity-logo-title-footer.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/fullscreen-button.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.framework.js.gz",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.data.gz",
+      "status": 200,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.wasm.gz",
+      "status": 200,
+      "mimeType": "application/wasm"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/meta",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/style.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.loader.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/unity-logo-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/progress-bar-empty-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/progress-bar-full-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/unity-logo-title-footer.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/fullscreen-button.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.data.gz",
+      "status": 200,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.framework.js.gz",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.wasm.gz",
+      "status": 200,
+      "mimeType": "application/wasm"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/meta",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions",
+      "status": 201,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/turns",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/evidence",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/evidence",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/evidence",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/evidence",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/evidence",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/cancel",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/style.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/unity-logo-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.loader.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/progress-bar-full-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/progress-bar-empty-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/unity-logo-title-footer.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/TemplateData/fullscreen-button.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.data.gz",
+      "status": 200,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.framework.js.gz",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18841/Build/M4C-Closeout-Player.wasm.gz",
+      "status": 200,
+      "mimeType": "application/wasm"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/meta",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions",
+      "status": 201,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/efea345f-e0cb-4656-aeca-8269b8d4b420/evidence",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/efea345f-e0cb-4656-aeca-8269b8d4b420/evidence",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18841/api/v1/sessions/efea345f-e0cb-4656-aeca-8269b8d4b420/evidence",
+      "status": 200,
+      "mimeType": "application/json"
+    }
+  ],
+  "requests": [
+    {
+      "id": "28156.14",
+      "method": "GET",
+      "url": "http://127.0.0.1:18841/api/v1/meta",
+      "body": null
+    },
+    {
+      "id": "28156.15",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions",
+      "body": null
+    },
+    {
+      "id": "28156.16",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/130226b6-f6a6-4d44-85d9-c73278e3ef5e/turns",
+      "body": null
+    },
+    {
+      "id": "28156.17",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/130226b6-f6a6-4d44-85d9-c73278e3ef5e/turns",
+      "body": null
+    },
+    {
+      "id": "28156.18",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/130226b6-f6a6-4d44-85d9-c73278e3ef5e/cancel",
+      "body": null
+    },
+    {
+      "id": "28156.31",
+      "method": "GET",
+      "url": "http://127.0.0.1:18841/api/v1/meta",
+      "body": null
+    },
+    {
+      "id": "28156.44",
+      "method": "GET",
+      "url": "http://127.0.0.1:18841/api/v1/meta",
+      "body": null
+    },
+    {
+      "id": "28156.45",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions",
+      "body": null
+    },
+    {
+      "id": "28156.46",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/turns",
+      "body": null
+    },
+    {
+      "id": "28156.47",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/evidence",
+      "body": null
+    },
+    {
+      "id": "28156.48",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/evidence",
+      "body": null
+    },
+    {
+      "id": "28156.49",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/evidence",
+      "body": null
+    },
+    {
+      "id": "28156.50",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/evidence",
+      "body": null
+    },
+    {
+      "id": "28156.51",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/evidence",
+      "body": null
+    },
+    {
+      "id": "28156.52",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/a7dd0615-5097-47d5-adf9-22331e9f42db/cancel",
+      "body": null
+    },
+    {
+      "id": "28156.65",
+      "method": "GET",
+      "url": "http://127.0.0.1:18841/api/v1/meta",
+      "body": null
+    },
+    {
+      "id": "28156.66",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions",
+      "body": null
+    },
+    {
+      "id": "28156.67",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/efea345f-e0cb-4656-aeca-8269b8d4b420/evidence",
+      "body": null
+    },
+    {
+      "id": "28156.68",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/efea345f-e0cb-4656-aeca-8269b8d4b420/evidence",
+      "body": null
+    },
+    {
+      "id": "28156.69",
+      "method": "POST",
+      "url": "http://127.0.0.1:18841/api/v1/sessions/efea345f-e0cb-4656-aeca-8269b8d4b420/evidence",
+      "body": null
+    }
+  ],
+  "consoles": [
+    {
+      "type": "log",
+      "message": "[UnityCache] 'http://127.0.0.1:18841/Build/M4C-Closeout-Player.data.gz' successfully downloaded and stored in the browser cache"
+    },
+    {
+      "type": "log",
+      "message": "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-remapper-allocator-initial-capacity=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-cache-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-typetree-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-main=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System module state changed to: Initialized.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Initialized fallback backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xdecafbad\n"
+    },
+    {
+      "type": "log",
+      "message": "Loading player data from data.unity3d\n"
+    },
+    {
+      "type": "log",
+      "message": "Initialize engine version: 6000.3.29f1 (96d2fe17529c)\n"
+    },
+    {
+      "type": "log",
+      "message": "Creating WebGL 2.0 context."
+    },
+    {
+      "type": "log",
+      "message": "Renderer: WebKit WebGL\n"
+    },
+    {
+      "type": "log",
+      "message": "Vendor:   WebKit\n"
+    },
+    {
+      "type": "log",
+      "message": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n"
+    },
+    {
+      "type": "log",
+      "message": "GLES:     3\n"
+    },
+    {
+      "type": "log",
+      "message": " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear OVR_multiview2 WEBGL_clip_cull_distance WEBGL_compressed_texture_astc WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_comp\n"
+    },
+    {
+      "type": "log",
+      "message": "ression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_OVR_multiview2 GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_astc GL_WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_stencil_texturing\n"
+    },
+    {
+      "type": "log",
+      "message": "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Selected backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Name: PhysX\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xf2b8ea05\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] SDK Version: 4.1.2\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Integration Version: 1.0.0\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Threading Mode: Single-Threaded\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System initialize...\n"
+    },
+    {
+      "type": "log",
+      "message": "UnloadTime: 0.399999 ms\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A font M4CChapterFont 怀=True 证据=True\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C online dialogue ready, provider=mock base=http://127.0.0.1:18841\n"
+    },
+    {
+      "type": "warning",
+      "message": "Additional Lights Cookie Format (GrayscaleHigh) is not supported by the platform. Falling back to 32-bit format (RGBA8 UNorm)\n"
+    },
+    {
+      "type": "log",
+      "message": "Audio context resumed after 6.398 seconds."
+    },
+    {
+      "type": "log",
+      "message": "M4C probe pos=0.00,-2.00 yaw=0 pitch=0 target=老周\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 957789a9-a86d-49a4-91a3-43bf25ee78e6 dialogue.session_opened \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 老周\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C server session 130226b6-f6a6-4d44-85d9-c73278e3ef5e for npc_laozhou\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C free text submit npc=npc_laozhou chars=7\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C free text reply ok=True source=fallback synthetic=True reason=unknown_intent failure=\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 你：站台那晚亮着吗\n老周：对方没有再说下去。\n（对方不知道该怎么接这句话）\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C free text submit npc=npc_laozhou chars=4\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C free text reply ok=True source=fallback synthetic=True reason=timeout failure=\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 你：超时测试\n老周：对方没有再说下去。\n（模型回应超时，对方没有再说下去）\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event e8eb5207-3b0f-4839-8704-a6ead28f039b dialogue.session_closed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4C probe pos=1.13,-0.70 yaw=0 pitch=11 target=怀表\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 怀表 · 逐步查看 | 表还在 A-0641 包里。盘面、背刻、编号和侧冠要分开看清。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 查看 表盘\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 查看 背刻\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 查看 编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 查看 侧冠\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 查看 冠轴损伤\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 怀表\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event bf2c7e7f-edf3-4b20-8e02-db6481f8bd51 evidence.fields_observed \n"
+    },
+    {
+      "type": "warning",
+      "message": "Manual synchronization of Unity Application.persistentDataPath via JS_FileSystem_Sync() is deprecated and will be later removed in a future Unity version. The persistent data directory will be automatically synchronized instead on file modification. Pass config.autoSyncPersistentDataPath = true; to configuration in createUnityInstance() to opt in to the new behavior."
+    },
+    {
+      "type": "log",
+      "message": "M4A page 怀表 · 逐步查看 | 表盘：表面 21:17。\n已经看清 1/5 处。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 查看 背刻\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 查看 编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 查看 侧冠\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 查看 冠轴损伤\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 重看 表盘\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 03607d0d-d5bf-4853-b2fd-0574b56f2870 evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 怀表 · 逐步查看 | 背刻：背刻 0412·0916。\n已经看清 2/5 处。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 查看 编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 查看 侧冠\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 查看 冠轴损伤\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 重看 表盘\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 重看 背刻\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 1c0b0917-dd34-419f-bc1e-a22d88889874 evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 怀表 · 逐步查看 | 编号：后盖边钢印 QH-283。\n已经看清 3/5 处。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 查看 侧冠\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 查看 冠轴损伤\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 重看 表盘\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 重看 背刻\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 重看 编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 63cd81d0-ceae-48bb-9843-79205340a283 evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 怀表 · 逐步查看 | 侧冠：侧冠凹陷。\n已经看清 4/5 处。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 查看 冠轴损伤\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 重看 表盘\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 重看 背刻\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 重看 编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 重看 侧冠\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event f3421775-5ac2-4df5-adf4-ec41226a0a15 evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event e5a64e3f-c033-4bae-85e4-e66d685ea6ad evidence.registered E01\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 装袋待核\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 核对怀表原主\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C probe pos=1.86,-0.70 yaw=0 pitch=29 target=失物包\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 失物包 A-0641 | 夹层里是一张旧修表收据，编号栏与表背钢印对得上。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 查同号单据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 失物包\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event b9aace02-d268-45cb-98c5-5ce32df5f53c evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 98a7e873-3175-4951-8cde-fc7df892bac4 evidence.registered E03\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page E03 · 旧修表收据 | 交修人 沈禾／物件 QH-283／该机为机械上链／背刻 0412·0916。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 翻副联册的对应档位\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 失物副联册 | 按表背钢印的编号翻到对应档位，里面夹着一联指定领件。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 取出指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 0d745111-9d90-4c13-ac6b-ffc352a4efcf evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 62066c17-d527-4513-a7b2-2b5e5dfbdae5 evidence.registered E04\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page E04 · 指定领件联 | 第十日补登记。表主 沈禾／指定领件 林遥／QH-283。由领件人本人决定并持凭号联络。沈禾。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "[UnityCache] 'http://127.0.0.1:18841/Build/M4C-Closeout-Player.data.gz' successfully downloaded and stored in the browser cache"
+    },
+    {
+      "type": "log",
+      "message": "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-remapper-allocator-initial-capacity=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-cache-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-typetree-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-main=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System module state changed to: Initialized.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Initialized fallback backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xdecafbad\n"
+    },
+    {
+      "type": "log",
+      "message": "Loading player data from data.unity3d\n"
+    },
+    {
+      "type": "log",
+      "message": "Initialize engine version: 6000.3.29f1 (96d2fe17529c)\n"
+    },
+    {
+      "type": "log",
+      "message": "Creating WebGL 2.0 context."
+    },
+    {
+      "type": "log",
+      "message": "Renderer: WebKit WebGL\n"
+    },
+    {
+      "type": "log",
+      "message": "Vendor:   WebKit\n"
+    },
+    {
+      "type": "log",
+      "message": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n"
+    },
+    {
+      "type": "log",
+      "message": "GLES:     3\n"
+    },
+    {
+      "type": "log",
+      "message": " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear OVR_multiview2 WEBGL_clip_cull_distance WEBGL_compressed_texture_astc WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_comp\n"
+    },
+    {
+      "type": "log",
+      "message": "ression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_OVR_multiview2 GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_astc GL_WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_stencil_texturing\n"
+    },
+    {
+      "type": "log",
+      "message": "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Selected backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Name: PhysX\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xf2b8ea05\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] SDK Version: 4.1.2\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Integration Version: 1.0.0\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Threading Mode: Single-Threaded\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System initialize...\n"
+    },
+    {
+      "type": "log",
+      "message": "UnloadTime: 0.099999 ms\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A font M4CChapterFont 怀=True 证据=True\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C online dialogue ready, provider=mock base=http://127.0.0.1:18841\n"
+    },
+    {
+      "type": "warning",
+      "message": "Additional Lights Cookie Format (GrayscaleHigh) is not supported by the platform. Falling back to 32-bit format (RGBA8 UNorm)\n"
+    },
+    {
+      "type": "log",
+      "message": "Audio context resumed after 5.794 seconds."
+    },
+    {
+      "type": "log",
+      "message": "M4C probe pos=-3.26,1.69 yaw=0 pitch=0 target=维修柜\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 维修柜 | 柜面贴着配电故障卡，卡背面还有一行索引。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 看配电故障卡正面\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 翻看故障卡背面的索引\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 维修柜\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event de750648-bd40-429a-8da8-d738695953cc evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event f4bcb564-aaa6-4ef3-914c-8bc8bcc4f246 evidence.registered E02\n"
+    },
+    {
+      "type": "warning",
+      "message": "Manual synchronization of Unity Application.persistentDataPath via JS_FileSystem_Sync() is deprecated and will be later removed in a future Unity version. The persistent data directory will be automatically synchronized instead on file modification. Pass config.autoSyncPersistentDataPath = true; to configuration in createUnityInstance() to opt in to the new behavior."
+    },
+    {
+      "type": "log",
+      "message": "M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C probe pos=-3.26,1.69 yaw=0 pitch=0 target=维修柜\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 维修柜 | 柜面贴着配电故障卡，卡背面还有一行索引。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 重看配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 翻看故障卡背面的索引\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 维修柜\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 维修柜 · 背面索引 | 卡背印着一行索引：该时段拾物联。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 照索引取拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event ac33a66c-2d92-4666-9b68-bee8ec6e655c evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 0d52a4e0-8cbd-4f76-be9e-bd89c21b4b1f evidence.registered E05\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page E05 · 拾物与检点联 | 21:17 沈禾扶 0641 乘客避滑，怀表落至内侧台沿。拾取时盘面停 21:17。22:03 表冠凹、冠轴侧弯，传动卡滞，未拆修。周。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "[UnityCache] 'http://127.0.0.1:18841/Build/M4C-Closeout-Player.data.gz' successfully downloaded and stored in the browser cache"
+    },
+    {
+      "type": "log",
+      "message": "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-remapper-allocator-initial-capacity=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-cache-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-typetree-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-main=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System module state changed to: Initialized.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Initialized fallback backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xdecafbad\n"
+    },
+    {
+      "type": "log",
+      "message": "Loading player data from data.unity3d\n"
+    },
+    {
+      "type": "log",
+      "message": "Initialize engine version: 6000.3.29f1 (96d2fe17529c)\n"
+    },
+    {
+      "type": "log",
+      "message": "Creating WebGL 2.0 context."
+    },
+    {
+      "type": "log",
+      "message": "Renderer: WebKit WebGL\n"
+    },
+    {
+      "type": "log",
+      "message": "Vendor:   WebKit\n"
+    },
+    {
+      "type": "log",
+      "message": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n"
+    },
+    {
+      "type": "log",
+      "message": "GLES:     3\n"
+    },
+    {
+      "type": "log",
+      "message": " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear OVR_multiview2 WEBGL_clip_cull_distance WEBGL_compressed_texture_astc WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_comp\n"
+    },
+    {
+      "type": "log",
+      "message": "ression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_OVR_multiview2 GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_astc GL_WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_stencil_texturing\n"
+    },
+    {
+      "type": "log",
+      "message": "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Selected backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Name: PhysX\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xf2b8ea05\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] SDK Version: 4.1.2\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Integration Version: 1.0.0\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Threading Mode: Single-Threaded\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System initialize...\n"
+    },
+    {
+      "type": "log",
+      "message": "UnloadTime: 1.100000 ms\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A font M4CChapterFont 怀=True 证据=True\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C online dialogue ready, provider=mock base=http://127.0.0.1:18841\n"
+    },
+    {
+      "type": "warning",
+      "message": "Additional Lights Cookie Format (GrayscaleHigh) is not supported by the platform. Falling back to 32-bit format (RGBA8 UNorm)\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C probe pos=0.00,-2.00 yaw=0 pitch=0 target=老周\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 14e3ed23-528d-4a31-a788-2de4caa46510 dialogue.session_opened \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 老周\n"
+    },
+    {
+      "type": "log",
+      "message": "Audio context resumed after 7.313 seconds."
+    },
+    {
+      "type": "log",
+      "message": "M4C server session a7dd0615-5097-47d5-adf9-22331e9f42db for npc_laozhou\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C free text submit npc=npc_laozhou chars=7\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C free text reply ok=True source=mock synthetic=True reason= failure=\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 你：这两样对上了吗\n老周：（模拟回复·仅测试，非正式台词）两样东西都把时间对上了。\n（服务器模拟回复，非真实模型）\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 01f80f25-fffb-4a27-9cf7-ed2a0512f0e8 dialogue.evidence_presented \n"
+    },
+    {
+      "type": "warning",
+      "message": "Manual synchronization of Unity Application.persistentDataPath via JS_FileSystem_Sync() is deprecated and will be later removed in a future Unity version. The persistent data directory will be automatically synchronized instead on file modification. Pass config.autoSyncPersistentDataPath = true; to configuration in createUnityInstance() to opt in to the new behavior."
+    },
+    {
+      "type": "log",
+      "message": "M4A event 264a5f60-6eb1-4131-93de-7194fe11c498 dialogue.disclosure_triggered D01\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 再问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 8 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C mirror ok E02 disclosures=[D01]\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 7089e2e7-721b-4f08-8a5a-8e79ec7822d3 dialogue.evidence_presented \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 再问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 8 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C mirror ok E03 disclosures=[]\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 34c4ad64-373d-43f4-9ed7-5a79d7aaab3e dialogue.evidence_presented \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 4a55cff3-5df6-4c22-82c3-1bf032ba6cb6 dialogue.disclosure_triggered D02\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 再问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 8 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C mirror ok E04 disclosures=[D02]\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 3623122b-2a67-4df9-a73a-8bc23a039509 dialogue.evidence_presented \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 再问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 8 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C mirror ok E01 disclosures=[]\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 26a78c12-483e-4a43-94a8-2feb7175b918 dialogue.evidence_presented \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 46a36eb1-e117-4377-9e1d-ec9b97edb4b7 dialogue.disclosure_triggered D03\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n她抓住小姑娘的胳膊，表掉到台沿。我弯腰拣的时候指针已经不动了，冠头是歪的。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 再问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 8 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C mirror ok E05 disclosures=[D03]\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 1953c5de-ce8c-4c9a-81af-6e73186a49fc dialogue.session_closed \n"
+    },
+    {
+      "type": "log",
+      "message": "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-remapper-allocator-initial-capacity=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-cache-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-typetree-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-main=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System module state changed to: Initialized.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Initialized fallback backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xdecafbad\n"
+    },
+    {
+      "type": "log",
+      "message": "Loading player data from data.unity3d\n"
+    },
+    {
+      "type": "log",
+      "message": "Initialize engine version: 6000.3.29f1 (96d2fe17529c)\n"
+    },
+    {
+      "type": "log",
+      "message": "Creating WebGL 2.0 context."
+    },
+    {
+      "type": "log",
+      "message": "Renderer: WebKit WebGL\n"
+    },
+    {
+      "type": "log",
+      "message": "Vendor:   WebKit\n"
+    },
+    {
+      "type": "log",
+      "message": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n"
+    },
+    {
+      "type": "log",
+      "message": "GLES:     3\n"
+    },
+    {
+      "type": "log",
+      "message": " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear OVR_multiview2 WEBGL_clip_cull_distance WEBGL_compressed_texture_astc WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_comp\n"
+    },
+    {
+      "type": "log",
+      "message": "ression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_OVR_multiview2 GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_astc GL_WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_stencil_texturing\n"
+    },
+    {
+      "type": "log",
+      "message": "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Selected backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Name: PhysX\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xf2b8ea05\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] SDK Version: 4.1.2\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Integration Version: 1.0.0\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Threading Mode: Single-Threaded\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System initialize...\n"
+    },
+    {
+      "type": "log",
+      "message": "UnloadTime: 0.100001 ms\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A font M4CChapterFont 怀=True 证据=True\n"
+    },
+    {
+      "type": "log",
+      "message": "[UnityCache] 'http://127.0.0.1:18841/Build/M4C-Closeout-Player.data.gz' successfully downloaded and stored in the browser cache"
+    },
+    {
+      "type": "log",
+      "message": "M4C online dialogue ready, provider=mock base=http://127.0.0.1:18841\n"
+    },
+    {
+      "type": "warning",
+      "message": "Additional Lights Cookie Format (GrayscaleHigh) is not supported by the platform. Falling back to 32-bit format (RGBA8 UNorm)\n"
+    },
+    {
+      "type": "log",
+      "message": "Audio context resumed after 5.579 seconds."
+    },
+    {
+      "type": "log",
+      "message": "M4C probe pos=-4.36,1.13 yaw=270 pitch=0 target=林遥\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event ed6deaa3-02b3-445a-b1a4-294a7e3bd970 dialogue.session_opened \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 林遥 | 公告上有一张我妈留的领取凭号。我把原来的带来了。表还在吗？\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问表以外的事\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 8 办理今夜暂收\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 林遥\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C server session efea345f-e0cb-4656-aeca-8269b8d4b420 for npc_linyao\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 55b18d02-655e-4bd4-b52f-7c86c038e059 dialogue.evidence_presented \n"
+    },
+    {
+      "type": "warning",
+      "message": "Manual synchronization of Unity Application.persistentDataPath via JS_FileSystem_Sync() is deprecated and will be later removed in a future Unity version. The persistent data directory will be automatically synchronized instead on file modification. Pass config.autoSyncPersistentDataPath = true; to configuration in createUnityInstance() to opt in to the new behavior."
+    },
+    {
+      "type": "log",
+      "message": "M4A event 42d2d019-766a-49c7-a744-b1dd98da287f dialogue.disclosure_triggered REC.engraving\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问表以外的事\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 8 办理今夜暂收\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C mirror ok E01 disclosures=[REC.engraving]\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 706d640f-2c6e-456d-bed8-914936efc68e dialogue.evidence_presented \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问表以外的事\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 8 办理今夜暂收\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C mirror ok E03 disclosures=[]\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event c2d198d4-5e26-4996-95a1-06eb4cbfa993 dialogue.evidence_presented \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event fc681fa5-7666-462b-98ae-1b3f459cb446 dialogue.disclosure_triggered D02\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n沈禾，是我妈妈。这个号和她放在家里那张一样。她写着要我自己领。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问表以外的事\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E03 旧修表收据\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E04 指定领件联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 6 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 7 出示 E05 拾物与检点联\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 8 办理今夜暂收\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C mirror ok E04 disclosures=[D02]\n"
+    }
+  ],
+  "exceptions": [],
+  "dialogs": [],
+  "steps": [
+    {
+      "name": "loaded",
+      "detail": "coldLoadMs=1847",
+      "page": "",
+      "at": "2026-11-24T03:54:23.069Z"
+    },
+    {
+      "name": "pointer-locked",
+      "detail": "",
+      "page": "",
+      "at": "2026-11-24T03:54:23.803Z"
+    },
+    {
+      "name": "page:老周",
+      "detail": "",
+      "page": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+      "at": "2026-11-24T03:54:24.549Z"
+    },
+    {
+      "name": "log:/^M4C free text (submit|offline) /",
+      "detail": "",
+      "page": "M4A page 老周 | 你：站台那晚亮着吗\n老周：对方没有再说下去。\n（对方不知道该怎么接这句话）\n",
+      "at": "2026-11-24T03:54:28.110Z"
+    },
+    {
+      "name": "log:/^M4C free text reply /",
+      "detail": "",
+      "page": "M4A page 老周 | 你：站台那晚亮着吗\n老周：对方没有再说下去。\n（对方不知道该怎么接这句话）\n",
+      "at": "2026-11-24T03:54:28.110Z"
+    },
+    {
+      "name": "log:/^M4C free text (submit|offline) /",
+      "detail": "",
+      "page": "M4A page 老周 | 你：超时测试\n老周：对方没有再说下去。\n（模型回应超时，对方没有再说下去）\n",
+      "at": "2026-11-24T03:54:31.165Z"
+    },
+    {
+      "name": "log:/^M4C free text reply /",
+      "detail": "",
+      "page": "M4A page 老周 | 你：超时测试\n老周：对方没有再说下去。\n（模型回应超时，对方没有再说下去）\n",
+      "at": "2026-11-24T03:54:31.165Z"
+    },
+    {
+      "name": "mock-timeout-verified",
+      "detail": "",
+      "page": "M4A page 老周 | 你：超时测试\n老周：对方没有再说下去。\n（模型回应超时，对方没有再说下去）\n",
+      "at": "2026-11-24T03:54:31.710Z"
+    },
+    {
+      "name": "choose: 结束对话\n#2",
+      "detail": "",
+      "page": "M4A page 老周 | 你：超时测试\n老周：对方没有再说下去。\n（模型回应超时，对方没有再说下去）\n",
+      "at": "2026-11-24T03:54:32.270Z"
+    },
+    {
+      "name": "page:怀表",
+      "detail": "",
+      "page": "M4A page 怀表 · 逐步查看 | 表还在 A-0641 包里。盘面、背刻、编号和侧冠要分开看清。\n",
+      "at": "2026-11-24T03:54:37.432Z"
+    },
+    {
+      "name": "choose: 查看 表盘\n#1",
+      "detail": "",
+      "page": "M4A page 怀表 · 逐步查看 | 表盘：表面 21:17。\n已经看清 1/5 处。\n",
+      "at": "2026-11-24T03:54:38.553Z"
+    },
+    {
+      "name": "choose: 查看 背刻\n#1",
+      "detail": "",
+      "page": "M4A page 怀表 · 逐步查看 | 背刻：背刻 0412·0916。\n已经看清 2/5 处。\n",
+      "at": "2026-11-24T03:54:39.628Z"
+    },
+    {
+      "name": "choose: 查看 编号\n#1",
+      "detail": "",
+      "page": "M4A page 怀表 · 逐步查看 | 编号：后盖边钢印 QH-283。\n已经看清 3/5 处。\n",
+      "at": "2026-11-24T03:54:40.709Z"
+    },
+    {
+      "name": "choose: 查看 侧冠\n#1",
+      "detail": "",
+      "page": "M4A page 怀表 · 逐步查看 | 侧冠：侧冠凹陷。\n已经看清 4/5 处。\n",
+      "at": "2026-11-24T03:54:41.792Z"
+    },
+    {
+      "name": "choose: 查看 冠轴损伤\n#1",
+      "detail": "",
+      "page": "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n",
+      "at": "2026-11-24T03:54:42.847Z"
+    },
+    {
+      "name": "page:E01",
+      "detail": "",
+      "page": "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n",
+      "at": "2026-11-24T03:54:43.364Z"
+    },
+    {
+      "name": "choose: 返回车站\n#3",
+      "detail": "",
+      "page": "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n",
+      "at": "2026-11-24T03:54:44.511Z"
+    },
+    {
+      "name": "page:失物包",
+      "detail": "",
+      "page": "M4A page 失物包 A-0641 | 夹层里是一张旧修表收据，编号栏与表背钢印对得上。\n",
+      "at": "2026-11-24T03:54:48.524Z"
+    },
+    {
+      "name": "choose: 查同号单据\n#1",
+      "detail": "",
+      "page": "M4A page E03 · 旧修表收据 | 交修人 沈禾／物件 QH-283／该机为机械上链／背刻 0412·0916。\n",
+      "at": "2026-11-24T03:54:49.087Z"
+    },
+    {
+      "name": "page:E03",
+      "detail": "",
+      "page": "M4A page E03 · 旧修表收据 | 交修人 沈禾／物件 QH-283／该机为机械上链／背刻 0412·0916。\n",
+      "at": "2026-11-24T03:54:49.087Z"
+    },
+    {
+      "name": "choose: 翻副联册的对应档位\n#1",
+      "detail": "",
+      "page": "M4A page 失物副联册 | 按表背钢印的编号翻到对应档位，里面夹着一联指定领件。\n",
+      "at": "2026-11-24T03:54:50.131Z"
+    },
+    {
+      "name": "page:失物副联册",
+      "detail": "",
+      "page": "M4A page 失物副联册 | 按表背钢印的编号翻到对应档位，里面夹着一联指定领件。\n",
+      "at": "2026-11-24T03:54:50.131Z"
+    },
+    {
+      "name": "choose: 取出指定领件联\n#1",
+      "detail": "",
+      "page": "M4A page E04 · 指定领件联 | 第十日补登记。表主 沈禾／指定领件 林遥／QH-283。由领件人本人决定并持凭号联络。沈禾。\n",
+      "at": "2026-11-24T03:54:51.208Z"
+    },
+    {
+      "name": "page:E04",
+      "detail": "",
+      "page": "M4A page E04 · 指定领件联 | 第十日补登记。表主 沈禾／指定领件 林遥／QH-283。由领件人本人决定并持凭号联络。沈禾。\n",
+      "at": "2026-11-24T03:54:51.208Z"
+    },
+    {
+      "name": "choose: 返回车站\n#1",
+      "detail": "",
+      "page": "M4A page E04 · 指定领件联 | 第十日补登记。表主 沈禾／指定领件 林遥／QH-283。由领件人本人决定并持凭号联络。沈禾。\n",
+      "at": "2026-11-24T03:54:52.235Z"
+    },
+    {
+      "name": "page:维修柜",
+      "detail": "",
+      "page": "M4A page 维修柜 | 柜面贴着配电故障卡，卡背面还有一行索引。\n",
+      "at": "2026-11-24T03:55:05.598Z"
+    },
+    {
+      "name": "choose: 看配电故障卡正面\n#1",
+      "detail": "",
+      "page": "M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。\n",
+      "at": "2026-11-24T03:55:06.383Z"
+    },
+    {
+      "name": "page:E02",
+      "detail": "",
+      "page": "M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。\n",
+      "at": "2026-11-24T03:55:06.383Z"
+    },
+    {
+      "name": "choose: 返回车站\n#1",
+      "detail": "",
+      "page": "M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。\n",
+      "at": "2026-11-24T03:55:09.313Z"
+    },
+    {
+      "name": "page:维修柜",
+      "detail": "",
+      "page": "M4A page 维修柜 | 柜面贴着配电故障卡，卡背面还有一行索引。\n",
+      "at": "2026-11-24T03:55:12.341Z"
+    },
+    {
+      "name": "choose: 翻看故障卡背面的索引\n#2",
+      "detail": "",
+      "page": "M4A page 维修柜 · 背面索引 | 卡背印着一行索引：该时段拾物联。\n",
+      "at": "2026-11-24T03:55:13.290Z"
+    },
+    {
+      "name": "page:背面索引",
+      "detail": "",
+      "page": "M4A page 维修柜 · 背面索引 | 卡背印着一行索引：该时段拾物联。\n",
+      "at": "2026-11-24T03:55:13.290Z"
+    },
+    {
+      "name": "choose: 照索引取拾物与检点联\n#1",
+      "detail": "",
+      "page": "M4A page E05 · 拾物与检点联 | 21:17 沈禾扶 0641 乘客避滑，怀表落至内侧台沿。拾取时盘面停 21:17。22:03 表冠凹、冠轴侧弯，传动卡滞，未拆修。周。\n",
+      "at": "2026-11-24T03:55:15.861Z"
+    },
+    {
+      "name": "page:E05",
+      "detail": "",
+      "page": "M4A page E05 · 拾物与检点联 | 21:17 沈禾扶 0641 乘客避滑，怀表落至内侧台沿。拾取时盘面停 21:17。22:03 表冠凹、冠轴侧弯，传动卡滞，未拆修。周。\n",
+      "at": "2026-11-24T03:55:15.861Z"
+    },
+    {
+      "name": "choose: 返回车站\n#1",
+      "detail": "",
+      "page": "M4A page E05 · 拾物与检点联 | 21:17 沈禾扶 0641 乘客避滑，怀表落至内侧台沿。拾取时盘面停 21:17。22:03 表冠凹、冠轴侧弯，传动卡滞，未拆修。周。\n",
+      "at": "2026-11-24T03:55:18.472Z"
+    },
+    {
+      "name": "page:老周",
+      "detail": "",
+      "page": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+      "at": "2026-11-24T03:55:31.481Z"
+    },
+    {
+      "name": "log:/^M4C free text (submit|offline) /",
+      "detail": "",
+      "page": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+      "at": "2026-11-24T03:55:38.583Z"
+    },
+    {
+      "name": "log:/^M4C free text reply /",
+      "detail": "",
+      "page": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+      "at": "2026-11-24T03:55:38.583Z"
+    },
+    {
+      "name": "choose: 出示 E02 配电故障卡\n#6",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-24T03:55:41.343Z"
+    },
+    {
+      "name": "page:我的灯到二十才摆好",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-24T03:55:41.344Z"
+    },
+    {
+      "name": "log:/^M4C mirror ok E02/",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-24T03:55:41.977Z"
+    },
+    {
+      "name": "choose: 出示 E03 旧修表收据\n#5",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-24T03:55:42.511Z"
+    },
+    {
+      "name": "log:/^M4C mirror ok E03/",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-24T03:55:42.511Z"
+    },
+    {
+      "name": "choose: 出示 E04 指定领件联\n#6",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-24T03:55:43.061Z"
+    },
+    {
+      "name": "log:/^M4C mirror ok E04/",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-24T03:55:43.062Z"
+    },
+    {
+      "name": "choose: 出示 E01 停表与编号\n#4",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-24T03:55:44.729Z"
+    },
+    {
+      "name": "log:/^M4C mirror ok E01/",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-24T03:55:44.729Z"
+    },
+    {
+      "name": "choose: 出示 E05 拾物与检点联\n#8",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n她抓住小姑娘的胳膊，表掉到台沿。我弯腰拣的时候指针已经不动了，冠头是歪的。\n",
+      "at": "2026-11-24T03:55:45.507Z"
+    },
+    {
+      "name": "page:冠头是歪的",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n她抓住小姑娘的胳膊，表掉到台沿。我弯腰拣的时候指针已经不动了，冠头是歪的。\n",
+      "at": "2026-11-24T03:55:45.507Z"
+    },
+    {
+      "name": "choose: 结束对话\n#3",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n她抓住小姑娘的胳膊，表掉到台沿。我弯腰拣的时候指针已经不动了，冠头是歪的。\n",
+      "at": "2026-11-24T03:55:48.039Z"
+    },
+    {
+      "name": "page:林遥",
+      "detail": "",
+      "page": "M4A page 林遥 | 公告上有一张我妈留的领取凭号。我把原来的带来了。表还在吗？\n",
+      "at": "2026-11-24T03:56:04.671Z"
+    },
+    {
+      "name": "choose: 出示 E01 停表与编号\n#3",
+      "detail": "",
+      "page": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n",
+      "at": "2026-11-24T03:56:05.223Z"
+    },
+    {
+      "name": "page:四月十二",
+      "detail": "",
+      "page": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n",
+      "at": "2026-11-24T03:56:05.223Z"
+    },
+    {
+      "name": "choose: 出示 E03 旧修表收据\n#4",
+      "detail": "",
+      "page": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n",
+      "at": "2026-11-24T03:56:06.264Z"
+    },
+    {
+      "name": "log:/^M4C mirror ok E03/",
+      "detail": "",
+      "page": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n",
+      "at": "2026-11-24T03:56:06.264Z"
+    },
+    {
+      "name": "choose: 出示 E04 指定领件联\n#5",
+      "detail": "",
+      "page": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n沈禾，是我妈妈。这个号和她放在家里那张一样。她写着要我自己领。\n",
+      "at": "2026-11-24T03:56:06.810Z"
+    },
+    {
+      "name": "page:是我妈妈",
+      "detail": "",
+      "page": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n沈禾，是我妈妈。这个号和她放在家里那张一样。她写着要我自己领。\n",
+      "at": "2026-11-24T03:56:06.810Z"
+    }
+  ],
+  "browser": "Chrome/157.0.8103.79",
+  "coldLoadMs": 1846.5999999996275,
+  "webgl": {
+    "api": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "laozhouOpening": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+  "lastSubmit": "M4C free text submit npc=npc_laozhou chars=7\n",
+  "lastReply": "M4C free text reply ok=True source=fallback synthetic=True reason=timeout failure=\n",
+  "firstFreeText": {
+    "submit": "M4C free text submit npc=npc_laozhou chars=7\n",
+    "reply": "M4C free text reply ok=True source=fallback synthetic=True reason=unknown_intent failure=\n",
+    "page": "M4A page 老周 | 你：站台那晚亮着吗\n老周：对方没有再说下去。\n（对方不知道该怎么接这句话）\n"
+  },
+  "timeoutFreeText": {
+    "submit": "M4C free text submit npc=npc_laozhou chars=4\n",
+    "reply": "M4C free text reply ok=True source=fallback synthetic=True reason=timeout failure=\n",
+    "page": "M4A page 老周 | 你：超时测试\n老周：对方没有再说下去。\n（模型回应超时，对方没有再说下去）\n"
+  },
+  "watchPart1": "M4A page 怀表 · 逐步查看 | 表盘：表面 21:17。\n已经看清 1/5 处。\n",
+  "watchPart2": "M4A page 怀表 · 逐步查看 | 背刻：背刻 0412·0916。\n已经看清 2/5 处。\n",
+  "watchPart3": "M4A page 怀表 · 逐步查看 | 编号：后盖边钢印 QH-283。\n已经看清 3/5 处。\n",
+  "watchPart4": "M4A page 怀表 · 逐步查看 | 侧冠：侧冠凹陷。\n已经看清 4/5 处。\n",
+  "watchPart5": "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n",
+  "packagePage": "M4A page 失物包 A-0641 | 夹层里是一张旧修表收据，编号栏与表背钢印对得上。\n",
+  "binderPage": "M4A page 失物副联册 | 按表背钢印的编号翻到对应档位，里面夹着一联指定领件。\n",
+  "reloadMs": 2565.4000000003725,
+  "e02Page": "M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。\n",
+  "indexPage": "M4A page 维修柜 · 背面索引 | 卡背印着一行索引：该时段拾物联。\n",
+  "e05Page": "M4A page E05 · 拾物与检点联 | 21:17 沈禾扶 0641 乘客避滑，怀表落至内侧台沿。拾取时盘面停 21:17。22:03 表冠凹、冠轴侧弯，传动卡滞，未拆修。周。\n",
+  "mockReply": {
+    "submit": "M4C free text submit npc=npc_laozhou chars=7\n",
+    "reply": "M4C free text reply ok=True source=fallback synthetic=True reason=timeout failure=\n",
+    "page": "M4A page 老周 | 你：这两样对上了吗\n老周：（模拟回复·仅测试，非正式台词）两样东西都把时间对上了。\n（服务器模拟回复，非真实模型）\n"
+  },
+  "d01Page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+  "d02Mirror": "M4C mirror ok E04 disclosures=[D02]\n",
+  "d03Page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n她抓住小姑娘的胳膊，表掉到台沿。我弯腰拣的时候指针已经不动了，冠头是歪的。\n",
+  "d03Events": 1,
+  "d01Events": 1,
+  "linyaoPage": "M4A page 林遥 | 公告上有一张我妈留的领取凭号。我把原来的带来了。表还在吗？\n",
+  "engravingPage": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n",
+  "d02LinyaoPage": "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n沈禾，是我妈妈。这个号和她放在家里那张一样。她写着要我自己领。\n",
+  "recEvents": 1,
+  "pages": [
+    "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+    "M4A page 老周 | 你：站台那晚亮着吗\n老周：对方没有再说下去。\n（对方不知道该怎么接这句话）\n",
+    "M4A page 老周 | 你：超时测试\n老周：对方没有再说下去。\n（模型回应超时，对方没有再说下去）\n",
+    "M4A page 怀表 · 逐步查看 | 表还在 A-0641 包里。盘面、背刻、编号和侧冠要分开看清。\n",
+    "M4A page 怀表 · 逐步查看 | 表盘：表面 21:17。\n已经看清 1/5 处。\n",
+    "M4A page 怀表 · 逐步查看 | 背刻：背刻 0412·0916。\n已经看清 2/5 处。\n",
+    "M4A page 怀表 · 逐步查看 | 编号：后盖边钢印 QH-283。\n已经看清 3/5 处。\n",
+    "M4A page 怀表 · 逐步查看 | 侧冠：侧冠凹陷。\n已经看清 4/5 处。\n",
+    "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n",
+    "M4A page 失物包 A-0641 | 夹层里是一张旧修表收据，编号栏与表背钢印对得上。\n",
+    "M4A page E03 · 旧修表收据 | 交修人 沈禾／物件 QH-283／该机为机械上链／背刻 0412·0916。\n",
+    "M4A page 失物副联册 | 按表背钢印的编号翻到对应档位，里面夹着一联指定领件。\n",
+    "M4A page E04 · 指定领件联 | 第十日补登记。表主 沈禾／指定领件 林遥／QH-283。由领件人本人决定并持凭号联络。沈禾。\n",
+    "M4A page 维修柜 | 柜面贴着配电故障卡，卡背面还有一行索引。\n",
+    "M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。\n",
+    "M4A page 维修柜 | 柜面贴着配电故障卡，卡背面还有一行索引。\n",
+    "M4A page 维修柜 · 背面索引 | 卡背印着一行索引：该时段拾物联。\n",
+    "M4A page E05 · 拾物与检点联 | 21:17 沈禾扶 0641 乘客避滑，怀表落至内侧台沿。拾取时盘面停 21:17。22:03 表冠凹、冠轴侧弯，传动卡滞，未拆修。周。\n",
+    "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+    "M4A page 老周 | 你：这两样对上了吗\n老周：（模拟回复·仅测试，非正式台词）两样东西都把时间对上了。\n（服务器模拟回复，非真实模型）\n",
+    "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+    "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+    "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+    "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+    "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n她抓住小姑娘的胳膊，表掉到台沿。我弯腰拣的时候指针已经不动了，冠头是歪的。\n",
+    "M4A page 林遥 | 公告上有一张我妈留的领取凭号。我把原来的带来了。表还在吗？\n",
+    "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n",
+    "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n",
+    "M4A page 林遥 | 四月十二是我妈的生日，九月十六是我的。那个点，我小时候摸得到。柜里究竟是不是那一只，你得对上号。\n沈禾，是我妈妈。这个号和她放在家里那张一样。她写着要我自己领。\n"
+  ],
+  "interactions": [
+    "Station interaction: 老周\n",
+    "Station interaction: 怀表\n",
+    "Station interaction: 失物包\n",
+    "Station interaction: 维修柜\n",
+    "Station interaction: 维修柜\n",
+    "Station interaction: 老周\n",
+    "Station interaction: 林遥\n"
+  ],
+  "mirrorLogs": [
+    "M4C mirror ok E02 disclosures=[D01]\n",
+    "M4C mirror ok E03 disclosures=[]\n",
+    "M4C mirror ok E04 disclosures=[D02]\n",
+    "M4C mirror ok E01 disclosures=[]\n",
+    "M4C mirror ok E05 disclosures=[D03]\n",
+    "M4C mirror ok E01 disclosures=[REC.engraving]\n",
+    "M4C mirror ok E03 disclosures=[]\n",
+    "M4C mirror ok E04 disclosures=[D02]\n"
+  ],
+  "freeTextLogs": [
+    "M4C free text submit npc=npc_laozhou chars=7\n",
+    "M4C free text reply ok=True source=fallback synthetic=True reason=unknown_intent failure=\n",
+    "M4C free text submit npc=npc_laozhou chars=4\n",
+    "M4C free text reply ok=True source=fallback synthetic=True reason=timeout failure=\n",
+    "M4C free text submit npc=npc_laozhou chars=7\n",
+    "M4C free text reply ok=True source=mock synthetic=True reason= failure=\n"
+  ],
+  "completed": true,
+  "soft": [
+    {
+      "step": "mock-reply",
+      "error": "Error: expected a server mock reply: M4C free text reply ok=True source=fallback synthetic=True reason=timeout failure=\n"
+    }
+  ],
+  "stderr": "Created TensorFlow Lite XNNPACK delegate for CPU.\r\n"
+}

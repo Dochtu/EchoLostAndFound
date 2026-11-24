@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-24 01:45:21Z" end-time="2026-11-24 01:45:21Z" duration="0.4161787">
+  <test-suite type="TestSuite" id="1000" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-24 01:45:21Z" end-time="2026-11-24 01:45:21Z" duration="0.416179" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1005" name="M2EditTests.dll" fullname="F:/EchoM4C-QA-HDRP-20261124/Library/ScriptAssemblies/M2EditTests.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-24 01:45:21Z" end-time="2026-11-24 01:45:21Z" duration="0.408759" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="38224" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1006" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-24 01:45:21Z" end-time="2026-11-24 01:45:21Z" duration="0.408098" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1007" name="QA" fullname="EchoLostAndFound.QA" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-24 01:45:21Z" end-time="2026-11-24 01:45:21Z" duration="0.407720" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1002" name="M2EditTests" fullname="EchoLostAndFound.QA.M2EditTests" classname="EchoLostAndFound.QA.M2EditTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-24 01:45:21Z" end-time="2026-11-24 01:45:21Z" duration="0.406657" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="EachStationInteractionHasDistinctVisibleNameAndSolidHitSurface" fullname="EchoLostAndFound.QA.M2EditTests.EachStationInteractionHasDistinctVisibleNameAndSolidHitSurface" methodname="EachStationInteractionHasDistinctVisibleNameAndSolidHitSurface" classname="EchoLostAndFound.QA.M2EditTests" runstate="Runnable" seed="471342366" result="Passed" start-time="2026-11-24 01:45:21Z" end-time="2026-11-24 01:45:21Z" duration="0.019424" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="StationUsesConnectedPlayerPrefabAndSingleActiveEye" fullname="EchoLostAndFound.QA.M2EditTests.StationUsesConnectedPlayerPrefabAndSingleActiveEye" methodname="StationUsesConnectedPlayerPrefabAndSingleActiveEye" classname="EchoLostAndFound.QA.M2EditTests" runstate="Runnable" seed="1322921413" result="Passed" start-time="2026-11-24 01:45:21Z" end-time="2026-11-24 01:45:21Z" duration="0.007372" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/10509/AppData/LocalLow/DefaultCompany/EchoLostAndFound\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

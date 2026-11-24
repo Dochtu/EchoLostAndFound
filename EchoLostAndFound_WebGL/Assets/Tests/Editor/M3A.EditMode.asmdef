@@ -1,6 +1,6 @@
 {
   "name": "M3A.EditMode",
-  "references": ["EchoStation.Runtime", "EchoLostAndFound.WebGL.Contracts", "UnityEngine.TestRunner", "UnityEditor.TestRunner"],
+  "references": ["EchoStation.Runtime", "EchoLostAndFound.Shared", "EchoLostAndFound.Evidence", "EchoLostAndFound.Dialogue", "EchoLostAndFound.MockAi", "EchoLostAndFound.WebGL.Contracts", "UnityEngine.TestRunner", "UnityEditor.TestRunner"],
   "includePlatforms": ["Editor"],
   "overrideReferences": true,
   "precompiledReferences": ["nunit.framework.dll"],

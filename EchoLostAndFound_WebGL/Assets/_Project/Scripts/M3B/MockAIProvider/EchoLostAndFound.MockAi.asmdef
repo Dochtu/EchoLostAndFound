@@ -1,0 +1,9 @@
+{
+  "name": "EchoLostAndFound.MockAi",
+  "rootNamespace": "EchoLostAndFound.MockAi",
+  "references": [
+    "EchoLostAndFound.Shared"
+  ],
+  "autoReferenced": false,
+  "noEngineReferences": true
+}

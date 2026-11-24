@@ -1,0 +1,9 @@
+# Project-scoped custom agents are discovered from .codex/agents/*.toml.
+# Dedicated agents declare model and reasoning in their own files.
+# Permissions and concurrency remain inherited from the host.
+[agents]
+enabled = true
+
+# Fallback for subagents without dedicated model/effort settings.
+default_subagent_model = "gpt-6.2-astra"
+default_subagent_reasoning_effort = "high"

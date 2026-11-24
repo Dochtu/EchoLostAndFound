@@ -1,0 +1,7 @@
+# 构建上下文的忽略清单（由 Deploy/build.ps1 复制进 context 根目录）。
+# 只排除缓存与本地产物，server/ 与 webgl/ 必须进入镜像。
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.env
+**/*.log

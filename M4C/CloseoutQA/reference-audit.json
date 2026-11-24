@@ -1,0 +1,217 @@
+{
+  "HDRP": {
+    "editor": "m_EditorVersion: 6000.3.29f1",
+    "pipeline": {
+      "com.unity.render-pipelines.high-definition": "17.3.0"
+    },
+    "assets": [
+      {
+        "file": "Assets/_Project/Prefabs/Characters/M1_5/StationVisitor.prefab",
+        "yaml": true,
+        "components_and_objects": 4,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/Counter.prefab",
+        "yaml": true,
+        "components_and_objects": 195,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/LostAndFound.prefab",
+        "yaml": true,
+        "components_and_objects": 442,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/M1_5/HallColumn.prefab",
+        "yaml": true,
+        "components_and_objects": 13,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/M1_5/HallPaving.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/M1_5/HallPendant.prefab",
+        "yaml": true,
+        "components_and_objects": 13,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/M1_5/HallSash.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/M1_5/HallSettee.prefab",
+        "yaml": true,
+        "components_and_objects": 13,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/M1_5/HallVault.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/M1_5/PiercedVaultBracket.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/M1_5/PlatformCanopyBay.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/M1_5/PlatformRailPanel.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/Platform.prefab",
+        "yaml": true,
+        "components_and_objects": 46,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Environment/WaitingHall.prefab",
+        "yaml": true,
+        "components_and_objects": 54,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Interactables/PocketWatch.prefab",
+        "yaml": true,
+        "components_and_objects": 216,
+        "script_fields": 6
+      },
+      {
+        "file": "Assets/_Project/Prefabs/NPCs/NPC_VisualSample.prefab",
+        "yaml": true,
+        "components_and_objects": 245,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Player/M2Player.prefab",
+        "yaml": true,
+        "components_and_objects": 9,
+        "script_fields": 2
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Props/M1_5/ArchiveCarton.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Props/M1_5/BoundRegister.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Props/M1_5/EvidenceWatch.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Props/M1_5/FoundHoldall.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Props/M1_5/IntakeCabinet.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Props/M1_5/IntakeLamp.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Prefabs/Props/M1_5/TiedFolios.prefab",
+        "yaml": true,
+        "components_and_objects": 1,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Project/Scenes/Stage4Baseline.unity",
+        "yaml": true,
+        "components_and_objects": 48,
+        "script_fields": 6
+      },
+      {
+        "file": "Assets/_Project/Scenes/Station.unity",
+        "yaml": true,
+        "components_and_objects": 988,
+        "script_fields": 45
+      },
+      {
+        "file": "Assets/_Project/VFX/Rain/StationRain.prefab",
+        "yaml": true,
+        "components_and_objects": 10,
+        "script_fields": 0
+      },
+      {
+        "file": "Assets/_Recovery/0.unity",
+        "yaml": true,
+        "components_and_objects": 823,
+        "script_fields": 40
+      },
+      {
+        "file": "Assets/OutdoorsScene.unity",
+        "yaml": true,
+        "components_and_objects": 33,
+        "script_fields": 9
+      }
+    ],
+    "null_script": [],
+    "unresolved_external_guid": [],
+    "unresolved_local_fileid": [],
+    "duplicate_source_guids": {},
+    "station_ui_bindings": {}
+  },
+  "URP": {
+    "editor": "m_EditorVersion: 6000.3.29f1",
+    "pipeline": {
+      "com.unity.render-pipelines.universal": "17.3.0"
+    },
+    "assets": [
+      {
+        "file": "Assets/Station/Scenes/Station.unity",
+        "yaml": true,
+        "components_and_objects": 297,
+        "script_fields": 19
+      }
+    ],
+    "null_script": [],
+    "unresolved_external_guid": [],
+    "unresolved_local_fileid": [],
+    "duplicate_source_guids": {},
+    "station_ui_bindings": {
+      "view": "{fileID: 1413106555}",
+      "bindings": "{fileID: -944628639613478452, guid: 00b40c4c93462e84d8780daae668d9cf, type: 3}",
+      "hud": "{fileID: 725754037}",
+      "prompt": "{fileID: 607878905}",
+      "heading": "{fileID: 1677136375}",
+      "description": "{fileID: 1003116102}",
+      "sheet": "{fileID: 986687626}",
+      "reticle": "{fileID: 252374523}"
+    }
+  }
+}

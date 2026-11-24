@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-24 03:54:23Z" end-time="2026-11-24 03:54:38Z" duration="14.5633686">
+  <test-suite type="TestSuite" id="1014" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-24 03:54:23Z" end-time="2026-11-24 03:54:38Z" duration="14.563369" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1007" name="M2PlayTests.dll" fullname="F:/EchoM4C-QA-HDRP-20261124/Library/ScriptAssemblies/M2PlayTests.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-24 03:54:23Z" end-time="2026-11-24 03:54:38Z" duration="14.550306" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="7516" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1008" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-24 03:54:23Z" end-time="2026-11-24 03:54:38Z" duration="14.549228" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1009" name="QA" fullname="EchoLostAndFound.QA" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-24 03:54:23Z" end-time="2026-11-24 03:54:38Z" duration="14.548497" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="M2PlayTests" fullname="EchoLostAndFound.QA.M2PlayTests" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-24 03:54:23Z" end-time="2026-11-24 03:54:38Z" duration="14.544456" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1005" name="AllFourMovementKeysFollowThePlayersHeading" fullname="EchoLostAndFound.QA.M2PlayTests.AllFourMovementKeysFollowThePlayersHeading" methodname="AllFourMovementKeysFollowThePlayersHeading" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="302758401" result="Passed" start-time="2026-11-24 03:54:23Z" end-time="2026-11-24 03:54:27Z" duration="4.026110" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="CapsuleWalksBothDoorwaysReturnsAndCannotCrossWestHallWall" fullname="EchoLostAndFound.QA.M2PlayTests.CapsuleWalksBothDoorwaysReturnsAndCannotCrossWestHallWall" methodname="CapsuleWalksBothDoorwaysReturnsAndCannotCrossWestHallWall" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="261534885" result="Passed" start-time="2026-11-24 03:54:27Z" end-time="2026-11-24 03:54:31Z" duration="3.639658" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="ProbeHonoursSurfaceDistanceNearestHitAndBlockingGlass" fullname="EchoLostAndFound.QA.M2PlayTests.ProbeHonoursSurfaceDistanceNearestHitAndBlockingGlass" methodname="ProbeHonoursSurfaceDistanceNearestHitAndBlockingGlass" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="64960280" result="Passed" start-time="2026-11-24 03:54:31Z" end-time="2026-11-24 03:54:33Z" duration="2.085554" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="ReachAllFourAuthoredTargetsFromPlayableEyeHeight" fullname="EchoLostAndFound.QA.M2PlayTests.ReachAllFourAuthoredTargetsFromPlayableEyeHeight" methodname="ReachAllFourAuthoredTargetsFromPlayableEyeHeight" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="854790735" result="Passed" start-time="2026-11-24 03:54:33Z" end-time="2026-11-24 03:54:35Z" duration="2.313896" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="RealInputDrivesPlayerButStopsDuringPreviewAndDialogue" fullname="EchoLostAndFound.QA.M2PlayTests.RealInputDrivesPlayerButStopsDuringPreviewAndDialogue" methodname="RealInputDrivesPlayerButStopsDuringPreviewAndDialogue" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="598595455" result="Passed" start-time="2026-11-24 03:54:35Z" end-time="2026-11-24 03:54:38Z" duration="2.424809" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/10509/AppData/LocalLow/DefaultCompany/EchoLostAndFound\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

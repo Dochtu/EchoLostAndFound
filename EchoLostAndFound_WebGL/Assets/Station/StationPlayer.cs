@@ -65,28 +65,42 @@ namespace EchoStation
             ActiveTarget = FocusedTarget = null;
         }
 
+        void Capture()
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            captured = true;
+        }
+
+        // The inspection sheet owns the pointer while it is open: walking, looking and re-locking stop.
         void Update()
         {
+            if (hud != null && hud.IsOpen)
+            {
+                if (Cursor.lockState != CursorLockMode.None)
+                {
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
+                }
+                bool back = interact.WasPressedThisFrame();
+                bool escape = cancel.WasPressedThisFrame();
+                if (!back && !escape) return;
+                // While the free-text field has focus, E and Esc belong to the text editor,
+                // not to the panel: typing must never close the conversation.
+                if (hud.IsTyping) return;
+                hud.ClosePanel();
+                ActiveTarget = null;
+                if (escape) Release();
+                else Capture();
+                hud.ShowFocus("");
+                return;
+            }
+
             if (captured && Cursor.lockState != CursorLockMode.Locked) Release();
             if (!captured)
             {
                 hud.ShowFocus("Click to explore");
-                if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
-                {
-                    Cursor.lockState = CursorLockMode.Locked;
-                    Cursor.visible = false;
-                    captured = true;
-                }
-                return;
-            }
-
-            if (ActiveTarget != null)
-            {
-                if (cancel.WasPressedThisFrame() || interact.WasPressedThisFrame())
-                {
-                    ActiveTarget = null;
-                    hud.ShowFocus("");
-                }
+                if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame) Capture();
                 return;
             }
 
@@ -106,13 +120,39 @@ namespace EchoStation
             Ray ray = view.ViewportPointToRay(new Vector3(.5f, .5f));
             FocusedTarget = M2InteractionProbe.Find(new Ray(view.transform.position, ray.direction), InteractionDistance, transform);
             hud.ShowFocus(FocusedTarget?.DisplayName);
-            if (FocusedTarget == null || !interact.WasPressedThisFrame()) return;
+            bool pressed = interact.WasPressedThisFrame();
+            if (pressed) LogProbe(FocusedTarget?.DisplayName ?? "none");
+            if (FocusedTarget == null || !pressed) return;
             ActiveTarget = FocusedTarget;
             FocusedTarget = null;
-            bool item = ActiveTarget.Kind == InteractionKind.Item;
-            hud.Inspect(item);
-            Interacted?.Invoke(item ? InteractionEvent.InspectDial() : InteractionEvent.OpenDialogue());
+            BeginInteraction(ActiveTarget);
             Debug.Log("Station interaction: " + ActiveTarget.DisplayName);
+        }
+
+        // Debug aid for the M4-C browser acceptance run: reports the exact spot and aim
+        // whenever E is pressed, so the E2E script can walk to each prop deterministically.
+        void LogProbe(string target)
+        {
+            Debug.Log("M4C probe pos=" + transform.position.x.ToString("F2") + "," + transform.position.z.ToString("F2")
+                + " yaw=" + transform.eulerAngles.y.ToString("F0")
+                + " pitch=" + Pitch.ToString("F0")
+                + " target=" + target);
+        }
+
+        // The HUD owns panel routing (see StationTargets); the player only reports which
+        // approved interaction happened, so the M2 contract event keeps its old meaning.
+        void BeginInteraction(IInteractable target)
+        {
+            hud.Interact(target);
+            switch (target.Kind)
+            {
+                case InteractionKind.Item:
+                    Interacted?.Invoke(InteractionEvent.InspectDial());
+                    break;
+                case InteractionKind.Npc:
+                    Interacted?.Invoke(InteractionEvent.OpenDialogue());
+                    break;
+            }
         }
     }
 }

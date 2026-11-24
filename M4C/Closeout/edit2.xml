@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="22" result="Passed" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.3125763">
+  <test-suite type="TestSuite" id="1000" name="EchoLostAndFound WebGL" fullname="EchoLostAndFound WebGL" runstate="Runnable" testcasecount="22" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.312576" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1028" name="M3A.EditMode.dll" fullname="G:/projects/EchoLostAndFound/Builds/M4C-Closeout-URP/Library/ScriptAssemblies/M3A.EditMode.dll" runstate="Runnable" testcasecount="22" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.306709" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="39160" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1029" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="22" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.306247" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1030" name="QA" fullname="EchoLostAndFound.QA" runstate="Runnable" testcasecount="22" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.305982" total="22" passed="22" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="M4AInvestigationTests" fullname="EchoLostAndFound.QA.M4AInvestigationTests" classname="EchoLostAndFound.QA.M4AInvestigationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.064875" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1003" name="PresentationHonoursMaterialAndNpcAndUnlocksD01OnlyOnce" fullname="EchoLostAndFound.QA.M4AInvestigationTests.PresentationHonoursMaterialAndNpcAndUnlocksD01OnlyOnce" methodname="PresentationHonoursMaterialAndNpcAndUnlocksD01OnlyOnce" classname="EchoLostAndFound.QA.M4AInvestigationTests" runstate="Runnable" seed="145167192" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.043824" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="TimeoutPreservesNodeAndSnapshotAndRestoreRejectsInvalidEvidence" fullname="EchoLostAndFound.QA.M4AInvestigationTests.TimeoutPreservesNodeAndSnapshotAndRestoreRejectsInvalidEvidence" methodname="TimeoutPreservesNodeAndSnapshotAndRestoreRejectsInvalidEvidence" classname="EchoLostAndFound.QA.M4AInvestigationTests" runstate="Runnable" seed="2124801526" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.006059" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="WatchNeedsAllFiveFieldsAndRecheckingEmitsNoDuplicateEvents" fullname="EchoLostAndFound.QA.M4AInvestigationTests.WatchNeedsAllFiveFieldsAndRecheckingEmitsNoDuplicateEvents" methodname="WatchNeedsAllFiveFieldsAndRecheckingEmitsNoDuplicateEvents" classname="EchoLostAndFound.QA.M4AInvestigationTests" runstate="Runnable" seed="79551719" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.005668" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1005" name="M4CChapterCloseoutTests" fullname="EchoLostAndFound.QA.M4CChapterCloseoutTests" classname="EchoLostAndFound.QA.M4CChapterCloseoutTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.123652" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1006" name="BagRequiresRegisteredWatchAndExplicitConfirmation" fullname="EchoLostAndFound.QA.M4CChapterCloseoutTests.BagRequiresRegisteredWatchAndExplicitConfirmation" methodname="BagRequiresRegisteredWatchAndExplicitConfirmation" classname="EchoLostAndFound.QA.M4CChapterCloseoutTests" runstate="Runnable" seed="1549063402" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.021126" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A event f91a8fbc-6be8-430c-8eba-57a99668b807 evidence.fields_observed 
+M4A event c479cd29-0ee0-4816-9d81-901fa4236a9f evidence.fields_observed 
+M4A event d5a94dc8-68dc-4c01-b9ea-eb0c49789b63 evidence.fields_observed 
+M4A event 155e1c24-83d9-467b-8eeb-a8bfadb9c7bc evidence.fields_observed 
+M4A event 4690543d-7da6-4821-b90d-b3c3fbf53d80 evidence.fields_observed 
+M4A event e18a249e-f1aa-4bcc-aa9b-e5bf433c2c95 evidence.registered E01
+]]></output>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1010" name="CorrectOwnerConclusionNeedsEveryDocument" fullname="EchoLostAndFound.QA.M4CChapterCloseoutTests.CorrectOwnerConclusionNeedsEveryDocument" classname="EchoLostAndFound.QA.M4CChapterCloseoutTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.032313" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1007" name="CorrectOwnerConclusionNeedsEveryDocument(&quot;E01&quot;)" fullname="EchoLostAndFound.QA.M4CChapterCloseoutTests.CorrectOwnerConclusionNeedsEveryDocument(&quot;E01&quot;)" methodname="CorrectOwnerConclusionNeedsEveryDocument" classname="EchoLostAndFound.QA.M4CChapterCloseoutTests" runstate="Runnable" seed="1242175739" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.010434" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[M4A event eb9fa378-3b24-4295-b5e6-641260fb3a06 evidence.fields_observed 
+M4A event 9a01d761-0029-4485-bc88-78ecd73784ae evidence.fields_observed 
+M4A event a4475430-e2ec-475c-bf64-966234afd9a2 evidence.fields_observed 
+M4A event 9e7a7ab4-80f8-4e76-9d97-77d07aa68026 evidence.fields_observed 
+M4A event ef25c9e6-cef1-4779-8c46-7ed605e52762 evidence.registered E03
+M4A event ef4a86da-1584-4be7-8356-ab24f4c68964 evidence.fields_observed 
+M4A event 28f444d8-f27e-4cd5-a579-6b8fce2be890 evidence.fields_observed 
+M4A event 9a8a2c61-6a0a-4c6e-ae2d-3a7e14f043bd evidence.fields_observed 
+M4A event f5636326-ff65-4aa8-936a-cd04f7f3d851 evidence.fields_observed 
+M4A event 7a1c2e69-6575-455f-8bc8-61205deeaab6 evidence.fields_observed 
+M4A event 3cd0d63e-4b9d-4c55-b5ca-c74ec0357be4 evidence.registered E04
+]]></output>
+              </test-case>
+              <test-case id="1008" name="CorrectOwnerConclusionNeedsEveryDocument(&quot;E03&quot;)" fullname="EchoLostAndFound.QA.M4CChapterCloseoutTests.CorrectOwnerConclusionNeedsEveryDocument(&quot;E03&quot;)" methodname="CorrectOwnerConclusionNeedsEveryDocument" classname="EchoLostAndFound.QA.M4CChapterCloseoutTests" runstate="Runnable" seed="1484465540" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.010665" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[M4A event 57716124-ce8e-4224-a370-327ebc6c53e6 evidence.fields_observed 
+M4A event 6e618653-6e4d-42c8-b70c-b50c3b782970 evidence.fields_observed 
+M4A event b247d2d4-79a0-4635-af65-5515549671d9 evidence.fields_observed 
+M4A event d1b63152-1afe-4b3a-9c30-bc6698239a00 evidence.fields_observed 
+M4A event db1990ec-43a2-4b11-9d55-d4ff3aaf481e evidence.fields_observed 
+M4A event e6cb0a5c-97e3-4b94-9207-b3c325d62602 evidence.registered E01
+M4A event bd8a36cc-41bf-4d8f-85bb-f7ffc8d7875a evidence.fields_observed 
+M4A event c7f72999-0108-400c-b5fa-3ebda0b80a4c evidence.fields_observed 
+M4A event 45f846ce-a199-4601-be32-bf15af09e16a evidence.fields_observed 
+M4A event 07b914f2-c83d-4039-b316-856cfdc1f90e evidence.fields_observed 
+M4A event ed83021e-30de-405f-aa3d-b95168198b56 evidence.fields_observed 
+M4A event 03280b69-6a5f-4cf7-b549-c3e9ebcd405b evidence.registered E04
+]]></output>
+              </test-case>
+              <test-case id="1009" name="CorrectOwnerConclusionNeedsEveryDocument(&quot;E04&quot;)" fullname="EchoLostAndFound.QA.M4CChapterCloseoutTests.CorrectOwnerConclusionNeedsEveryDocument(&quot;E04&quot;)" methodname="CorrectOwnerConclusionNeedsEveryDocument" classname="EchoLostAndFound.QA.M4CChapterCloseoutTests" runstate="Runnable" seed="1569067456" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.010422" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[M4A event a4bfdf57-70de-41b2-88a7-0edbccca5201 evidence.fields_observed 
+M4A event cd48fdb7-7266-45a3-b9b3-96136f3d1780 evidence.fields_observed 
+M4A event 7a2b89ef-3b2d-4b9b-a804-8921029c316e evidence.fields_observed 
+M4A event 6739e775-c058-40e5-935a-608a8f3b75ad evidence.fields_observed 
+M4A event 8eb6032d-b493-4ae2-80e1-5cfacd34aab8 evidence.fields_observed 
+M4A event fa41783e-bf84-4b1b-bc3b-beaaa612bef5 evidence.registered E01
+M4A event 79faefe5-7daa-4263-9f94-f0c8f17475d5 evidence.fields_observed 
+M4A event dbb24bad-7694-40d0-8a26-d61a7a6b42ea evidence.fields_observed 
+M4A event c7ac2784-9699-4b8b-ae80-0669689e829f evidence.fields_observed 
+M4A event 11b1819a-6164-4eda-bb4c-248108afdb6a evidence.fields_observed 
+M4A event 36c0cd69-d91a-493b-b6ad-4302008120b9 evidence.registered E03
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-case id="1011" name="HandoverRequiresPlayersConclusionAndLinyaosOwnDisclosureAndSignature" fullname="EchoLostAndFound.QA.M4CChapterCloseoutTests.HandoverRequiresPlayersConclusionAndLinyaosOwnDisclosureAndSignature" methodname="HandoverRequiresPlayersConclusionAndLinyaosOwnDisclosureAndSignature" classname="EchoLostAndFound.QA.M4CChapterCloseoutTests" runstate="Runnable" seed="720375663" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.037908" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A event 5b53d703-b601-48e3-9f08-83926f63618e evidence.fields_observed 
+M4A event 5080c005-d4f3-4b10-a901-47907f37907b evidence.fields_observed 
+M4A event 23a907a0-418b-466e-9f13-fb6a4795a58d evidence.fields_observed 
+M4A event dcc5c5f5-0e2e-48ef-b3ef-5f73ebe7839c evidence.fields_observed 
+M4A event 0bd5f52c-d6a5-4977-8b3d-903ec6e7749c evidence.fields_observed 
+M4A event 94363837-8cea-4a4d-9740-bada43aa91f0 evidence.registered E01
+M4A event bd5c5c82-207a-4047-b822-f11aaf42ebf5 evidence.fields_observed 
+M4A event a5592b53-4cdc-4c70-9cf5-c448d35f6b1e evidence.fields_observed 
+M4A event b9c4ed41-cb5f-4b54-9269-814d40e5fdc6 evidence.fields_observed 
+M4A event 56183e38-bca1-4244-adfa-9f873e43323f evidence.fields_observed 
+M4A event 7b950c6a-33f9-4e36-8e77-e01ebf3bf2d3 evidence.registered E03
+M4A event 23a43f21-bcd6-4ae5-aa78-441d8322bea3 evidence.fields_observed 
+M4A event 80ab5ab8-9221-4c9e-aba2-066d520e79d1 evidence.fields_observed 
+M4A event 2975005b-281d-4cc2-8eaf-0e0c4c1091ad evidence.fields_observed 
+M4A event af4d5dc9-8de2-43e3-b323-73e149470f94 evidence.fields_observed 
+M4A event afffd7bb-07a9-4984-9c07-9fcd2ba0542c evidence.fields_observed 
+M4A event 37a8ee96-b45d-493a-bf92-76b138133b91 evidence.registered E04
+M4A event 6126571f-3dc5-41ff-98f4-04bead02f831 dialogue.session_opened 
+M4A event e64c487a-8e1b-431e-ba6d-c91cb2c70b27 dialogue.evidence_presented 
+M4A event 17126c6d-a45c-412a-a775-863952d543a8 dialogue.evidence_presented 
+M4A event 04794fd3-d05e-4eba-8f5b-4d490bdd1323 dialogue.disclosure_triggered D02
+M4A event b0466e8d-d602-4084-a5ab-ee9488f0b0ca dialogue.session_closed 
+M4A event 8bffd762-6c9d-4cf4-8008-a9d10b982422 dialogue.session_opened 
+M4A event ed99ab7e-a5a5-4538-aa1e-e4a0e767a731 dialogue.session_closed 
+M4A event a2fec557-24b0-4001-90c5-48f90073ce2c dialogue.session_opened 
+M4A event 677e9e9c-32d9-487b-8dca-65428496755f dialogue.evidence_presented 
+M4A event 6f3d21d5-b164-4722-ab65-4b7d3b52070b dialogue.evidence_presented 
+M4A event 7187331a-799f-41ac-9ded-dfe25bd42766 dialogue.disclosure_triggered D02
+M4A event c39ae284-3f8a-4fa5-81bc-9c2d85821579 dialogue.session_closed 
+M4A event 7c3b7b3f-d096-46b6-93b9-db0459460af6 dialogue.session_opened 
+M4A event 1842f970-f555-4b44-b558-96435becc25b evidence.fields_observed 
+M4A event b1006274-9ebc-477f-9940-3d81b88fb47b evidence.fields_observed 
+M4A event 550391ad-4ccb-4b40-98cf-eace27cdbedc evidence.fields_observed 
+M4A event 9277161c-3a1c-4117-ac4f-dfbec1cffee5 evidence.fields_observed 
+M4A event 9a4da09f-c5ed-47e3-b5b6-b8d7aa74aa91 evidence.registered E02
+]]></output>
+            </test-case>
+            <test-case id="1013" name="LegacySnapshotKeepsPartialWatchAndDoesNotInventAChoice" fullname="EchoLostAndFound.QA.M4CChapterCloseoutTests.LegacySnapshotKeepsPartialWatchAndDoesNotInventAChoice" methodname="LegacySnapshotKeepsPartialWatchAndDoesNotInventAChoice" classname="EchoLostAndFound.QA.M4CChapterCloseoutTests" runstate="Runnable" seed="1591104778" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.013026" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A event ab1e3fc2-15fc-4bd9-833b-f4336d59c266 evidence.fields_observed 
+M4A event fdfede3b-2eea-45b1-8b57-47e38def5b56 evidence.fields_observed 
+M4A event 7f66895e-8bb5-4385-8cc2-a047d31dc845 evidence.fields_observed 
+M4A event d38beb64-ae73-4607-9ceb-340992ab4a1b evidence.fields_observed 
+M4A event 86086ea0-882f-44f9-aba5-c970bbe405f9 evidence.fields_observed 
+M4A event 145bc30b-07b6-403b-a611-2cbee83b6756 evidence.registered E03
+M4A event 6e9456ca-573e-4a3f-bec3-451242c0591f evidence.fields_observed 
+M4A event 4ee7e42d-5a08-4052-8d71-6aac6e89d6c3 evidence.fields_observed 
+M4A event 0ec0dd1c-c5ad-4507-a7ed-7901ae6d23b1 evidence.fields_observed 
+M4A event bfd4674a-c040-4c6d-ab67-da302fed124a evidence.fields_observed 
+M4A event d48595d5-a75c-4849-a068-76afb408eafd evidence.registered E01
+]]></output>
+            </test-case>
+            <test-case id="1012" name="LinyaosKnowledgeAloneDoesNotSolveR01" fullname="EchoLostAndFound.QA.M4CChapterCloseoutTests.LinyaosKnowledgeAloneDoesNotSolveR01" methodname="LinyaosKnowledgeAloneDoesNotSolveR01" classname="EchoLostAndFound.QA.M4CChapterCloseoutTests" runstate="Runnable" seed="811629187" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.017317" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A event b645a3e3-928c-4796-bb42-01ee29465f1e evidence.fields_observed 
+M4A event 07decabd-c73c-4f64-a43c-1190591babd7 evidence.fields_observed 
+M4A event 0505e0cb-403d-4596-8905-885fb05d9adf evidence.fields_observed 
+M4A event a43a1460-78b2-4201-95ad-aec9793f7328 evidence.fields_observed 
+M4A event e36a621f-92c6-420e-b8b8-80b840d9a98d evidence.fields_observed 
+M4A event 130bb3f9-e4cb-414a-98b1-8e53f64b3a4f evidence.registered E01
+M4A event d6f33b17-f73a-40b8-a6bc-33e48cba5ad0 evidence.fields_observed 
+M4A event 605d1c48-ca39-4cf0-a7e5-e31c32ede522 evidence.fields_observed 
+M4A event 39fc15fd-7545-4f40-a116-52c170dfcfe0 evidence.fields_observed 
+M4A event 1869f590-c01e-4592-bd61-331d04a736ff evidence.fields_observed 
+M4A event cd33681a-a489-4641-a131-c5dda204345d evidence.registered E03
+M4A event dbc8dd00-0e83-4760-885d-8d7c79de7cad evidence.fields_observed 
+M4A event b4e1c954-a7ab-4bcd-a2bc-8fd497091bbc evidence.fields_observed 
+M4A event 1ce933c8-50f8-4cbb-95d8-e956ee0c3432 evidence.fields_observed 
+M4A event 3a69258a-36b6-4714-800c-bf36d18953d9 evidence.fields_observed 
+M4A event a8393e52-a6a4-4c1a-8350-0219918b032c evidence.fields_observed 
+M4A event d1407b08-e82b-4290-b96d-5aa899bb666a evidence.registered E04
+M4A event ffcd5064-4ad0-4bb2-b5fc-ab01d6987a51 dialogue.session_opened 
+M4A event a69dd6fa-3e9e-45be-aa33-280feba6f583 dialogue.evidence_presented 
+M4A event a43bed49-8777-4e23-ad92-709c9a575155 dialogue.evidence_presented 
+M4A event 28a1bd2d-797b-482b-a41b-4f460831554f dialogue.disclosure_triggered D02
+M4A event b2f39c31-b22e-4e82-84ee-3088fbfc9edc dialogue.session_closed 
+M4A event 009c868d-3554-4ea4-8bd2-a95083af99b1 dialogue.session_opened 
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1014" name="M4CInvestigationTests" fullname="EchoLostAndFound.QA.M4CInvestigationTests" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.025014" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1021" name="D02HasOneBranchPerNpcAndConsumesE03AndE04" fullname="EchoLostAndFound.QA.M4CInvestigationTests.D02HasOneBranchPerNpcAndConsumesE03AndE04" methodname="D02HasOneBranchPerNpcAndConsumesE03AndE04" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="1926175292" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.003039" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="D03NeedsE01AndE05AndNeverFiresTwice" fullname="EchoLostAndFound.QA.M4CInvestigationTests.D03NeedsE01AndE05AndNeverFiresTwice" methodname="D03NeedsE01AndE05AndNeverFiresTwice" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="1152279944" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.002527" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="EvidenceStillPersistsAndContentVersionIsChecked" fullname="EchoLostAndFound.QA.M4CInvestigationTests.EvidenceStillPersistsAndContentVersionIsChecked" methodname="EvidenceStillPersistsAndContentVersionIsChecked" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="1515196658" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.002947" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="LinyaoOnlyRecognisesTheEngravingOnceTheWatchIsComplete" fullname="EchoLostAndFound.QA.M4CInvestigationTests.LinyaoOnlyRecognisesTheEngravingOnceTheWatchIsComplete" methodname="LinyaoOnlyRecognisesTheEngravingOnceTheWatchIsComplete" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="887266069" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.002539" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="PackageAndBinderOpenOnlyAfterTheSerialNumberIsObserved" fullname="EchoLostAndFound.QA.M4CInvestigationTests.PackageAndBinderOpenOnlyAfterTheSerialNumberIsObserved" methodname="PackageAndBinderOpenOnlyAfterTheSerialNumberIsObserved" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="1516703579" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.002592" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="PickupInspectionNeedsTheFaultCardIndexNotTheFrontCard" fullname="EchoLostAndFound.QA.M4CInvestigationTests.PickupInspectionNeedsTheFaultCardIndexNotTheFrontCard" methodname="PickupInspectionNeedsTheFaultCardIndexNotTheFrontCard" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="1433570105" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.002182" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="SceneLabelsRouteOnlyWhenLabelAndKindMatch" fullname="EchoLostAndFound.QA.M4CInvestigationTests.SceneLabelsRouteOnlyWhenLabelAndKindMatch" methodname="SceneLabelsRouteOnlyWhenLabelAndKindMatch" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="1676874569" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.002525" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="WatchPartsCanBeReadInAnyOrderAndRegisterE01WhenComplete" fullname="EchoLostAndFound.QA.M4CInvestigationTests.WatchPartsCanBeReadInAnyOrderAndRegisterE01WhenComplete" methodname="WatchPartsCanBeReadInAnyOrderAndRegisterE01WhenComplete" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="882485259" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.002808" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="WholeChapterCanBeCollectedThroughSceneTargetsOnly" fullname="EchoLostAndFound.QA.M4CInvestigationTests.WholeChapterCanBeCollectedThroughSceneTargetsOnly" methodname="WholeChapterCanBeCollectedThroughSceneTargetsOnly" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="1576982833" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.002618" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1024" name="StationAcceptanceTests" fullname="EchoLostAndFound.QA.StationAcceptanceTests" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.091299" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1027" name="BothEntryPointsHaveDisplayableContentAndDistinctCommandIdentities" fullname="EchoLostAndFound.QA.StationAcceptanceTests.BothEntryPointsHaveDisplayableContentAndDistinctCommandIdentities" methodname="BothEntryPointsHaveDisplayableContentAndDistinctCommandIdentities" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" seed="476267216" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.008463" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="BuildStartsInStationWithInvestigatorAndBothInteractions" fullname="EchoLostAndFound.QA.StationAcceptanceTests.BuildStartsInStationWithInvestigatorAndBothInteractions" methodname="BuildStartsInStationWithInvestigatorAndBothInteractions" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" seed="1999349591" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.079180" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="InvestigationRayHonoursRangeAndCannotReachThroughStationWalls" fullname="EchoLostAndFound.QA.StationAcceptanceTests.InvestigationRayHonoursRangeAndCannotReachThroughStationWalls" methodname="InvestigationRayHonoursRangeAndCannotReachThroughStationWalls" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" seed="2095066441" result="Passed" start-time="2026-11-24 01:48:11Z" end-time="2026-11-24 01:48:11Z" duration="0.002987" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/10509/AppData/LocalLow/Unity Technologies/EchoLostAndFound WebGL\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

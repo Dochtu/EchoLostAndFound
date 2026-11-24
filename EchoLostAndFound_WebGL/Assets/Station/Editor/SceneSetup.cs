@@ -43,10 +43,27 @@ namespace EchoStation
             light.intensity = 1.25f;
             BuildHall();
             var npc = Model("StationVisitor", "Station visitor", new Vector3(0,0,0), 1.75f, true, teal);
-            Target(npc, InteractionKind.Npc, "Talk to the visitor", new Vector3(.8f,1.8f,.65f));
+            Target(npc, InteractionKind.Npc, "老周", new Vector3(.8f,1.8f,.65f));
             Box("Watch plinth", 1.04f,.60f,.0f, .84f,1.20f,.68f, pine);
             var watch = Model("EvidenceWatch", "Pocket watch", new Vector3(1.04f,1.20f,0), .35f, false, brass);
-            Target(watch, InteractionKind.Item, "Inspect pocket watch", new Vector3(.50f,.32f,.46f));
+            Target(watch, InteractionKind.Item, "怀表", new Vector3(.50f,.32f,.46f));
+            var cabinet = Box("Repair cabinet",-3.1f,1.05f,3.42f, 1.12f,2.10f,.34f, teal);
+            cabinet.isStatic = true;
+            // The primitive already owns a BoxCollider, so the cabinet only needs the interaction marker.
+            cabinet.AddComponent<M2Interactable>().Configure("维修柜", InteractionKind.Document);
+            // Chapter-01 investigation props. Greybox placement only: the implementation map
+            // still marks hotspot anchors [待确认], so these coordinates are not approved content.
+            var linyao = Model("StationVisitor", "Station visitor (linyao)", new Vector3(-5.4f,0f,1.3f), 1.72f, true, slate);
+            linyao.transform.rotation = Quaternion.Euler(0,80,0);
+            Target(linyao, InteractionKind.Npc, "林遥", new Vector3(.8f,1.8f,.65f));
+            Box("West office window",-6.86f,1.95f,1.3f,.12f,1.3f,2.2f,ivory);
+            Box("West office sill",-6.5f,1.22f,1.3f,.55f,.1f,2.2f,pine);
+            Box("Package stand",1.86f,.44f,.55f,.18f,.88f,.18f,pine);
+            var package = Box("Lost property package",1.86f,.93f,.55f,.52f,.12f,.40f,ivory);
+            package.AddComponent<M2Interactable>().Configure("失物包", InteractionKind.Document);
+            Box("Binder stand",-1.5f,.5f,1.0f,.18f,1.0f,.18f,pine);
+            var binder = Box("Lost-property binder",-1.5f,1.03f,1.0f,.34f,.06f,.46f,teal);
+            binder.AddComponent<M2Interactable>().Configure("副联册", InteractionKind.Document);
             var player = new GameObject("Investigator");
             player.transform.position = new Vector3(0,.02f,-2);
             var motor = player.AddComponent<CharacterController>();
@@ -116,7 +133,7 @@ namespace EchoStation
             return material;
         }
 
-        static void Box(string name,float x,float y,float z,float w,float h,float d,Material material)
+        static GameObject Box(string name,float x,float y,float z,float w,float h,float d,Material material)
         {
             var go = GameObject.CreatePrimitive(PrimitiveType.Cube);
             go.name = name;
@@ -124,6 +141,7 @@ namespace EchoStation
             go.transform.localScale = new Vector3(w,h,d);
             go.GetComponent<MeshRenderer>().sharedMaterial = material;
             go.isStatic = true;
+            return go;
         }
 
         static void Sign(string text, Vector3 at, float size)
@@ -184,12 +202,13 @@ namespace EchoStation
             Label(bar,"WASD   Move       Mouse   Look       E   Interact       Esc   Release", 15,Vector2.zero, new Vector2(495,30));
             var focus = Label(parent,"Click to explore",21,new Vector2(0,-40),new Vector2(490,35));
             var dot = Label(parent,"+",18,Vector2.zero,new Vector2(28,28));
-            var sheet = Rect("Inspection",parent,new Vector2(.5f,.5f),Vector2.zero,new Vector2(520,210));
-            sheet.gameObject.AddComponent<Image>().color = new Color(.035f,.095f,.10f,.97f);
-            var heading = Label(sheet,"",28,new Vector2(0,62),new Vector2(475,45));
+            var sheet = Rect("Inspection",parent,new Vector2(.5f,.5f),Vector2.zero,new Vector2(560,470));
+            sheet.gameObject.AddComponent<Image>().color = new Color(.035f,.085f,.095f,1f);
+            var heading = Label(sheet,"",26,new Vector2(0,210),new Vector2(520,34));
             heading.color = new Color(1,.83f,.54f);
-            var body = Label(sheet,"",20,Vector2.zero,new Vector2(470,94));
-            Label(sheet,"E    Close",15,new Vector2(0,-72),new Vector2(230,30));
+            var body = Label(sheet,"",17,new Vector2(0,130),new Vector2(520,116));
+            body.alignment = TextAlignmentOptions.Top;
+            Label(sheet,"E    返回车站",15,new Vector2(0,-210),new Vector2(260,24));
             sheet.gameObject.SetActive(false);
             var hud = canvas.AddComponent<StationHud>();
             hud.Configure(focus,heading,body,sheet.gameObject,dot.gameObject);

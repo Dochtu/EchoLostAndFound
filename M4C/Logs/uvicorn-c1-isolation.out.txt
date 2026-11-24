@@ -1,0 +1,5 @@
+INFO:     127.0.0.1:58595 - "POST /api/v1/sessions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58595 - "POST /api/v1/sessions HTTP/1.1" 201 Created
+INFO:     127.0.0.1:58595 - "GET /api/v1/sessions/0ccaa364-4818-478c-8707-7a589be02493 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58595 - "POST /api/v1/sessions/0ccaa364-4818-478c-8707-7a589be02493/evidence HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58595 - "GET /api/v1/sessions/c1671745-3699-4875-a991-d8a53ad2d964 HTTP/1.1" 200 OK

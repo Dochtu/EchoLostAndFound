@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-23 11:08:04Z" end-time="2026-11-23 11:08:05Z" duration="0.6390355">
+  <test-suite type="TestSuite" id="1009" name="EchoLostAndFound WebGL" fullname="EchoLostAndFound WebGL" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-23 11:08:04Z" end-time="2026-11-23 11:08:05Z" duration="0.639036" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1003" name="M4A.PlayMode.dll" fullname="F:/EchoBuilds/M4A-Takeover-1/Library/ScriptAssemblies/M4A.PlayMode.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-23 11:08:04Z" end-time="2026-11-23 11:08:05Z" duration="0.632757" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="42440" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1004" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-23 11:08:04Z" end-time="2026-11-23 11:08:05Z" duration="0.632277" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1005" name="QA" fullname="EchoLostAndFound.QA" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-23 11:08:04Z" end-time="2026-11-23 11:08:05Z" duration="0.632112" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="M4AStationPlayTests" fullname="EchoLostAndFound.QA.M4AStationPlayTests" classname="EchoLostAndFound.QA.M4AStationPlayTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-23 11:08:04Z" end-time="2026-11-23 11:08:05Z" duration="0.631344" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="WatchCardSurvivesReturnAndRepairCardChangesNpcOptions" fullname="EchoLostAndFound.QA.M4AStationPlayTests.WatchCardSurvivesReturnAndRepairCardChangesNpcOptions" methodname="WatchCardSurvivesReturnAndRepairCardChangesNpcOptions" classname="EchoLostAndFound.QA.M4AStationPlayTests" runstate="Runnable" seed="109422858" result="Passed" start-time="2026-11-23 11:08:04Z" end-time="2026-11-23 11:08:05Z" duration="0.621822" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A font StationChinese SDF 怀=True 证据=True
+M4A event a1ab0247-145a-4353-8406-8747b218802c evidence.fields_observed 
+M4A page 怀表 · 表盘 | 指针停在 9:17。
+M4A choice 1 翻看背刻、编号和表冠
+M4A event 406ad194-6d9e-4b14-a4da-64fc6c340d21 evidence.fields_observed 
+M4A event 598e6fa8-c5df-4b3c-a458-f4ee2f5bfa58 evidence.registered E01
+M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。
+盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权
+M4A choice 1 返回车站
+M4A event 5bc55b5f-773a-453d-9387-dff90088205f evidence.fields_observed 
+M4A event 86ea1db9-116e-4a70-b8cc-0963e12135d7 evidence.registered E02
+M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。
+
+M4A choice 1 返回车站
+M4A font StationChinese SDF 怀=True 证据=True
+M4A event 7d75f9ee-6103-4a89-a79b-a9c31906f6f6 dialogue.session_opened 
+M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E02 配电故障卡
+M4A event d868801d-5ac6-40d4-91be-c61e25638cf8 dialogue.turn_completed 
+M4A page 老周 | 站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。
+M4A choice 1 先不问这个
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E02 配电故障卡
+M4A event b20f72af-a0e9-471b-83cc-af066f405478 dialogue.turn_completed 
+M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E02 配电故障卡
+M4A event d4a60457-1e3d-4eba-95b0-179035b14a69 dialogue.evidence_presented 
+M4A event 3f556fff-b394-4a67-82dc-faf9e1f9bff5 dialogue.disclosure_triggered D01
+M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 再问站台那晚的照明
+M4A choice 3 结束对话
+M4A choice 4 出示 E01 停表与编号
+M4A choice 5 出示 E02 配电故障卡
+M4A event e0c07037-108f-4355-896e-1f9abd0b5557 dialogue.session_closed 
+M4A event c2fe2b6d-ddc1-428b-8496-94f3cfc89d6a dialogue.session_opened 
+M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E02 配电故障卡
+Saving results to: C:/Users/10509/AppData/LocalLow/Unity Technologies/EchoLostAndFound WebGL\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

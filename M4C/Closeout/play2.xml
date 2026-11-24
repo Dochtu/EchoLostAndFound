@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="8" result="Passed" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-24 01:46:59Z" end-time="2026-11-24 01:47:02Z" duration="3.3870193">
+  <test-suite type="TestSuite" id="1019" name="EchoLostAndFound WebGL" fullname="EchoLostAndFound WebGL" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-11-24 01:46:59Z" end-time="2026-11-24 01:47:02Z" duration="3.387019" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1013" name="M4A.PlayMode.dll" fullname="G:/projects/EchoLostAndFound/Builds/M4C-Closeout-URP/Library/ScriptAssemblies/M4A.PlayMode.dll" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-11-24 01:46:59Z" end-time="2026-11-24 01:47:02Z" duration="3.378854" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="31532" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1014" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-11-24 01:46:59Z" end-time="2026-11-24 01:47:02Z" duration="3.378223" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1015" name="QA" fullname="EchoLostAndFound.QA" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-11-24 01:46:59Z" end-time="2026-11-24 01:47:02Z" duration="3.377879" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="M4AStationPlayTests" fullname="EchoLostAndFound.QA.M4AStationPlayTests" classname="EchoLostAndFound.QA.M4AStationPlayTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-24 01:46:59Z" end-time="2026-11-24 01:47:00Z" duration="0.911240" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="WatchCardSurvivesReturnAndRepairCardChangesNpcOptions" fullname="EchoLostAndFound.QA.M4AStationPlayTests.WatchCardSurvivesReturnAndRepairCardChangesNpcOptions" methodname="WatchCardSurvivesReturnAndRepairCardChangesNpcOptions" classname="EchoLostAndFound.QA.M4AStationPlayTests" runstate="Runnable" seed="888608097" result="Passed" start-time="2026-11-24 01:46:59Z" end-time="2026-11-24 01:47:00Z" duration="0.900300" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A page 怀表 · 逐步查看 | 表还在 A-0641 包里。盘面、背刻、编号和侧冠要分开看清。
+M4A choice 1 查看 表盘
+M4A choice 2 查看 背刻
+M4A choice 3 查看 编号
+M4A choice 4 查看 侧冠
+M4A choice 5 查看 冠轴损伤
+M4A choice 6 返回车站
+M4A event e33abf5c-b0c4-47ab-922e-1e084514e11d evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 表盘：表面 21:17。
+已经看清 1/5 处。
+M4A choice 1 查看 背刻
+M4A choice 2 查看 编号
+M4A choice 3 查看 侧冠
+M4A choice 4 查看 冠轴损伤
+M4A choice 5 重看 表盘
+M4A choice 6 返回车站
+M4A event aa22548b-ae35-4a4c-ac7e-2ac1bfaf301d evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 背刻：背刻 0412·0916。
+已经看清 2/5 处。
+M4A choice 1 查看 编号
+M4A choice 2 查看 侧冠
+M4A choice 3 查看 冠轴损伤
+M4A choice 4 重看 表盘
+M4A choice 5 重看 背刻
+M4A choice 6 返回车站
+M4A event 40e0e822-64ba-4e42-9ddd-07ea39c9d6da evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 编号：后盖边钢印 QH-283。
+已经看清 3/5 处。
+M4A choice 1 查看 侧冠
+M4A choice 2 查看 冠轴损伤
+M4A choice 3 重看 表盘
+M4A choice 4 重看 背刻
+M4A choice 5 重看 编号
+M4A choice 6 返回车站
+M4A event f0282673-b5a5-40bd-b301-65c9e69f9d9e evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 侧冠：侧冠凹陷。
+已经看清 4/5 处。
+M4A choice 1 查看 冠轴损伤
+M4A choice 2 重看 表盘
+M4A choice 3 重看 背刻
+M4A choice 4 重看 编号
+M4A choice 5 重看 侧冠
+M4A choice 6 返回车站
+M4A event 222a145b-7e70-47dd-af32-1b2c365b2ca0 evidence.fields_observed 
+M4A event d6b7abbc-5bf7-4afb-a829-7f9370352874 evidence.registered E01
+M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。
+盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权
+M4A choice 1 装袋待核
+M4A choice 2 核对怀表原主
+M4A choice 3 返回车站
+M4A page 维修柜 | 柜面贴着配电故障卡，卡背面还有一行索引。
+M4A choice 1 看配电故障卡正面
+M4A choice 2 翻看故障卡背面的索引
+M4A choice 3 返回车站
+M4A event d9902462-90a8-4b9d-aba5-2d562b8631cc evidence.fields_observed 
+M4A event cffd05d9-4224-4809-85d4-2e266cff9595 evidence.registered E02
+M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。
+
+M4A choice 1 返回车站
+M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A event 5c081f60-9901-4340-8d9b-98144cbf0624 dialogue.session_opened 
+M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E02 配电故障卡
+M4A event f190e4ea-6dc9-498e-adc8-d309ec448114 dialogue.turn_completed 
+M4A page 老周 | 站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。
+M4A choice 1 先不问这个
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E02 配电故障卡
+M4A event 7e41caa9-01c9-4694-9898-fb99893b6426 dialogue.turn_completed 
+M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E02 配电故障卡
+M4A event 450b116f-6f61-4ddc-b8c6-4253220f03bd dialogue.evidence_presented 
+M4A event 8f05a3d5-ca85-438a-969d-ee8bf1f2773d dialogue.disclosure_triggered D01
+M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 再问站台那晚的照明
+M4A choice 3 结束对话
+M4A choice 4 出示 E01 停表与编号
+M4A choice 5 出示 E02 配电故障卡
+M4A event 66711ac6-a983-436d-b0a3-af4017ef6bb7 dialogue.session_closed 
+M4A event 2d780e17-40bf-4875-b9d1-1296a198205c dialogue.session_opened 
+M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 再问站台那晚的照明
+M4A choice 3 结束对话
+M4A choice 4 出示 E01 停表与编号
+M4A choice 5 出示 E02 配电故障卡
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1003" name="M4CChapterCloseoutPlayTests" fullname="EchoLostAndFound.QA.M4CChapterCloseoutPlayTests" classname="EchoLostAndFound.QA.M4CChapterCloseoutPlayTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-24 01:47:00Z" end-time="2026-11-24 01:47:01Z" duration="1.258598" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="BagReceiptSurvivesReentryAndCheckpointRestoresThePhysicalWatch" fullname="EchoLostAndFound.QA.M4CChapterCloseoutPlayTests.BagReceiptSurvivesReentryAndCheckpointRestoresThePhysicalWatch" methodname="BagReceiptSurvivesReentryAndCheckpointRestoresThePhysicalWatch" classname="EchoLostAndFound.QA.M4CChapterCloseoutPlayTests" runstate="Runnable" seed="113255843" result="Passed" start-time="2026-11-24 01:47:00Z" end-time="2026-11-24 01:47:01Z" duration="0.714051" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A event 9c9b05cd-579b-4da3-aded-5b78ae4140c9 dialogue.session_expired 
+M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A page 怀表 · 逐步查看 | 表还在 A-0641 包里。盘面、背刻、编号和侧冠要分开看清。
+M4A choice 1 查看 表盘
+M4A choice 2 查看 背刻
+M4A choice 3 查看 编号
+M4A choice 4 查看 侧冠
+M4A choice 5 查看 冠轴损伤
+M4A choice 6 返回车站
+M4A event c2644f4f-4d81-438d-9639-884a9880e0ba evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 表盘：表面 21:17。
+已经看清 1/5 处。
+M4A choice 1 查看 背刻
+M4A choice 2 查看 编号
+M4A choice 3 查看 侧冠
+M4A choice 4 查看 冠轴损伤
+M4A choice 5 重看 表盘
+M4A choice 6 返回车站
+M4A event 7196982c-cd57-41c9-868d-4775c9d2373e evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 背刻：背刻 0412·0916。
+已经看清 2/5 处。
+M4A choice 1 查看 编号
+M4A choice 2 查看 侧冠
+M4A choice 3 查看 冠轴损伤
+M4A choice 4 重看 表盘
+M4A choice 5 重看 背刻
+M4A choice 6 返回车站
+M4A event 0f62e08d-c607-48ca-bb8d-7354e2f321cc evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 编号：后盖边钢印 QH-283。
+已经看清 3/5 处。
+M4A choice 1 查看 侧冠
+M4A choice 2 查看 冠轴损伤
+M4A choice 3 重看 表盘
+M4A choice 4 重看 背刻
+M4A choice 5 重看 编号
+M4A choice 6 返回车站
+M4A event 8dc25bb4-6646-4751-8446-7acb98a6c6ed evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 侧冠：侧冠凹陷。
+已经看清 4/5 处。
+M4A choice 1 查看 冠轴损伤
+M4A choice 2 重看 表盘
+M4A choice 3 重看 背刻
+M4A choice 4 重看 编号
+M4A choice 5 重看 侧冠
+M4A choice 6 返回车站
+M4A event 8637cd1c-68da-4c85-bf7a-6f3636ba753b evidence.fields_observed 
+M4A event b20646c8-13ef-46e2-bd47-59d022add78a evidence.registered E01
+M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。
+盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权
+M4A choice 1 装袋待核
+M4A choice 2 核对怀表原主
+M4A choice 3 返回车站
+M4A page 装袋待核 | A-0641　将怀表放回带案号的软衬袋，由招领处保管，领取资格可继续核对。
+M4A choice 1 确认装袋并登记
+M4A choice 2 取消，返回调查
+M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。
+盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权
+M4A choice 1 装袋待核
+M4A choice 2 核对怀表原主
+M4A choice 3 返回车站
+M4A page 装袋待核 | A-0641　将怀表放回带案号的软衬袋，由招领处保管，领取资格可继续核对。
+M4A choice 1 确认装袋并登记
+M4A choice 2 取消，返回调查
+M4A page 第一章调查交接 | A-0641　怀表已装袋待核。保管地点：失物招领处。
+已入档：E01　待查：E02、E03、E04、E05
+原主核对：待核　第二章资格已开放。
+M4A choice 1 继续调查
+M4A choice 2 读取交接前检查点
+M4A choice 3 返回菜单
+M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A page 失物包 A-0641 | A-0641　怀表已装袋待核。保管地点：失物招领处。
+M4A choice 1 查看保管回执
+M4A choice 2 查阅怀表记录
+M4A choice 3 查看包内夹层
+M4A choice 4 返回车站
+M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。
+盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权
+M4A choice 1 查看保管回执
+M4A choice 2 核对怀表原主
+M4A choice 3 返回车站
+M4A page 第一章调查交接 | A-0641　怀表已装袋待核。保管地点：失物招领处。
+已入档：E01　待查：E02、E03、E04、E05
+原主核对：待核　第二章资格已开放。
+M4A choice 1 继续调查
+M4A choice 2 读取交接前检查点
+M4A choice 3 返回菜单
+M4A page 回声失物招领处 | 停走的怀表　第一章调查已完成
+M4A choice 1 继续调查
+M4A choice 2 查看第一章交接
+M4A choice 3 读取交接前检查点
+M4A page 第一章调查交接 | A-0641　怀表已装袋待核。保管地点：失物招领处。
+已入档：E01　待查：E02、E03、E04、E05
+原主核对：待核　第二章资格已开放。
+M4A choice 1 继续调查
+M4A choice 2 读取交接前检查点
+M4A choice 3 返回菜单
+M4A page 读取交接前检查点 | 读取后将恢复到确认保管选择之前。交接以后的调查记录也会回到该时点。
+M4A choice 1 确认读取
+M4A choice 2 取消
+M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。
+盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权
+M4A choice 1 装袋待核
+M4A choice 2 核对怀表原主
+M4A choice 3 返回车站
+M4A page 装袋待核 | A-0641　将怀表放回带案号的软衬袋，由招领处保管，领取资格可继续核对。
+M4A choice 1 确认装袋并登记
+M4A choice 2 取消，返回调查
+]]></output>
+            </test-case>
+            <test-case id="1005" name="OwnerEvidenceAndLinyaosOwnDisclosureLeadToReadableHandoverReceipt" fullname="EchoLostAndFound.QA.M4CChapterCloseoutPlayTests.OwnerEvidenceAndLinyaosOwnDisclosureLeadToReadableHandoverReceipt" methodname="OwnerEvidenceAndLinyaosOwnDisclosureLeadToReadableHandoverReceipt" classname="EchoLostAndFound.QA.M4CChapterCloseoutPlayTests" runstate="Runnable" seed="2038655250" result="Passed" start-time="2026-11-24 01:47:01Z" end-time="2026-11-24 01:47:01Z" duration="0.530771" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A page 怀表 · 逐步查看 | 表还在 A-0641 包里。盘面、背刻、编号和侧冠要分开看清。
+M4A choice 1 查看 表盘
+M4A choice 2 查看 背刻
+M4A choice 3 查看 编号
+M4A choice 4 查看 侧冠
+M4A choice 5 查看 冠轴损伤
+M4A choice 6 返回车站
+M4A event f3db33d3-5510-40d4-9bbe-c0967488f23e evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 表盘：表面 21:17。
+已经看清 1/5 处。
+M4A choice 1 查看 背刻
+M4A choice 2 查看 编号
+M4A choice 3 查看 侧冠
+M4A choice 4 查看 冠轴损伤
+M4A choice 5 重看 表盘
+M4A choice 6 返回车站
+M4A event 516a5fb8-926a-4f38-85c8-885fb0106b5d evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 背刻：背刻 0412·0916。
+已经看清 2/5 处。
+M4A choice 1 查看 编号
+M4A choice 2 查看 侧冠
+M4A choice 3 查看 冠轴损伤
+M4A choice 4 重看 表盘
+M4A choice 5 重看 背刻
+M4A choice 6 返回车站
+M4A event c829442f-1333-4ff4-9bff-72f5aa186f38 evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 编号：后盖边钢印 QH-283。
+已经看清 3/5 处。
+M4A choice 1 查看 侧冠
+M4A choice 2 查看 冠轴损伤
+M4A choice 3 重看 表盘
+M4A choice 4 重看 背刻
+M4A choice 5 重看 编号
+M4A choice 6 返回车站
+M4A event d016d05d-fc75-45f4-8011-170a17403fef evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 侧冠：侧冠凹陷。
+已经看清 4/5 处。
+M4A choice 1 查看 冠轴损伤
+M4A choice 2 重看 表盘
+M4A choice 3 重看 背刻
+M4A choice 4 重看 编号
+M4A choice 5 重看 侧冠
+M4A choice 6 返回车站
+M4A event adaf8613-00aa-4b6c-8406-05a4aeb6c25f evidence.fields_observed 
+M4A event 6358b7bc-5d68-4dab-945e-0933a9e279af evidence.registered E01
+M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。
+盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权
+M4A choice 1 装袋待核
+M4A choice 2 核对怀表原主
+M4A choice 3 返回车站
+M4A page 失物包 A-0641 | 夹层里是一张旧修表收据，编号栏与表背钢印对得上。
+M4A choice 1 查同号单据
+M4A choice 2 返回车站
+M4A event 320026b9-8711-4be1-bbe7-c456fa669340 evidence.fields_observed 
+M4A event 320e15ff-8cb4-484f-92fa-58affdf534f5 evidence.registered E03
+M4A page E03 · 旧修表收据 | 交修人 沈禾／物件 QH-283／该机为机械上链／背刻 0412·0916。
+
+M4A choice 1 翻副联册的对应档位
+M4A choice 2 返回车站
+M4A page 失物副联册 | 按表背钢印的编号翻到对应档位，里面夹着一联指定领件。
+M4A choice 1 取出指定领件联
+M4A choice 2 返回车站
+M4A event 04a3a16d-9cf5-4ff5-9dea-4ea8a06c882e evidence.fields_observed 
+M4A event ca2f4a9e-793f-47dd-9f03-11a90489e393 evidence.registered E04
+M4A page E04 · 指定领件联 | 第十日补登记。表主 沈禾／指定领件 林遥／QH-283。由领件人本人决定并持凭号联络。沈禾。
+
+M4A choice 1 返回车站
+M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。
+盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权
+M4A choice 1 装袋待核
+M4A choice 2 核对怀表原主
+M4A choice 3 返回车站
+M4A page 核对怀表原主 | 对照已登记的怀表、修表收据和指定领件联，选择你的结论。
+M4A choice 1 老周是怀表原主
+M4A choice 2 原主沈禾，今可由她书面指定的林遥领件
+M4A choice 3 返回怀表记录
+M4A page 核对怀表原主 | 已核：原主沈禾，今可由她书面指定的林遥领件。
+M4A choice 1 返回怀表记录
+M4A event 5a465536-d020-4f5f-a755-c23b6c3dcbc0 dialogue.session_opened 
+M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E03 旧修表收据
+M4A choice 5 出示 E04 指定领件联
+M4A event 79dfb208-53b8-483c-acac-0115be15857c dialogue.evidence_presented 
+M4A page 老周 | 证据已出示，老周没有补充。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E03 旧修表收据
+M4A choice 5 出示 E04 指定领件联
+M4A event 48dbfcbc-44cc-4687-a841-556295e057e1 dialogue.evidence_presented 
+M4A event cffcd8c6-9a71-4720-8385-5fe577d96c96 dialogue.disclosure_triggered D02
+M4A page 老周 | 证据已出示，老周没有补充。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E03 旧修表收据
+M4A choice 5 出示 E04 指定领件联
+M4A event d390875d-adf2-440b-bf05-ca602f4391cc dialogue.session_closed 
+M4A event e19aee80-94f9-42f9-8908-cd324a0facdc dialogue.session_opened 
+M4A page 林遥 | 公告上有一张我妈留的领取凭号。我把原来的带来了。表还在吗？
+M4A choice 1 问表以外的事
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E03 旧修表收据
+M4A choice 5 出示 E04 指定领件联
+M4A choice 6 办理今夜暂收
+M4A page 今夜暂收条 | 请向林遥本人出示修表收据与指定领件联，完成核对。
+M4A choice 1 取消，返回调查
+M4A event 5c7fd72d-d625-4f7b-a4a3-61e94d52c623 dialogue.session_closed 
+M4A event 84aa9b0c-3a6f-4c0a-8af4-6f49e2b03d47 dialogue.session_opened 
+M4A page 林遥 | 公告上有一张我妈留的领取凭号。我把原来的带来了。表还在吗？
+M4A choice 1 问表以外的事
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E03 旧修表收据
+M4A choice 5 出示 E04 指定领件联
+M4A choice 6 办理今夜暂收
+M4A event 41f28eff-6330-4ea7-8f2b-4941e9cdeae8 dialogue.evidence_presented 
+M4A page 林遥 | 证据已出示，林遥没有补充。
+M4A choice 1 问表以外的事
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E03 旧修表收据
+M4A choice 5 出示 E04 指定领件联
+M4A choice 6 办理今夜暂收
+M4A event 6d976f84-1809-4056-8daf-ed0ae87e34db dialogue.evidence_presented 
+M4A event fb7b305b-3950-4a86-bbce-c91bfcc73bba dialogue.disclosure_triggered D02
+M4A page 林遥 | 沈禾，是我妈妈。这个号和她放在家里那张一样。她写着要我自己领。
+M4A choice 1 问表以外的事
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E03 旧修表收据
+M4A choice 5 出示 E04 指定领件联
+M4A choice 6 办理今夜暂收
+M4A page 今夜暂收条 | A-0641　林遥今夜暂收怀表，留站等候结案。结案时可由她签收，或去名公开后由她签收，也可按她今夜授权交回受限封存。
+确认后登记今夜暂收。
+M4A choice 1 确认暂收并登记
+M4A choice 2 取消，返回调查
+M4A event bb28060c-9c8c-4f88-8ee5-7ec8f84f1d6f dialogue.session_closed 
+M4A page 第一章调查交接 | A-0641　林遥今夜暂收怀表，留站等候结案。结案时可由她签收，或去名公开后由她签收，也可按她今夜授权交回受限封存。
+已入档：E01、E03、E04　待查：E02、E05
+原主核对：已核　第二章资格已开放。
+M4A choice 1 继续调查
+M4A choice 2 读取交接前检查点
+M4A choice 3 返回菜单
+M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A page 失物包 A-0641 | A-0641　林遥今夜暂收怀表，留站等候结案。结案时可由她签收，或去名公开后由她签收，也可按她今夜授权交回受限封存。
+M4A choice 1 查看保管回执
+M4A choice 2 查阅怀表记录
+M4A choice 3 查看包内夹层
+M4A choice 4 返回车站
+M4A page 第一章调查交接 | A-0641　林遥今夜暂收怀表，留站等候结案。结案时可由她签收，或去名公开后由她签收，也可按她今夜授权交回受限封存。
+已入档：E01、E03、E04　待查：E02、E05
+原主核对：已核　第二章资格已开放。
+M4A choice 1 继续调查
+M4A choice 2 读取交接前检查点
+M4A choice 3 返回菜单
+M4A page 维修柜 | 柜面贴着配电故障卡，卡背面还有一行索引。
+M4A choice 1 看配电故障卡正面
+M4A choice 2 翻看故障卡背面的索引
+M4A choice 3 返回车站
+M4A event 3f09f3b0-b69e-46ec-95dc-6f3314bf9c03 evidence.fields_observed 
+M4A event c86547e0-ec79-43cf-aa03-b3f3a07be1a1 evidence.registered E02
+M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。
+
+M4A choice 1 返回车站
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1006" name="M4COnlinePlayTests" fullname="EchoLostAndFound.QA.M4COnlinePlayTests" classname="EchoLostAndFound.QA.M4COnlinePlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-24 01:47:01Z" end-time="2026-11-24 01:47:02Z" duration="0.684131" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1008" name="EmptyFreeTextIsRefusedWithoutWaiting" fullname="EchoLostAndFound.QA.M4COnlinePlayTests.EmptyFreeTextIsRefusedWithoutWaiting" methodname="EmptyFreeTextIsRefusedWithoutWaiting" classname="EchoLostAndFound.QA.M4COnlinePlayTests" runstate="Runnable" seed="1496772746" result="Passed" start-time="2026-11-24 01:47:01Z" end-time="2026-11-24 01:47:01Z" duration="0.224311" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A event a8c140af-ed51-4beb-9277-264ec4f799a5 dialogue.session_opened 
+M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4A event 27b19449-888e-41bf-8123-b3e791c19d86 dialogue.session_closed 
+]]></output>
+            </test-case>
+            <test-case id="1007" name="FreeTextRowOnlyAppearsWhileTalkingToAnNpc" fullname="EchoLostAndFound.QA.M4COnlinePlayTests.FreeTextRowOnlyAppearsWhileTalkingToAnNpc" methodname="FreeTextRowOnlyAppearsWhileTalkingToAnNpc" classname="EchoLostAndFound.QA.M4COnlinePlayTests" runstate="Runnable" seed="1202637027" result="Passed" start-time="2026-11-24 01:47:01Z" end-time="2026-11-24 01:47:02Z" duration="0.227754" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A event 42a44cb4-0cb0-45d7-95ed-a877d8730a23 dialogue.session_opened 
+M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4A event 44b21a78-3ee2-444e-9322-296107b0a577 dialogue.session_closed 
+M4A page 怀表 · 逐步查看 | 表还在 A-0641 包里。盘面、背刻、编号和侧冠要分开看清。
+M4A choice 1 查看 表盘
+M4A choice 2 查看 背刻
+M4A choice 3 查看 编号
+M4A choice 4 查看 侧冠
+M4A choice 5 查看 冠轴损伤
+M4A choice 6 返回车站
+]]></output>
+            </test-case>
+            <test-case id="1009" name="FreeTextSubmitAlwaysReleasesTheWaitingState" fullname="EchoLostAndFound.QA.M4COnlinePlayTests.FreeTextSubmitAlwaysReleasesTheWaitingState" methodname="FreeTextSubmitAlwaysReleasesTheWaitingState" classname="EchoLostAndFound.QA.M4COnlinePlayTests" runstate="Runnable" seed="597828383" result="Passed" start-time="2026-11-24 01:47:02Z" end-time="2026-11-24 01:47:02Z" duration="0.229032" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A event 6d5725cb-bb2f-4398-a260-cee5806436b8 dialogue.session_opened 
+M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。
+M4A choice 1 问站台那晚的照明
+M4A choice 2 结束对话
+M4C free text offline npc=npc_laozhou
+M4C online probe online=False status=离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A event aae1aa29-7854-4177-b476-7c1f8fe5eb00 dialogue.session_closed 
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1010" name="M4CStationPlayTests" fullname="EchoLostAndFound.QA.M4CStationPlayTests" classname="EchoLostAndFound.QA.M4CStationPlayTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-24 01:47:02Z" end-time="2026-11-24 01:47:02Z" duration="0.522698" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1011" name="LinyaoPackageBinderAndPickupSheetAreReachable" fullname="EchoLostAndFound.QA.M4CStationPlayTests.LinyaoPackageBinderAndPickupSheetAreReachable" methodname="LinyaoPackageBinderAndPickupSheetAreReachable" classname="EchoLostAndFound.QA.M4CStationPlayTests" runstate="Runnable" seed="247848363" result="Passed" start-time="2026-11-24 01:47:02Z" end-time="2026-11-24 01:47:02Z" duration="0.293815" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A page 怀表 · 逐步查看 | 表还在 A-0641 包里。盘面、背刻、编号和侧冠要分开看清。
+M4A choice 1 查看 表盘
+M4A choice 2 查看 背刻
+M4A choice 3 查看 编号
+M4A choice 4 查看 侧冠
+M4A choice 5 查看 冠轴损伤
+M4A choice 6 返回车站
+M4A event 905745a1-0e4d-491d-a4f4-647fcc224575 evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 表盘：表面 21:17。
+已经看清 1/5 处。
+M4A choice 1 查看 背刻
+M4A choice 2 查看 编号
+M4A choice 3 查看 侧冠
+M4A choice 4 查看 冠轴损伤
+M4A choice 5 重看 表盘
+M4A choice 6 返回车站
+M4A event 341304f7-0e3e-4c80-a4a6-351249d7f500 evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 背刻：背刻 0412·0916。
+已经看清 2/5 处。
+M4A choice 1 查看 编号
+M4A choice 2 查看 侧冠
+M4A choice 3 查看 冠轴损伤
+M4A choice 4 重看 表盘
+M4A choice 5 重看 背刻
+M4A choice 6 返回车站
+M4A event 738e7e3a-bf64-43d8-85db-b2186a41fe8a evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 编号：后盖边钢印 QH-283。
+已经看清 3/5 处。
+M4A choice 1 查看 侧冠
+M4A choice 2 查看 冠轴损伤
+M4A choice 3 重看 表盘
+M4A choice 4 重看 背刻
+M4A choice 5 重看 编号
+M4A choice 6 返回车站
+M4A event 471aed47-7ccd-4c82-ae41-ed33fb2c6992 evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 侧冠：侧冠凹陷。
+已经看清 4/5 处。
+M4A choice 1 查看 冠轴损伤
+M4A choice 2 重看 表盘
+M4A choice 3 重看 背刻
+M4A choice 4 重看 编号
+M4A choice 5 重看 侧冠
+M4A choice 6 返回车站
+M4A event 06295d18-c025-475c-a10b-a5b4198c2b70 evidence.fields_observed 
+M4A event 2a12ed05-3da9-4e58-bfb3-9050b0af6d5d evidence.registered E01
+M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。
+盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权
+M4A choice 1 装袋待核
+M4A choice 2 核对怀表原主
+M4A choice 3 返回车站
+M4A page 失物包 A-0641 | 夹层里是一张旧修表收据，编号栏与表背钢印对得上。
+M4A choice 1 查同号单据
+M4A choice 2 返回车站
+M4A event f19e13fd-86b3-4d4a-9901-02edbde62ffa evidence.fields_observed 
+M4A event cb025152-216e-4c29-89ed-3f5adf121ba7 evidence.registered E03
+M4A page E03 · 旧修表收据 | 交修人 沈禾／物件 QH-283／该机为机械上链／背刻 0412·0916。
+
+M4A choice 1 翻副联册的对应档位
+M4A choice 2 返回车站
+M4A page 失物副联册 | 按表背钢印的编号翻到对应档位，里面夹着一联指定领件。
+M4A choice 1 取出指定领件联
+M4A choice 2 返回车站
+M4A event e39a612c-eeba-45b6-95cc-e2e0b6ec311f evidence.fields_observed 
+M4A event 42460c78-f24a-4fd4-82fb-73576993c52c evidence.registered E04
+M4A page E04 · 指定领件联 | 第十日补登记。表主 沈禾／指定领件 林遥／QH-283。由领件人本人决定并持凭号联络。沈禾。
+
+M4A choice 1 返回车站
+M4A page 维修柜 | 柜面贴着配电故障卡，卡背面还有一行索引。
+M4A choice 1 看配电故障卡正面
+M4A choice 2 翻看故障卡背面的索引
+M4A choice 3 返回车站
+M4A event afe1ed43-01dd-4284-8305-7f9a51e45846 evidence.fields_observed 
+M4A event c499f38c-bb2a-4877-b65c-c29b9793e3d3 evidence.registered E02
+M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。
+
+M4A choice 1 返回车站
+M4A page 维修柜 | 柜面贴着配电故障卡，卡背面还有一行索引。
+M4A choice 1 重看配电故障卡
+M4A choice 2 翻看故障卡背面的索引
+M4A choice 3 返回车站
+M4A page 维修柜 · 背面索引 | 卡背印着一行索引：该时段拾物联。
+M4A choice 1 照索引取拾物与检点联
+M4A choice 2 返回车站
+M4A event f105d7ff-e848-44fc-be0c-8d8711bbf57a evidence.fields_observed 
+M4A event 1b32e43e-0b8f-4ff9-8eda-0d50b75e1ef9 evidence.registered E05
+M4A page E05 · 拾物与检点联 | 21:17 沈禾扶 0641 乘客避滑，怀表落至内侧台沿。拾取时盘面停 21:17。22:03 表冠凹、冠轴侧弯，传动卡滞，未拆修。周。
+
+M4A choice 1 返回车站
+M4A event b0820e78-92b6-4c04-a318-5c9ca7f97898 dialogue.session_opened 
+M4A page 林遥 | 公告上有一张我妈留的领取凭号。我把原来的带来了。表还在吗？
+M4A choice 1 问表以外的事
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E03 旧修表收据
+M4A choice 5 出示 E04 指定领件联
+M4A choice 6 出示 E02 配电故障卡
+M4A choice 7 出示 E05 拾物与检点联
+M4A choice 8 办理今夜暂收
+M4A event 4537841f-2f66-4596-b733-54bcb6eff6fe dialogue.evidence_presented 
+M4A page 林遥 | 证据已出示，林遥没有补充。
+M4A choice 1 问表以外的事
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E03 旧修表收据
+M4A choice 5 出示 E04 指定领件联
+M4A choice 6 出示 E02 配电故障卡
+M4A choice 7 出示 E05 拾物与检点联
+M4A choice 8 办理今夜暂收
+M4A event 54f1ed33-0974-4113-9635-7f0176710144 dialogue.evidence_presented 
+M4A event be3e8993-2f15-4988-bb34-0743f82e0cde dialogue.disclosure_triggered D02
+M4A page 林遥 | 沈禾，是我妈妈。这个号和她放在家里那张一样。她写着要我自己领。
+M4A choice 1 问表以外的事
+M4A choice 2 结束对话
+M4A choice 3 出示 E01 停表与编号
+M4A choice 4 出示 E03 旧修表收据
+M4A choice 5 出示 E04 指定领件联
+M4A choice 6 出示 E02 配电故障卡
+M4A choice 7 出示 E05 拾物与检点联
+M4A choice 8 办理今夜暂收
+M4A event a6c67e06-5bd5-457a-a853-9cfb58481ec3 dialogue.session_closed 
+]]></output>
+            </test-case>
+            <test-case id="1012" name="PackageAndBinderRefuseBeforeTheSerialNumberIsRead" fullname="EchoLostAndFound.QA.M4CStationPlayTests.PackageAndBinderRefuseBeforeTheSerialNumberIsRead" methodname="PackageAndBinderRefuseBeforeTheSerialNumberIsRead" classname="EchoLostAndFound.QA.M4CStationPlayTests" runstate="Runnable" seed="1908904620" result="Passed" start-time="2026-11-24 01:47:02Z" end-time="2026-11-24 01:47:02Z" duration="0.227068" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[M4A font M4CChapterFont 怀=True 证据=True
+M4C api GET /api/v1/meta -> 0 network_unavailable
+M4C online dialogue offline: 离线模式：固定剧情与证据调查仍可进行，自由输入暂不可用。
+M4A page 失物包 A-0641 | 包口封条已经拆开，表被取出来放在旁边。夹层里还压着纸，得先看清表背的钢印编号，才知道该查哪一档。
+M4A choice 1 返回车站
+M4A page 失物副联册 | 副联按编号顺序装订。要先确认怀表后盖上的钢印编号，才能翻到对应档位。
+M4A choice 1 返回车站
+M4A page 怀表 · 逐步查看 | 表还在 A-0641 包里。盘面、背刻、编号和侧冠要分开看清。
+M4A choice 1 查看 表盘
+M4A choice 2 查看 背刻
+M4A choice 3 查看 编号
+M4A choice 4 查看 侧冠
+M4A choice 5 查看 冠轴损伤
+M4A choice 6 返回车站
+M4A event e521b9f6-deee-4821-a2f7-a92639bee202 evidence.fields_observed 
+M4A page 怀表 · 逐步查看 | 编号：后盖边钢印 QH-283。
+已经看清 1/5 处。
+M4A choice 1 查看 表盘
+M4A choice 2 查看 背刻
+M4A choice 3 查看 侧冠
+M4A choice 4 查看 冠轴损伤
+M4A choice 5 重看 编号
+M4A choice 6 返回车站
+M4A page 失物包 A-0641 | 夹层里是一张旧修表收据，编号栏与表背钢印对得上。
+M4A choice 1 查同号单据
+M4A choice 2 返回车站
+M4A page 失物副联册 | 按表背钢印的编号翻到对应档位，里面夹着一联指定领件。
+M4A choice 1 取出指定领件联
+M4A choice 2 返回车站
+Saving results to: C:/Users/10509/AppData/LocalLow/Unity Technologies/EchoLostAndFound WebGL\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

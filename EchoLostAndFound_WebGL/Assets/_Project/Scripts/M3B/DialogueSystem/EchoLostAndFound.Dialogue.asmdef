@@ -1,0 +1,9 @@
+{
+  "name": "EchoLostAndFound.Dialogue",
+  "rootNamespace": "EchoLostAndFound.Dialogue",
+  "references": [
+    "EchoLostAndFound.Shared"
+  ],
+  "autoReferenced": false,
+  "noEngineReferences": true
+}

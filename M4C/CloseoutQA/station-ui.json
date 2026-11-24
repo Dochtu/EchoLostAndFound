@@ -1,0 +1,44 @@
+{
+  "view": {
+    "fileID": "1413106555",
+    "type": "20",
+    "gameObject": "Player view",
+    "scriptGUID": null
+  },
+  "hud": {
+    "fileID": "725754037",
+    "type": "114",
+    "gameObject": "Station HUD",
+    "scriptGUID": "a00fd6f55b8508a4bb9034cf241c2554"
+  },
+  "prompt": {
+    "fileID": "607878905",
+    "type": "114",
+    "gameObject": "Label",
+    "scriptGUID": "f4688fdb7df04437aeb418b961361dc5"
+  },
+  "heading": {
+    "fileID": "1677136375",
+    "type": "114",
+    "gameObject": "Label",
+    "scriptGUID": "f4688fdb7df04437aeb418b961361dc5"
+  },
+  "description": {
+    "fileID": "1003116102",
+    "type": "114",
+    "gameObject": "Label",
+    "scriptGUID": "f4688fdb7df04437aeb418b961361dc5"
+  },
+  "sheet": {
+    "fileID": "986687626",
+    "type": "1",
+    "gameObject": "Inspection",
+    "scriptGUID": null
+  },
+  "reticle": {
+    "fileID": "252374523",
+    "type": "1",
+    "gameObject": "Label",
+    "scriptGUID": null
+  }
+}

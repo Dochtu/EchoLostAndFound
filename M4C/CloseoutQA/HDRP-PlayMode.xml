@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Failed(Child)" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-24 01:45:56Z" end-time="2026-11-24 01:45:59Z" duration="3.1074562">
+  <test-suite type="TestSuite" id="1014" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-11-24 01:45:56Z" end-time="2026-11-24 01:45:59Z" duration="3.107456" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1007" name="M2PlayTests.dll" fullname="F:/EchoM4C-QA-HDRP-20261124/Library/ScriptAssemblies/M2PlayTests.dll" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-11-24 01:45:56Z" end-time="2026-11-24 01:45:59Z" duration="3.100784" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="24112" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1008" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-11-24 01:45:56Z" end-time="2026-11-24 01:45:59Z" duration="3.099966" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1009" name="QA" fullname="EchoLostAndFound.QA" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-11-24 01:45:56Z" end-time="2026-11-24 01:45:59Z" duration="3.099488" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1001" name="M2PlayTests" fullname="EchoLostAndFound.QA.M2PlayTests" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-11-24 01:45:56Z" end-time="2026-11-24 01:45:59Z" duration="3.098367" total="5" passed="2" failed="3" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1005" name="AllFourMovementKeysFollowThePlayersHeading" fullname="EchoLostAndFound.QA.M2PlayTests.AllFourMovementKeysFollowThePlayersHeading" methodname="AllFourMovementKeysFollowThePlayersHeading" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="1683230799" result="Failed" start-time="2026-11-24 01:45:56Z" end-time="2026-11-24 01:45:57Z" duration="1.264049" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  W
+  Expected: greater than 0.0250000004f
+  But was:  0.0f
+]]></message>
+                <stack-trace><![CDATA[at EchoLostAndFound.QA.M2PlayTests+<<AllFourMovementKeysFollowThePlayersHeading>g__StepKey|13_0>d.MoveNext () [0x000bc] in F:\EchoM4C-QA-HDRP-20261124\Assets\_Project\Tests\M2\PlayMode\M2PlayTests.cs:167
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1004" name="CapsuleWalksBothDoorwaysReturnsAndCannotCrossWestHallWall" fullname="EchoLostAndFound.QA.M2PlayTests.CapsuleWalksBothDoorwaysReturnsAndCannotCrossWestHallWall" methodname="CapsuleWalksBothDoorwaysReturnsAndCannotCrossWestHallWall" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="1094530980" result="Passed" start-time="2026-11-24 01:45:57Z" end-time="2026-11-24 01:45:57Z" duration="0.483296" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="ProbeHonoursSurfaceDistanceNearestHitAndBlockingGlass" fullname="EchoLostAndFound.QA.M2PlayTests.ProbeHonoursSurfaceDistanceNearestHitAndBlockingGlass" methodname="ProbeHonoursSurfaceDistanceNearestHitAndBlockingGlass" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="1739383266" result="Passed" start-time="2026-11-24 01:45:57Z" end-time="2026-11-24 01:45:58Z" duration="0.438198" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="ReachAllFourAuthoredTargetsFromPlayableEyeHeight" fullname="EchoLostAndFound.QA.M2PlayTests.ReachAllFourAuthoredTargetsFromPlayableEyeHeight" methodname="ReachAllFourAuthoredTargetsFromPlayableEyeHeight" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="1826307887" result="Failed" start-time="2026-11-24 01:45:58Z" end-time="2026-11-24 01:45:58Z" duration="0.457168" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Aim at (-9.83, 1.06, -4.45)
+  Expected: "怀表"
+  But was:  null
+]]></message>
+                <stack-trace><![CDATA[at EchoLostAndFound.QA.M2PlayTests+<<ReachAllFourAuthoredTargetsFromPlayableEyeHeight>g__AimAndOpen|8_0>d.MoveNext () [0x0010f] in F:\EchoM4C-QA-HDRP-20261124\Assets\_Project\Tests\M2\PlayMode\M2PlayTests.cs:89
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1006" name="RealInputDrivesPlayerButStopsDuringPreviewAndDialogue" fullname="EchoLostAndFound.QA.M2PlayTests.RealInputDrivesPlayerButStopsDuringPreviewAndDialogue" methodname="RealInputDrivesPlayerButStopsDuringPreviewAndDialogue" classname="EchoLostAndFound.QA.M2PlayTests" runstate="Runnable" seed="1357429298" result="Failed" start-time="2026-11-24 01:45:58Z" end-time="2026-11-24 01:45:59Z" duration="0.444391" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: greater than 0.0250000004f
+  But was:  0.0f
+]]></message>
+                <stack-trace><![CDATA[at EchoLostAndFound.QA.M2PlayTests+<RealInputDrivesPlayerButStopsDuringPreviewAndDialogue>d__14.MoveNext () [0x000bf] in F:\EchoM4C-QA-HDRP-20261124\Assets\_Project\Tests\M2\PlayMode\M2PlayTests.cs:184
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@bd7f943e9647\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[Saving results to: C:/Users/10509/AppData/LocalLow/DefaultCompany/EchoLostAndFound\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

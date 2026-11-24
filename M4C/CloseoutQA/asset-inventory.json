@@ -1,0 +1,14 @@
+{
+  "HDRP": {
+    "missing_meta": [],
+    "dangling_meta": []
+  },
+  "URP": {
+    "missing_meta": [],
+    "dangling_meta": []
+  },
+  "hdrp_source_compare": {
+    "source_asset_file_count": 743,
+    "different_files": []
+  }
+}

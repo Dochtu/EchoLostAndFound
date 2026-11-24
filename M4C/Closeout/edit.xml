@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="15" result="Passed" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:45Z" duration="0.2411093">
+  <test-suite type="TestSuite" id="1000" name="EchoLostAndFound WebGL" fullname="EchoLostAndFound WebGL" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:45Z" duration="0.241109" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1019" name="M3A.EditMode.dll" fullname="G:/projects/EchoLostAndFound/Builds/M4C-Closeout-URP/Library/ScriptAssemblies/M3A.EditMode.dll" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:45Z" duration="0.233294" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="40748" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1020" name="EchoLostAndFound" fullname="EchoLostAndFound" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:45Z" duration="0.232896" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1021" name="QA" fullname="EchoLostAndFound.QA" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:45Z" duration="0.232746" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="M4AInvestigationTests" fullname="EchoLostAndFound.QA.M4AInvestigationTests" classname="EchoLostAndFound.QA.M4AInvestigationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:44Z" duration="0.083703" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1003" name="PresentationHonoursMaterialAndNpcAndUnlocksD01OnlyOnce" fullname="EchoLostAndFound.QA.M4AInvestigationTests.PresentationHonoursMaterialAndNpcAndUnlocksD01OnlyOnce" methodname="PresentationHonoursMaterialAndNpcAndUnlocksD01OnlyOnce" classname="EchoLostAndFound.QA.M4AInvestigationTests" runstate="Runnable" seed="539395785" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:44Z" duration="0.056622" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="TimeoutPreservesNodeAndSnapshotAndRestoreRejectsInvalidEvidence" fullname="EchoLostAndFound.QA.M4AInvestigationTests.TimeoutPreservesNodeAndSnapshotAndRestoreRejectsInvalidEvidence" methodname="TimeoutPreservesNodeAndSnapshotAndRestoreRejectsInvalidEvidence" classname="EchoLostAndFound.QA.M4AInvestigationTests" runstate="Runnable" seed="2031848340" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:44Z" duration="0.007909" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="WatchNeedsAllFiveFieldsAndRecheckingEmitsNoDuplicateEvents" fullname="EchoLostAndFound.QA.M4AInvestigationTests.WatchNeedsAllFiveFieldsAndRecheckingEmitsNoDuplicateEvents" methodname="WatchNeedsAllFiveFieldsAndRecheckingEmitsNoDuplicateEvents" classname="EchoLostAndFound.QA.M4AInvestigationTests" runstate="Runnable" seed="1129643963" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:44Z" duration="0.005433" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1005" name="M4CInvestigationTests" fullname="EchoLostAndFound.QA.M4CInvestigationTests" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:45Z" duration="0.029261" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1012" name="D02HasOneBranchPerNpcAndConsumesE03AndE04" fullname="EchoLostAndFound.QA.M4CInvestigationTests.D02HasOneBranchPerNpcAndConsumesE03AndE04" methodname="D02HasOneBranchPerNpcAndConsumesE03AndE04" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="189415432" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:44Z" duration="0.003100" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="D03NeedsE01AndE05AndNeverFiresTwice" fullname="EchoLostAndFound.QA.M4CInvestigationTests.D03NeedsE01AndE05AndNeverFiresTwice" methodname="D03NeedsE01AndE05AndNeverFiresTwice" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="79207110" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:44Z" duration="0.003285" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="EvidenceStillPersistsAndContentVersionIsChecked" fullname="EchoLostAndFound.QA.M4CInvestigationTests.EvidenceStillPersistsAndContentVersionIsChecked" methodname="EvidenceStillPersistsAndContentVersionIsChecked" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="1601299451" result="Passed" start-time="2026-11-24 01:39:44Z" end-time="2026-11-24 01:39:45Z" duration="0.004012" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="LinyaoOnlyRecognisesTheEngravingOnceTheWatchIsComplete" fullname="EchoLostAndFound.QA.M4CInvestigationTests.LinyaoOnlyRecognisesTheEngravingOnceTheWatchIsComplete" methodname="LinyaoOnlyRecognisesTheEngravingOnceTheWatchIsComplete" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="2117323493" result="Passed" start-time="2026-11-24 01:39:45Z" end-time="2026-11-24 01:39:45Z" duration="0.002800" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="PackageAndBinderOpenOnlyAfterTheSerialNumberIsObserved" fullname="EchoLostAndFound.QA.M4CInvestigationTests.PackageAndBinderOpenOnlyAfterTheSerialNumberIsObserved" methodname="PackageAndBinderOpenOnlyAfterTheSerialNumberIsObserved" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="1656010563" result="Passed" start-time="2026-11-24 01:39:45Z" end-time="2026-11-24 01:39:45Z" duration="0.002506" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="PickupInspectionNeedsTheFaultCardIndexNotTheFrontCard" fullname="EchoLostAndFound.QA.M4CInvestigationTests.PickupInspectionNeedsTheFaultCardIndexNotTheFrontCard" methodname="PickupInspectionNeedsTheFaultCardIndexNotTheFrontCard" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="699480897" result="Passed" start-time="2026-11-24 01:39:45Z" end-time="2026-11-24 01:39:45Z" duration="0.002237" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="SceneLabelsRouteOnlyWhenLabelAndKindMatch" fullname="EchoLostAndFound.QA.M4CInvestigationTests.SceneLabelsRouteOnlyWhenLabelAndKindMatch" methodname="SceneLabelsRouteOnlyWhenLabelAndKindMatch" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="2146253026" result="Passed" start-time="2026-11-24 01:39:45Z" end-time="2026-11-24 01:39:45Z" duration="0.002744" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="WatchPartsCanBeReadInAnyOrderAndRegisterE01WhenComplete" fullname="EchoLostAndFound.QA.M4CInvestigationTests.WatchPartsCanBeReadInAnyOrderAndRegisterE01WhenComplete" methodname="WatchPartsCanBeReadInAnyOrderAndRegisterE01WhenComplete" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="885381620" result="Passed" start-time="2026-11-24 01:39:45Z" end-time="2026-11-24 01:39:45Z" duration="0.003306" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="WholeChapterCanBeCollectedThroughSceneTargetsOnly" fullname="EchoLostAndFound.QA.M4CInvestigationTests.WholeChapterCanBeCollectedThroughSceneTargetsOnly" methodname="WholeChapterCanBeCollectedThroughSceneTargetsOnly" classname="EchoLostAndFound.QA.M4CInvestigationTests" runstate="Runnable" seed="1128322189" result="Passed" start-time="2026-11-24 01:39:45Z" end-time="2026-11-24 01:39:45Z" duration="0.003153" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1015" name="StationAcceptanceTests" fullname="EchoLostAndFound.QA.StationAcceptanceTests" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-24 01:39:45Z" end-time="2026-11-24 01:39:45Z" duration="0.118773" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1018" name="BothEntryPointsHaveDisplayableContentAndDistinctCommandIdentities" fullname="EchoLostAndFound.QA.StationAcceptanceTests.BothEntryPointsHaveDisplayableContentAndDistinctCommandIdentities" methodname="BothEntryPointsHaveDisplayableContentAndDistinctCommandIdentities" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" seed="1672929694" result="Passed" start-time="2026-11-24 01:39:45Z" end-time="2026-11-24 01:39:45Z" duration="0.002476" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="BuildStartsInStationWithInvestigatorAndBothInteractions" fullname="EchoLostAndFound.QA.StationAcceptanceTests.BuildStartsInStationWithInvestigatorAndBothInteractions" methodname="BuildStartsInStationWithInvestigatorAndBothInteractions" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" seed="502141894" result="Passed" start-time="2026-11-24 01:39:45Z" end-time="2026-11-24 01:39:45Z" duration="0.109503" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="InvestigationRayHonoursRangeAndCannotReachThroughStationWalls" fullname="EchoLostAndFound.QA.StationAcceptanceTests.InvestigationRayHonoursRangeAndCannotReachThroughStationWalls" methodname="InvestigationRayHonoursRangeAndCannotReachThroughStationWalls" classname="EchoLostAndFound.QA.StationAcceptanceTests" runstate="Runnable" seed="834191864" result="Passed" start-time="2026-11-24 01:39:45Z" end-time="2026-11-24 01:39:45Z" duration="0.005876" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/10509/AppData/LocalLow/Unity Technologies/EchoLostAndFound WebGL\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

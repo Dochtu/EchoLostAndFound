@@ -1,0 +1,18 @@
+#if UNITY_EDITOR
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+// Isolated HDRP QA copy only. Route synthetic test input to the unfocused batch Game view.
+internal static class BatchInputFocusDiagnostic
+{
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    private static void RouteInputToTestGameView()
+    {
+        Debug.Log("QA focus override; initial focus=" + Application.isFocused +
+                  ", initial editor routing=" + InputSystem.settings.editorInputBehaviorInPlayMode);
+        InputSystem.settings.editorInputBehaviorInPlayMode =
+            InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
+        InputSystem.settings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
+    }
+}
+#endif
