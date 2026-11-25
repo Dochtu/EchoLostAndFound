@@ -1,0 +1,4362 @@
+[
+  {
+    "path": ".codex/agents/ai-engineer.toml",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": ".codex/agents/art-director.toml",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": ".codex/agents/narrative-designer.toml",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": ".codex/agents/qa-engineer.toml",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": ".codex/agents/unity-engineer.toml",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": ".codex/config.toml",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": ".vsconfig",
+    "category": "构建及协作配置",
+    "decision": "exclude"
+  },
+  {
+    "path": "Deploy/.dockerignore",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Deploy/.gitignore",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Deploy/Dockerfile",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Deploy/README.md",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Deploy/build.ps1",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Deploy/docker-compose.yml",
+    "category": "构建及协作配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/CodexInterruptionAudit.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/03-npc-question.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/04-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/05-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/06-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/07-watch-dial.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/08-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/09-npc-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/10-npc-with-evidence.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/11-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/12-repeat-question.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/13-repeat-presentation.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/14-reloaded.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/15-persisted-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/browser/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/logs/logic-results.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/logs/takeover-final-EditMode.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/Evidence/logs/takeover-final-PlayMode.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/ExistingChangesInventory.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/HandoffToCodex.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/M4A_CompletionMatrix.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/M4A_Takeover_Report.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Docs/AgentHandoff/DSH/M4A_Takeover/TestResults.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_M3B_Delivery_2026-11-23.zip.sha256.txt",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "EchoLostAndFound_M4B_Delivery_2026-11-23.zip",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "EchoLostAndFound_M4B_Delivery_2026-11-23.zip.sha256.txt",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/Editor/ChapterFontBaker.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/Editor/ChapterFontBaker.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/Editor/ChineseFontBaker.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/Editor/ChineseFontBaker.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationApiClient.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationApiClient.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationChapterHud.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationChapterHud.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationDialogueBridge.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationDialogueBridge.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationInvestigation.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationInvestigation.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationInvestigationGates.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationInvestigationGates.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationTargets.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Station/StationTargets.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/Editor/M4AInvestigationTests.cs",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/Editor/M4AInvestigationTests.cs.meta",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/Editor/M4CChapterCloseoutTests.cs",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/Editor/M4CChapterCloseoutTests.cs.meta",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/Editor/M4CInvestigationTests.cs",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/Editor/M4CInvestigationTests.cs.meta",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode.meta",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode/M4A.PlayMode.asmdef",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode/M4A.PlayMode.asmdef.meta",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode/M4AStationPlayTests.cs",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode/M4AStationPlayTests.cs.meta",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode/M4CChapterCloseoutPlayTests.cs",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode/M4CChapterCloseoutPlayTests.cs.meta",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode/M4COnlinePlayTests.cs",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode/M4COnlinePlayTests.cs.meta",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode/M4CStationPlayTests.cs",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/Tests/PlayMode/M4CStationPlayTests.cs.meta",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M3B.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M3B/ch01_dialogue.json",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M3B/ch01_dialogue.json.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M3B/ch01_evidence.json",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M3B/ch01_evidence.json.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M3B/mock_ai_fixtures.json",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M3B/mock_ai_fixtures.json.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M4A.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M4A/StationChinese SDF.asset",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M4A/StationChinese SDF.asset.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M4A/StationChinese.ttf",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M4A/StationChinese.ttf.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M4CChapterFont.asset",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Resources/M4CChapterFont.asset.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/DialogueSystem.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueCatalogJson.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueCatalogJson.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueEngine.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueEngine.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueModel.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueModel.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/DialogueSystem/EchoLostAndFound.Dialogue.asmdef",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/DialogueSystem/EchoLostAndFound.Dialogue.asmdef.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EchoLostAndFound.Evidence.asmdef",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EchoLostAndFound.Evidence.asmdef.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceCatalogJson.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceCatalogJson.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceModel.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceModel.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceRegistry.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceRegistry.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceSnapshot.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceSnapshot.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceViews.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceViews.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/MockAIProvider.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/MockAIProvider/EchoLostAndFound.MockAi.asmdef",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/MockAIProvider/EchoLostAndFound.MockAi.asmdef.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/MockAIProvider/LlmBackedNpcAiProvider.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/MockAIProvider/LlmBackedNpcAiProvider.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/MockAIProvider/MockAiModels.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/MockAIProvider/MockAiModels.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/MockAIProvider/MockAiProvider.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/MockAIProvider/MockAiProvider.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Ai.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Ai/NpcAiContracts.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Ai/NpcAiContracts.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Contracts.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Contracts/GameContractException.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Contracts/GameContractException.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Contracts/IEvidenceStateView.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Contracts/IEvidenceStateView.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/EchoLostAndFound.Shared.asmdef",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/EchoLostAndFound.Shared.asmdef.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json/JsonContract.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json/JsonContract.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json/JsonDataException.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json/JsonDataException.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json/JsonReader.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json/JsonReader.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json/JsonValue.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json/JsonValue.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json/JsonWriter.cs",
+    "category": "Unity 源码及数据",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/Assets/_Project/Scripts/M3B/Shared/Json/JsonWriter.cs.meta",
+    "category": "Unity 资源及 .meta",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/ProjectSettings/PackageManager.policy",
+    "category": "Unity 项目配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "EchoLostAndFound_WebGL/ProjectSettings/SceneTemplateSettings.json",
+    "category": "Unity 项目配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets.sha256",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Contracts.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Contracts/EchoLostAndFound.WebGL.Contracts.asmdef",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Contracts/EchoLostAndFound.WebGL.Contracts.asmdef.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Contracts/Resources.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Contracts/Resources/M3A.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Contracts/Resources/M3A/StationPreview.json",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Contracts/Resources/M3A/StationPreview.json.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Contracts/StationContracts.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Contracts/StationContracts.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/DefaultVolumeProfile.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/DefaultVolumeProfile.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/Mobile_RPAsset.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/Mobile_RPAsset.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/Mobile_Renderer.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/Mobile_Renderer.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/PC_RPAsset.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/PC_RPAsset.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/PC_Renderer.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/PC_Renderer.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/SampleSceneProfile.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/SampleSceneProfile.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Editor.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Editor/SceneSetup.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Editor/SceneSetup.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Editor/Station.Editor.asmdef",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Editor/Station.Editor.asmdef.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/M2Interactable.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/M2Interactable.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials/Brass.mat",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials/Brass.mat.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials/Enamel.mat",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials/Enamel.mat.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials/Porcelain.mat",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials/Porcelain.mat.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials/Stone.mat",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials/Stone.mat.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials/Timber.mat",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Materials/Timber.mat.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Models.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Models/EvidenceWatch.fbx",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Models/EvidenceWatch.fbx.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Models/HallSettee_LOD2.fbx",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Models/HallSettee_LOD2.fbx.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Models/StationVisitor.fbx",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Models/StationVisitor.fbx.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Scenes.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Scenes/Station.unity",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Scenes/Station.unity.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Station.Runtime.asmdef",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/Station.Runtime.asmdef.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/StationHud.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/StationHud.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/StationInput.inputactions",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/StationInput.inputactions.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/StationInvestigation.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/StationPlayer.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Station/StationPlayer.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/Editor.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/Editor/M3A.EditMode.asmdef",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/Editor/M3A.EditMode.asmdef.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/Editor/M4AInvestigationTests.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/Editor/M4AInvestigationTests.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/Editor/StationAcceptanceTests.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/Editor/StationAcceptanceTests.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/PlayMode.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/PlayMode/M4A.PlayMode.asmdef",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/PlayMode/M4A.PlayMode.asmdef.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/PlayMode/M4AStationPlayTests.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/Tests/PlayMode/M4AStationPlayTests.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Fonts.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Fonts/LiberationSans.ttf",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Fonts & Materials.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Sprite Assets.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Style Sheets.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/TMP Settings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMPro.cginc",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Sprites.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Sprites/EmojiOne.json",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Sprites/EmojiOne.png",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Editor.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Editor/WebGLBuildEntry.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Editor/WebGLBuildEntry.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Resources.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Resources/M3B.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Resources/M3B/ch01_dialogue.json",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Resources/M3B/ch01_dialogue.json.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Resources/M3B/ch01_evidence.json",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Resources/M3B/ch01_evidence.json.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Resources/M3B/mock_ai_fixtures.json",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Resources/M3B/mock_ai_fixtures.json.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/DialogueSystem.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueCatalogJson.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueCatalogJson.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueEngine.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueEngine.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueModel.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/DialogueSystem/DialogueModel.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/DialogueSystem/EchoLostAndFound.Dialogue.asmdef",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/DialogueSystem/EchoLostAndFound.Dialogue.asmdef.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EchoLostAndFound.Evidence.asmdef",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EchoLostAndFound.Evidence.asmdef.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceCatalogJson.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceCatalogJson.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceModel.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceModel.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceRegistry.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceRegistry.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceSnapshot.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceSnapshot.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceViews.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/EvidenceSystem/EvidenceViews.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/MockAIProvider.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/MockAIProvider/EchoLostAndFound.MockAi.asmdef",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/MockAIProvider/EchoLostAndFound.MockAi.asmdef.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/MockAIProvider/LlmBackedNpcAiProvider.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/MockAIProvider/LlmBackedNpcAiProvider.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/MockAIProvider/MockAiModels.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/MockAIProvider/MockAiModels.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/MockAIProvider/MockAiProvider.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/MockAIProvider/MockAiProvider.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Ai.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Ai/NpcAiContracts.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Ai/NpcAiContracts.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Contracts.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Contracts/GameContractException.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Contracts/GameContractException.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Contracts/IEvidenceStateView.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Contracts/IEvidenceStateView.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/EchoLostAndFound.Shared.asmdef",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/EchoLostAndFound.Shared.asmdef.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json/JsonContract.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json/JsonContract.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json/JsonDataException.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json/JsonDataException.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json/JsonReader.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json/JsonReader.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json/JsonValue.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json/JsonValue.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json/JsonWriter.cs",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Assets/_Project/Scripts/M3B/Shared/Json/JsonWriter.cs.meta",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Packages/manifest.json",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/Packages/packages-lock.json",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/AudioManager.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/ClusterInputManager.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/DynamicsManager.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/EditorBuildSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/EditorSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/GraphicsSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/InputManager.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/MemorySettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/MultiplayerManager.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/NavMeshAreas.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/PackageManagerSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/Physics2DSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/PresetManager.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/ProjectSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/ProjectVersion.txt",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/QualitySettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/ShaderGraphSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/TagManager.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/TimeManager.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/URPProjectSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/UnityConnectSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/VFXManager.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/VersionControlSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-Backups/WebGL-before-DSH-20261123-190008/ProjectSettings/XRSettings.asset",
+    "category": "历史备份及交付包",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-QA/Logs/codex-unstaged.diff",
+    "category": "临时诊断输出",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4A-QA/Logs/logic-results.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/Logs/takeover-editmode.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/Logs/takeover-final-EditMode.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/Logs/takeover-final-PlayMode.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/Logs/takeover-playmode-2.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/Logs/takeover-playmode.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/Scripts/font-chars.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/Scripts/inspect-font.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/Scripts/m4a-e2e.mjs",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/Scripts/make-font.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/Scripts/otf-to-ttf.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/03-npc-question.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/04-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/05-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/06-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/07-watch-dial.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/08-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/09-npc-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/10-npc-with-evidence.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/11-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/12-repeat-question.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/13-repeat-presentation.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/14-reloaded.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/15-persisted-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/final-01/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/03-npc-question.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/04-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/05-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/06-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/07-watch-dial.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/08-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/09-npc-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/10-npc-with-evidence.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/11-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/12-repeat-question.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192250/failure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/03-npc-question.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/04-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/05-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/06-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/07-watch-dial.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/08-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/09-npc-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/10-npc-with-evidence.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/11-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/12-repeat-question.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192421/failure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/03-npc-question.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/04-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/05-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/06-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/07-watch-dial.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/08-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/09-npc-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/10-npc-with-evidence.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/11-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/12-repeat-question.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/13-repeat-presentation.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/14-reloaded.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/15-persisted-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-192525/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-20261123-191828/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4A-QA/e2e/run-20261123-191828/failure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/Closeout/browser-01/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-01/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-01/03-bag-confirmation.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-01/04-bag-settlement.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-01/05-owner-conclusion.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-01/06-temporary-receipt.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-01/07-handover-settlement.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-01/08-persisted-settlement.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-01/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-offline/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-offline/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-offline/03-probe-offline.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-offline/04-offline-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-offline/04-offline-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-offline/05-offline-refusal.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-offline/06-offline-e01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-offline/07-offline-persisted.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-offline/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/03-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/03-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/04-free-text-timeout-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/04-free-text-timeout-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/05-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/06-watch-parts.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/07-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/08-package-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/09-package-e03.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/10-binder.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/11-binder-e04.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/12-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/13-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/14-cabinet-index.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/15-cabinet-e05.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/16-npc-return.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/17-mock-reply-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/17-mock-reply-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/18-d01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/19-d02-mirror.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/20-d03-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/21-linyao-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/22-linyao-engraving.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/23-linyao-d02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online-final/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/03-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/03-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/04-free-text-timeout-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/04-free-text-timeout-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/05-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/06-watch-parts.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/07-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/08-package-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/09-package-e03.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/10-binder.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/11-binder-e04.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/12-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/13-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/14-cabinet-index.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/15-cabinet-e05.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/16-npc-return.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/17-mock-reply-failed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/17-mock-reply-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/17-mock-reply-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/18-d01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/19-d02-mirror.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/20-d03-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/21-linyao-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/22-linyao-engraving.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/23-linyao-d02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-online/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-resume/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-resume/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-resume/03-probe-resume.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-resume/04-resume-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-resume/04-resume-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-resume/05-resume-d01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/browser-resume/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/build-verification.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/edit.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/edit2.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/final-EditMode.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/final-PlayMode.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/git-final.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/git-initial.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/offline-service.err",
+    "category": "临时诊断输出",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4C/Closeout/offline-service.out",
+    "category": "临时诊断输出",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4C/Closeout/play2.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/server-tests-final.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Closeout/server-tests.txt",
+    "category": "临时诊断输出",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4C/Closeout/service.err",
+    "category": "临时诊断输出",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4C/Closeout/service.out",
+    "category": "临时诊断输出",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4C/CloseoutQA/HDRP-EditMode.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/CloseoutQA/HDRP-PlayMode-60hz.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/CloseoutQA/HDRP-PlayMode-focus.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/CloseoutQA/HDRP-PlayMode.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/CloseoutQA/HDRP-batch-input-60hz.cs.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/CloseoutQA/HDRP-batch-input.cs.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/CloseoutQA/asset-inventory.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/CloseoutQA/historical-editor-summary.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/CloseoutQA/reference-audit.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/CloseoutQA/station-ui.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/03-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/03-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/04-free-text-timeout-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/04-free-text-timeout-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/05-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/06-watch-parts.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/07-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/08-package-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/09-package-e03.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/10-binder.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/11-binder-e04.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/12-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/13-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/14-cabinet-index.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/15-cabinet-e05.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/16-npc-return.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/17-mock-reply-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/17-mock-reply-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/18-d01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/19-d02-mirror.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/20-d03-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/21-linyao-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/22-linyao-engraving.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/23-linyao-d02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/container-01/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/03-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/03-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/04-free-text-timeout-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/04-free-text-timeout-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/05-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/06-watch-parts.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/07-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/08-package-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-01/failure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/03-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/03-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/04-free-text-timeout-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/04-free-text-timeout-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/05-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/06-watch-parts.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/07-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/08-package-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/09-package-e03.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/10-binder.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/11-binder-e04.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/12-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/13-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/14-cabinet-index.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/15-cabinet-e05.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/16-npc-return.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/17-mock-reply-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/17-mock-reply-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/18-d01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/19-d02-mirror.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/20-d03-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/21-linyao-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/22-linyao-engraving.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/23-linyao-d02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/gpu-02/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/offline-01/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-01/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-01/03-probe-offline.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-01/04-offline-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-01/04-offline-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-01/05-offline-refusal.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-01/06-offline-e01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-01/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-01/failure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-02/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-02/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-02/03-probe-offline.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-02/04-offline-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-02/04-offline-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-02/05-offline-refusal.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-02/06-offline-e01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-02/07-offline-persisted.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-02/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/offline-03/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/offline-03/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/offline-03/03-probe-offline.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/offline-03/04-offline-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/offline-03/04-offline-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/offline-03/05-offline-refusal.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/offline-03/06-offline-e01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/offline-03/07-offline-persisted.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/offline-03/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-01/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-01/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-01/03-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-01/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-01/failure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/03-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/03-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/04-free-text-timeout-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/04-free-text-timeout-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/05-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/06-watch-parts.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/07-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/08-package-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-02/failure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/03-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/03-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/04-free-text-timeout-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/04-free-text-timeout-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/05-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/06-watch-parts.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/07-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/08-package-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/09-package-e03.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/10-binder.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/11-binder-e04.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/12-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/13-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/14-cabinet-index.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/15-cabinet-e05.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/16-npc-return.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/17-mock-reply-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/17-mock-reply-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/20-npc-disclosure-failed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/21-linyao-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/22-linyao-engraving.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/23-linyao-d02.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-03/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/03-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/03-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/04-free-text-timeout-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/04-free-text-timeout-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/05-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/06-watch-parts.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/07-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/08-package-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/09-package-e03.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/10-binder.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/11-binder-e04.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/12-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/13-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/14-cabinet-index.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/15-cabinet-e05.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/16-npc-return.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/17-mock-reply-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/17-mock-reply-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/18-d01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/19-d02-mirror.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/20-d03-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/21-linyao-approach.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/22-linyao-engraving.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/23-linyao-d02.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-04/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/online-05/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/03-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/03-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/04-free-text-timeout-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/04-free-text-timeout-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/05-watch-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/06-watch-parts.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/07-watch-e01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/08-package-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/09-package-e03.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/10-binder.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/11-binder-e04.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/12-cabinet-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/13-cabinet-e02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/14-cabinet-index.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/15-cabinet-e05.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/16-npc-return.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/17-mock-reply-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/17-mock-reply-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/18-d01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/19-d02-mirror.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/20-d03-disclosure.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/21-linyao-approach.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/22-linyao-engraving.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/23-linyao-d02.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/online-05/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/probe-typing-01/01-focused.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/probe-typing-01/02-S1-ascii-keydown.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/probe-typing-01/02-S2-ascii-char.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/probe-typing-01/02-S3-chinese-char.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/probe-typing-01/02-S4-ime-composition.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/probe-typing-01/02-S5-hidden-input.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/probe-typing-01/03-final.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/probe-typing-01/probe.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-01/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-01/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-01/03-probe-resume.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-01/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-01/failure.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-02/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-02/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-02/03-probe-resume.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-02/04-resume-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-02/04-resume-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-02/05-resume-d01.png",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-02/browser.json",
+    "category": "测试及验收材料",
+    "decision": "backup-only"
+  },
+  {
+    "path": "M4C/E2E/resume-03/01-station.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/resume-03/02-npc-opening.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/resume-03/03-probe-resume.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/resume-03/04-resume-free-text-reply.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/resume-03/04-resume-free-text-typed.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/resume-03/05-resume-d01.png",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/E2E/resume-03/browser.json",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/c1-http-smoke.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/c1-isolation-smoke.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/editmode-results.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/playmode-online-results.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/playmode-results.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/playmode-results2.xml",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/pytest-m4c-verbose.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/static-8080.err",
+    "category": "临时诊断输出",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4C/Logs/static-8080.out",
+    "category": "临时诊断输出",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4C/Logs/uvicorn-c1-isolation.log.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/uvicorn-c1-isolation.out.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/uvicorn-c1-smoke.out.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/uvicorn-c1-smoke.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Logs/uvicorn-unified-8790.err",
+    "category": "临时诊断输出",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4C/Logs/uvicorn-unified-8790.out",
+    "category": "临时诊断输出",
+    "decision": "exclude"
+  },
+  {
+    "path": "M4C/Scripts/m4c-e2e.mjs",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C/Scripts/probe-typing.mjs",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_CompletionMatrix.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_CompletionMatrix_Updated.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_Delivery_Report.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_FileChanges.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_FileChanges_Updated.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_HandoffToCodex.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_Handoff_Report.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_ModelScope_Preflight.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_Remaining_Tasks_Report.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_TestResults.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_TestResults_Updated.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_WebGL_Report.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "M4C_WebGL_Verification.md",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/.dockerignore",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/.env.example",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/.gitignore",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/API_CONTRACT.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/DEPLOYMENT.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/Dockerfile",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/Dockerfile.modelscope",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/HandoffToCodex_M4B.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/README.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/TEST_RESULTS.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/UnityIntegrationGuide.md",
+    "category": "设计及项目文档",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/__init__.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/config.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/content.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/content/ch01_dialogue.json",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/content/ch01_evidence.json",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/content/mock_ai_fixtures.json",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/errors.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/logging_utils.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/main.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/middleware.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/policy.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/providers/__init__.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/providers/base.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/providers/factory.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/providers/llm_provider.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/providers/mock_provider.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/rate_limit.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/schemas.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/security.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/sessions.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/app/static_site.py",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/docker-compose.yml",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/pytest-verbose.txt",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/pytest.ini",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/requirements-dev.txt",
+    "category": "后端源码及配置",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/conftest.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_concurrency.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_content.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_contract.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_evidence.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_guards.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_integration.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_isolation.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_llm.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_providers.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_public_safety.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_request_id.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_security.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_sessions.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "Server/tests/test_static_site.py",
+    "category": "测试及验收材料",
+    "decision": "baseline"
+  },
+  {
+    "path": "acl-recovery/acl-backup-74636473a77a428987271a7564f7009a.json",
+    "category": "本机私有配置",
+    "decision": "exclude"
+  },
+  {
+    "path": "acl-recovery/acl-backup-74636473a77a428987271a7564f7009a.json.ps1",
+    "category": "本机私有配置",
+    "decision": "exclude"
+  },
+  {
+    "path": "acl-recovery/acl-report-c3a1434c98c142a8889678179feede24.jsonl",
+    "category": "本机私有配置",
+    "decision": "exclude"
+  },
+  {
+    "path": "profile",
+    "category": "本机私有配置",
+    "decision": "exclude"
+  }
+]

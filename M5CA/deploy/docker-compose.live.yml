@@ -1,0 +1,57 @@
+name: m5ca-live
+
+services:
+  fake-llm:
+    image: python:3.12-slim
+    command: ["python", "/srv/fake_llm_server.py", "--port", "9000"]
+    volumes:
+      - ./fake_llm:/srv:ro
+    ports:
+      - "19000:9000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:9000/healthz', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 3s
+    restart: "no"
+
+  live:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: echolostfound-m5ca:local
+    depends_on:
+      fake-llm:
+        condition: service_healthy
+    environment:
+      APP_ENTRY_MODE: live
+      MODEL_PROVIDER: llm
+      LLM_BASE_URL: http://fake-llm:9000/v1
+      LLM_API_KEY: local-fake-key-not-a-real-secret
+      LLM_MODEL: fake-model
+      LLM_REQUEST_LIMIT: "30"
+      LLM_REQUEST_LIMIT_PER_SESSION: "8"
+      LLM_MAX_CONCURRENCY: "2"
+      LLM_MAX_OUTPUT_TOKENS: "220"
+      LLM_INPUT_MAX_CHARS: "800"
+      AI_TIMEOUT_MS: "3000"
+      LLM_BREAKER_THRESHOLD: "50"
+      LLM_BREAKER_COOLDOWN_SECONDS: "10"
+      TRUST_FORWARDED_FOR: "false"
+      RATE_LIMIT_PER_MINUTE: "300"
+      RATE_LIMIT_BURST: "100"
+      CLIENT_RATE_LIMIT_PER_MINUTE: "300"
+      CLIENT_RATE_LIMIT_BURST: "100"
+      SESSION_TURN_RATE_PER_MINUTE: "300"
+      SESSION_TURN_RATE_BURST: "100"
+      NEW_SESSION_RATE_PER_MINUTE: "300"
+      NEW_SESSION_RATE_BURST: "100"
+    ports:
+      - "18081:7860"
+    volumes:
+      - live_local:/app/.local
+    restart: "no"
+
+volumes:
+  live_local:

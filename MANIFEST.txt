@@ -1,0 +1,52 @@
+﻿M5-C-A-R1 交付清单（MANIFEST）
+生成时间：2026-11-25T14:00+08:00
+分支：m5c-a-dev    基线 HEAD：4c51712c362e18bfcf9215cea766e61731773c74
+真实模型调用：0 次    魔粒消耗：0    线上创空间：未触碰
+
+一、交付包（仓库根目录，SHA256 见 M5CAR1_Package_SHA256.txt）
+
+33330204e586734a8f227f945d98debc881fe3e24ba657f78895565103887bc6  ServerSource.zip
+  74 个文件，165815 字节；Server/ 源码、测试、工具、配置、部署文件；已剔除 .venv、缓存、私有库
+839e98d56abbde83f688ee1f0ce485949d056b6ee8c237341526f9735d755f8d  DeploymentCandidate.zip
+  40 个文件，92332 字节；app/ + requirements + 两个 Dockerfile + compose + .env.example + DEPLOY_R1.md
+64f27d3d181224ffb330c2dde74b951b50fdb611557dbfb829d3c075e2bbde4e  M5CAR1_Reports.zip
+  75 个文件，221031 字节；报告 + evidence + tools + e2e + deploy + MANIFEST.txt
+0e408df23251b1e4bdc56bdb6bfd44d83e8a41c3693f86dbfa0e87b8d2ae9bb2  M5CAR1_LocalWebGLCandidate_20261125-1400.zip
+  17 个文件，20861535 字节；本地 WebGL 联调候选，构建版本 M4C-Closeout-Player（Unity 6000.3.29f1）
+
+二、报告（M5CAR1/reports/）
+
+M5CAR1_Delivery_Report.md
+M5CAR1_CompletionMatrix.md
+M5CAR1_SecurityReview.md
+M5CAR1_Budget_TestResults.md
+M5CAR1_Integration_TestResults.md
+M5CAR1_ModelScope_Preflight.md
+M5CAR1_Handoff.md
+browser_smoke_report.md
+
+三、文件级哈希
+
+报告包内逐文件 SHA256 见 M5CAR1/MANIFEST.txt（同时位于 M5CAR1_Reports.zip 内）。
+源码清单见 M5CAR1/evidence/git/source_sha256.txt。
+本地 WebGL 候选构建清单见 M5CAR1/evidence/browser/build_manifest.sha256。
+曾被替换重打的旧包保留在 M5CAR1/evidence/packages/superseded-1358/1359/1400/（未删除、未随包分发）。
+
+四、验证结果摘要
+
+pytest：278 通过 / 0 失败 / 0 跳过（M5CAR1/evidence/tests/junit_r1.xml）
+进程级 E2E：25/25 通过，退出码 0（M5CAR1/evidence/e2e/e2e_r1_results.json）
+Docker：镜像构建、容器启动、health 200 通过（M5CAR1/evidence/e2e/docker_r1.log）
+敏感信息扫描：227 候选 / 143 文本 / 0 命中（M5CAR1/evidence/security/secret_scan.json）
+浏览器：资源加载与客户端调用 /api/v1/meta 200 已验证；游戏内渲染与玩法未验证
+
+五、明确未包含
+
+Server/.venv/**、Server/.local/**、M5CAR1/evidence/e2e/state/*.sqlite3（5 个私有账本）、
+浏览器 profile、真实 API Key / Token / Cookie、任何 Unity 工程文件与美术资源。
+
+六、未执行的授权动作
+
+本地 Git 提交（精确清单见 M5CAR1/evidence/git/commit_file_list.txt，146 个文件）。
+
+

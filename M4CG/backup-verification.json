@@ -1,0 +1,15 @@
+{
+  "branch": "codex/m4c-g-baseline-20261124",
+  "commit": "fdd2ffdcf4283f22e7bdf68662bb082b4d23d55d",
+  "parent": "4c51712c362e18bfcf9215cea766e61731773c74",
+  "tree": "202f4544a28a9cd4398c2cd8caa55b7682bca811",
+  "archive": "F:\\EchoLostAndFound-Baselines\\M4CG-20261124\\M4C-project.zip",
+  "files": 1859,
+  "archive_bytes": 386470279,
+  "archive_sha256": "1ba8164873a779c1a1c1ab9726d92363138e32d17da16b96c3a4224761021aca",
+  "bundle_sha256": "0a12d2f707092fdfd051d162ce540d9953a498b8b62978f58091f38f9899a241",
+  "baseline_files": 1618,
+  "git_eol_normalized": 1077,
+  "archive_full_restore": true,
+  "bundle_clone_and_fsck": true
+}

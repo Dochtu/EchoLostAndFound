@@ -1,0 +1,22 @@
+name: m5ca
+
+services:
+  mock:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: echolostfound-m5ca:local
+    environment:
+      APP_ENTRY_MODE: mock
+      MODEL_PROVIDER: mock
+      RATE_LIMIT_PER_MINUTE: "300"
+      RATE_LIMIT_BURST: "100"
+      CLIENT_RATE_LIMIT_PER_MINUTE: "300"
+      CLIENT_RATE_LIMIT_BURST: "100"
+      SESSION_TURN_RATE_PER_MINUTE: "300"
+      SESSION_TURN_RATE_BURST: "100"
+      NEW_SESSION_RATE_PER_MINUTE: "300"
+      NEW_SESSION_RATE_BURST: "100"
+    ports:
+      - "18080:7860"
+    restart: "no"

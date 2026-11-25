@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-11-25T14:00:23+08:00",
+  "server_source": {
+    "path": "ServerSource.zip",
+    "files": 74,
+    "bytes": 165815,
+    "sha256": "33330204e586734a8f227f945d98debc881fe3e24ba657f78895565103887bc6"
+  },
+  "deployment_candidate": {
+    "path": "DeploymentCandidate.zip",
+    "files": 40,
+    "bytes": 92332,
+    "sha256": "839e98d56abbde83f688ee1f0ce485949d056b6ee8c237341526f9735d755f8d"
+  },
+  "reports": {
+    "path": "M5CAR1_Reports.zip",
+    "files": 75,
+    "bytes": 221031,
+    "sha256": "64f27d3d181224ffb330c2dde74b951b50fdb611557dbfb829d3c075e2bbde4e"
+  },
+  "local_webgl_candidate": {
+    "path": "M5CAR1_LocalWebGLCandidate_20261125-1400.zip",
+    "files": 17,
+    "bytes": 20861535,
+    "sha256": "0e408df23251b1e4bdc56bdb6bfd44d83e8a41c3693f86dbfa0e87b8d2ae9bb2"
+  },
+  "excluded_private_state": [
+    "M5CAR1/evidence/e2e/state/broken.sqlite3",
+    "M5CAR1/evidence/e2e/state/dbg-tokens.log",
+    "M5CAR1/evidence/e2e/state/dbg-tokens.sqlite3",
+    "M5CAR1/evidence/e2e/state/live.sqlite3",
+    "M5CAR1/evidence/e2e/state/tight.sqlite3",
+    "M5CAR1/evidence/e2e/state/tokens.sqlite3"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "EchoLostAndFound.Shared",
+  "rootNamespace": "EchoLostAndFound.Shared",
+  "references": [],
+  "autoReferenced": false,
+  "noEngineReferences": true
+}

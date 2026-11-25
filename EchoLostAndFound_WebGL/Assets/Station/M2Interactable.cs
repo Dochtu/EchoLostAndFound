@@ -2,7 +2,8 @@ using UnityEngine;
 
 namespace EchoLostAndFound.M2
 {
-    public enum InteractionKind { Counter, Item, Npc }
+    // Values are serialized into the scene: append new kinds, never renumber.
+    public enum InteractionKind { Counter, Item, Npc, Document }
 
     public interface IInteractable
     {

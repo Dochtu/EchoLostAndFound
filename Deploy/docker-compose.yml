@@ -1,0 +1,25 @@
+services:
+  echo-lost-and-found:
+    build:
+      context: ./context
+      dockerfile: Dockerfile
+    image: echolostfound-unified:local
+    container_name: echolostfound-unified
+    ports:
+      - "7860:7860"
+    environment:
+      # 默认形态：不接真实模型，Mock 也能把第一章完整跑通。
+      MODEL_PROVIDER: mock
+      WEB_ROOT: /app/web
+      # 接入真实模型时，密钥只从运行环境注入（不要在镜像或仓库里出现明文）：
+      # MODEL_PROVIDER: llm
+      # LLM_BASE_URL: https://your-endpoint/v1/chat/completions
+      # LLM_MODEL: your-model
+      # LLM_API_KEY: ${LLM_API_KEY}
+      SESSION_TTL_SECONDS: "1800"
+      MAX_SESSIONS: "512"
+      RATE_LIMIT_PER_MINUTE: "60"
+      RATE_LIMIT_BURST: "20"
+      AI_TIMEOUT_MS: "12000"
+      LOG_LEVEL: INFO
+    restart: unless-stopped

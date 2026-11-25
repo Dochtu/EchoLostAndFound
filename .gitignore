@@ -98,3 +98,27 @@ llm-usage.sqlite3
 /.m5ca_tmp/
 # /M5CA/evidence/ is delivered inside the acceptance zip, not tracked in Git.
 /M5CA/evidence/
+
+# --- Large local build/work trees (reviewed 2026-11-25 before first remote push) --
+# Unity Library/Builds, MakeHuman sources, package candidates and milestone
+# working copies stay local; tracked delivery evidence in M5CAR1/M5CAR2 is kept.
+/M6A_Work/
+/M6B_Work/
+/M6C_Work/
+/M6A_Reports/
+/M6B_Reports/
+/M6C_Reports/
+/M6C_Lite_Reports/
+/M6D_Work/
+/M6D_Reports/
+/M6Pre/
+/M4C/
+/M5B/
+/M5CAR1/evidence/packages/
+/M5CAR1/local_candidate/
+
+# LLM budget/usage ledgers (never commit usage/quota state)
+**/tokens.sqlite3
+**/ledger-epoch.json
+/M5CAR1/evidence/e2e/state/
+/M5CAR2/evidence/e2e/state/

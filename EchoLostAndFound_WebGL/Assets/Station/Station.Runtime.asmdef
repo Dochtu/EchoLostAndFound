@@ -1,4 +1,5 @@
 {
   "name": "EchoStation.Runtime",
-  "references": ["EchoLostAndFound.WebGL.Contracts","Unity.InputSystem","Unity.TextMeshPro","UnityEngine.UI"]
+  "references": ["EchoLostAndFound.WebGL.Contracts","Unity.InputSystem","Unity.TextMeshPro","UnityEngine.UI","EchoLostAndFound.Shared","EchoLostAndFound.Evidence","EchoLostAndFound.Dialogue","EchoLostAndFound.MockAi"]
 }
+

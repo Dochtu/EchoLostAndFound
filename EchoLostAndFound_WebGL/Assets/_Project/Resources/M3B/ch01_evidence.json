@@ -1,0 +1,280 @@
+{
+  "content_version": "story-v1.0-phase2",
+  "evidence": [
+    {
+      "evidence_id": "E01",
+      "title": "停表与编号",
+      "source_kind": "physical",
+      "source_id": "src_watch_original",
+      "source_label": "失物招领处，A-0641 包内怀表实物",
+      "area_id": "lost_property",
+      "item_id": "item_pocket_watch",
+      "provenance_root_id": "watch.QH-283",
+      "composed_from_parts": true,
+      "fixed_text": "表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。",
+      "proof_limits": [
+        "盘面读数不能单独证明坠表时刻",
+        "物件编号与背刻不能单独证明领取授权"
+      ],
+      "media_refs": ["evidence.E01.front", "evidence.E01.back", "evidence.E01.side"],
+      "fields": [
+        {
+          "field_id": "watch.dial",
+          "item_id": "item_pocket_watch",
+          "part_id": "dial",
+          "label": "表盘",
+          "display_text": "表面 21:17。",
+          "media_refs": ["evidence.E01.front"]
+        },
+        {
+          "field_id": "watch.back_engraving",
+          "item_id": "item_pocket_watch",
+          "part_id": "back_engraving",
+          "label": "背刻",
+          "display_text": "背刻 0412·0916。",
+          "media_refs": ["evidence.E01.back"]
+        },
+        {
+          "field_id": "watch.serial_number",
+          "item_id": "item_pocket_watch",
+          "part_id": "serial_number",
+          "label": "编号",
+          "display_text": "后盖边钢印 QH-283。",
+          "media_refs": ["evidence.E01.back"]
+        },
+        {
+          "field_id": "watch.side_crown",
+          "item_id": "item_pocket_watch",
+          "part_id": "side_crown",
+          "label": "侧冠",
+          "display_text": "侧冠凹陷。",
+          "media_refs": ["evidence.E01.side"]
+        },
+        {
+          "field_id": "watch.crown_shaft_damage",
+          "item_id": "item_pocket_watch",
+          "part_id": "crown_shaft_damage",
+          "label": "冠轴损伤",
+          "display_text": "冠轴可见偏斜。",
+          "media_refs": ["evidence.E01.side"]
+        }
+      ]
+    },
+    {
+      "evidence_id": "E02",
+      "title": "配电故障卡",
+      "source_kind": "document",
+      "source_id": "src_power_fault",
+      "source_label": "站台内侧维修柜，配电故障卡",
+      "area_id": "platform_safe",
+      "item_id": null,
+      "provenance_root_id": null,
+      "composed_from_parts": false,
+      "fixed_text": "站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。",
+      "proof_limits": [],
+      "media_refs": [],
+      "fields": [
+        {
+          "field_id": "power_fault.branch_fault",
+          "item_id": null,
+          "part_id": null,
+          "label": "支路故障",
+          "display_text": "站台照明支路进水跳闸",
+          "media_refs": []
+        },
+        {
+          "field_id": "power_fault.timestamp",
+          "item_id": null,
+          "part_id": null,
+          "label": "跳闸时间",
+          "display_text": "21:17",
+          "media_refs": []
+        },
+        {
+          "field_id": "power_fault.lamp_time",
+          "item_id": null,
+          "part_id": null,
+          "label": "补照时间",
+          "display_text": "21:20 内侧油灯临时补照",
+          "media_refs": []
+        },
+        {
+          "field_id": "power_fault.not_restored",
+          "item_id": null,
+          "part_id": null,
+          "label": "未恢复",
+          "display_text": "本夜该支路未恢复",
+          "media_refs": []
+        }
+      ]
+    },
+    {
+      "evidence_id": "E03",
+      "title": "旧修表收据",
+      "source_kind": "document",
+      "source_id": "src_repair_receipt",
+      "source_label": "失物包夹层，旧修表收据",
+      "area_id": "lost_property",
+      "item_id": null,
+      "provenance_root_id": null,
+      "composed_from_parts": false,
+      "fixed_text": "交修人 沈禾／物件 QH-283／该机为机械上链／背刻 0412·0916。",
+      "proof_limits": [],
+      "media_refs": [],
+      "fields": [
+        {
+          "field_id": "repair_receipt.customer",
+          "item_id": null,
+          "part_id": null,
+          "label": "交修人",
+          "display_text": "交修人 沈禾",
+          "media_refs": []
+        },
+        {
+          "field_id": "repair_receipt.item_number",
+          "item_id": null,
+          "part_id": null,
+          "label": "物件编号",
+          "display_text": "物件 QH-283",
+          "media_refs": []
+        },
+        {
+          "field_id": "repair_receipt.mechanism",
+          "item_id": null,
+          "part_id": null,
+          "label": "机芯",
+          "display_text": "该机为机械上链",
+          "media_refs": []
+        },
+        {
+          "field_id": "repair_receipt.back_engraving",
+          "item_id": null,
+          "part_id": null,
+          "label": "背刻",
+          "display_text": "背刻 0412·0916",
+          "media_refs": []
+        }
+      ]
+    },
+    {
+      "evidence_id": "E04",
+      "title": "指定领件联",
+      "source_kind": "document",
+      "source_id": "src_designated_receipt",
+      "source_label": "柜台内失物副联册，指定领件联",
+      "area_id": "lost_property",
+      "item_id": null,
+      "provenance_root_id": null,
+      "composed_from_parts": false,
+      "fixed_text": "第十日补登记。表主 沈禾／指定领件 林遥／QH-283。由领件人本人决定并持凭号联络。沈禾。",
+      "proof_limits": [],
+      "media_refs": [],
+      "fields": [
+        {
+          "field_id": "designated_receipt.registration_day",
+          "item_id": null,
+          "part_id": null,
+          "label": "登记",
+          "display_text": "第十日补登记",
+          "media_refs": []
+        },
+        {
+          "field_id": "designated_receipt.owner",
+          "item_id": null,
+          "part_id": null,
+          "label": "表主",
+          "display_text": "表主 沈禾",
+          "media_refs": []
+        },
+        {
+          "field_id": "designated_receipt.recipient",
+          "item_id": null,
+          "part_id": null,
+          "label": "指定领件",
+          "display_text": "指定领件 林遥",
+          "media_refs": []
+        },
+        {
+          "field_id": "designated_receipt.item_number",
+          "item_id": null,
+          "part_id": null,
+          "label": "物件编号",
+          "display_text": "QH-283",
+          "media_refs": []
+        },
+        {
+          "field_id": "designated_receipt.collection_terms",
+          "item_id": null,
+          "part_id": null,
+          "label": "领取条件",
+          "display_text": "由领件人本人决定并持凭号联络，沈禾签记",
+          "media_refs": []
+        }
+      ]
+    },
+    {
+      "evidence_id": "E05",
+      "title": "拾物与检点联",
+      "source_kind": "document",
+      "source_id": "src_pickup_inspection",
+      "source_label": "站台维修柜，拾物与检点联",
+      "area_id": "platform_safe",
+      "item_id": null,
+      "provenance_root_id": null,
+      "composed_from_parts": false,
+      "fixed_text": "21:17 沈禾扶 0641 乘客避滑，怀表落至内侧台沿。拾取时盘面停 21:17。22:03 表冠凹、冠轴侧弯，传动卡滞，未拆修。周。",
+      "proof_limits": [],
+      "media_refs": [],
+      "fields": [
+        {
+          "field_id": "pickup_inspection.incident_time",
+          "item_id": null,
+          "part_id": null,
+          "label": "事发时间",
+          "display_text": "21:17",
+          "media_refs": []
+        },
+        {
+          "field_id": "pickup_inspection.incident_description",
+          "item_id": null,
+          "part_id": null,
+          "label": "经过",
+          "display_text": "沈禾扶 0641 乘客避滑，怀表落至内侧台沿",
+          "media_refs": []
+        },
+        {
+          "field_id": "pickup_inspection.dial_at_pickup",
+          "item_id": null,
+          "part_id": null,
+          "label": "拾取时表盘",
+          "display_text": "拾取时盘面停 21:17",
+          "media_refs": []
+        },
+        {
+          "field_id": "pickup_inspection.inspection_time",
+          "item_id": null,
+          "part_id": null,
+          "label": "检点时间",
+          "display_text": "22:03",
+          "media_refs": []
+        },
+        {
+          "field_id": "pickup_inspection.mechanical_findings",
+          "item_id": null,
+          "part_id": null,
+          "label": "机械发现",
+          "display_text": "表冠凹、冠轴侧弯，传动卡滞，未拆修",
+          "media_refs": []
+        },
+        {
+          "field_id": "pickup_inspection.recorder",
+          "item_id": null,
+          "part_id": null,
+          "label": "记录人",
+          "display_text": "周",
+          "media_refs": []
+        }
+      ]
+    }
+  ]
+}

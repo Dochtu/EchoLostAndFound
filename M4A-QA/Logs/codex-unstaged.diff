@@ -1,0 +1,252 @@
+﻿diff --git a/EchoLostAndFound_WebGL/Assets/Station/Station.Runtime.asmdef b/EchoLostAndFound_WebGL/Assets/Station/Station.Runtime.asmdef
+index 5dcd8e4..28ed58e 100644
+--- a/EchoLostAndFound_WebGL/Assets/Station/Station.Runtime.asmdef
++++ b/EchoLostAndFound_WebGL/Assets/Station/Station.Runtime.asmdef
+@@ -1,4 +1,5 @@
+ {
+   "name": "EchoStation.Runtime",
+-  "references": ["EchoLostAndFound.WebGL.Contracts","Unity.InputSystem","Unity.TextMeshPro","UnityEngine.UI"]
++  "references": ["EchoLostAndFound.WebGL.Contracts","Unity.InputSystem","Unity.TextMeshPro","UnityEngine.UI","EchoLostAndFound.Shared","EchoLostAndFound.Evidence","EchoLostAndFound.Dialogue","EchoLostAndFound.MockAi"]
+ }
++
+diff --git a/EchoLostAndFound_WebGL/Assets/Station/StationHud.cs b/EchoLostAndFound_WebGL/Assets/Station/StationHud.cs
+index 2d08817..1213987 100644
+--- a/EchoLostAndFound_WebGL/Assets/Station/StationHud.cs
++++ b/EchoLostAndFound_WebGL/Assets/Station/StationHud.cs
+@@ -1,6 +1,14 @@
+-using EchoLostAndFound.WebGL.Contracts;
++using System;
++using System.Collections.Generic;
++using System.Linq;
++using EchoLostAndFound.Dialogue;
++using EchoLostAndFound.Evidence;
+ using TMPro;
+ using UnityEngine;
++using UnityEngine.EventSystems;
++using UnityEngine.InputSystem;
++using UnityEngine.InputSystem.UI;
++using UnityEngine.UI;
+ 
+ namespace EchoStation
+ {
+@@ -8,7 +16,14 @@ namespace EchoStation
+     {
+         [SerializeField] TMP_Text prompt, heading, description;
+         [SerializeField] GameObject sheet, reticle;
+-        StationPreview preview;
++        readonly List<Action> choices = new List<Action>();
++        readonly List<Button> buttons = new List<Button>();
++        StationInvestigation investigation;
++        string conversation;
++        TMP_FontAsset font;
++        TMP_Text closeHint;
++        public bool IsOpen => sheet.activeSelf;
++
+         public void Configure(TMP_Text focus, TMP_Text title, TMP_Text body, GameObject panel, GameObject crosshair)
+         {
+             prompt = focus; heading = title; description = body; sheet = panel; reticle = crosshair;
+@@ -16,24 +31,182 @@ namespace EchoStation
+ 
+         void Awake()
+         {
+-            preview = JsonUtility.FromJson<StationPreview>(Resources.Load<TextAsset>("M3A/StationPreview").text);
++            var source = Resources.Load<Font>("M4A/StationChinese");
++            if (source) font = TMP_FontAsset.CreateFontAsset(source);
++            foreach (var label in GetComponentsInChildren<TMP_Text>(true))
++            {
++                if (font) label.font = font;
++                if (label.text.Contains("WASD")) label.text = "WASD 移动     鼠标 环视     E 调查     Esc 释放鼠标";
++            }
++            var panelLabels = sheet.GetComponentsInChildren<TMP_Text>(true);
++            closeHint = panelLabels.First(t => t != heading && t != description);
++            closeHint.text = "E 返回车站";
++            ((RectTransform)sheet.transform).sizeDelta = new Vector2(550, 416);
++            Position(heading.rectTransform, 0, 169, 500, 44);
++            Position(description.rectTransform, 0, 96, 500, 96);
++            description.fontSize = 19;
++            Position(closeHint.rectTransform, 0, -184, 220, 28);
++            if (!GetComponent<GraphicRaycaster>()) gameObject.AddComponent<GraphicRaycaster>();
++            if (!EventSystem.current)
++            {
++                var events = new GameObject("Station UI input", typeof(EventSystem), typeof(InputSystemUIInputModule));
++                events.transform.SetParent(transform, false);
++            }
++            try { investigation = new StationInvestigation(); }
++            catch (Exception ex) { Debug.LogError("M4A initialization: " + ex); }
++        }
++
++        static void Position(RectTransform rect, float x, float y, float w, float h)
++        {
++            rect.anchorMin = rect.anchorMax = new Vector2(.5f,.5f);
++            rect.anchoredPosition = new Vector2(x,y);
++            rect.sizeDelta = new Vector2(w,h);
++        }
++
++        void Update()
++        {
++            if (!IsOpen || Keyboard.current == null) return;
++            for (int i = 0; i < choices.Count && i < 9; i++)
++                if (Keyboard.current[(Key)((int)Key.Digit1 + i)].wasPressedThisFrame)
++                {
++                    ActivateChoice(i + 1);
++                    return;
++                }
+         }
+ 
+         public void ShowFocus(string target)
+         {
+-            if (sheet.activeSelf) sheet.SetActive(false);
+-            if (!reticle.activeSelf) reticle.SetActive(true);
+-            string label = string.IsNullOrEmpty(target) ? "" : target == "Click to explore" ? target : "[E]  " + target;
+-            if (prompt.text != label) prompt.text = label;
++            if (IsOpen) return;
++            reticle.SetActive(true);
++            prompt.text = target switch {
++                "Click to explore" => "单击进入车站",
++                "Talk to the visitor" => "E 与老周交谈",
++                "Inspect pocket watch" => "E 检查怀表",
++                null or "" => "",
++                _ => "E " + target
++            };
+         }
+ 
+-        public void Inspect(bool evidence)
++        bool Begin()
+         {
+-            prompt.text = "";
+-            reticle.SetActive(false);
+-            heading.text = evidence ? preview.evidence.title : preview.dialogue.speaker_name;
+-            description.text = evidence ? preview.evidence.observation_text : preview.dialogue.display_text;
++            ClosePanel();
+             sheet.SetActive(true);
++            reticle.SetActive(false);
++            prompt.text = "";
++            if (investigation != null) return true;
++            Page("调查暂不可用", "内容载入失败，请返回车站后重新加载。");
++            return false;
++        }
++
++        public void Inspect(bool evidence)
++        {
++            if (!Begin()) return;
++            if (!evidence)
++            {
++                RenderTurn(investigation.Dialogue.StartSession("npc_laozhou"));
++                return;
++            }
++            var registry = investigation.Evidence;
++            investigation.Observe(registry.ObserveField("watch.dial"));
++            var record = registry.FindVisibleRecord("E01");
++            if (record != null) { Record(record); return; }
++            Page("怀表 · 表盘", "指针停在 9:17。");
++            AddChoice("翻看背刻、编号和表冠", () => InspectRecord("E01"));
++        }
++
++        public void InspectCabinet()
++        {
++            if (Begin()) InspectRecord("E02");
++        }
++
++        void InspectRecord(string id)
++        {
++            var registry = investigation.Evidence;
++            investigation.Observe(registry.ObserveFields(registry.Catalog.Get(id).RequiredFieldIds));
++            Record(registry.FindVisibleRecord(id));
++        }
++
++        void Record(VisibleEvidenceRecord record)
++        {
++            Page(record.EvidenceId + " · " + record.Title, record.FixedText + "\n" + string.Join("。", record.ProofLimits));
++            AddChoice("返回车站", ClosePanel);
++        }
++
++        void RenderTurn(DialogueTurnResult turn)
++        {
++            conversation = turn.ConversationId;
++            if (turn.SessionStatus != DialogueSessionStatus.Open) { ClosePanel(); return; }
++            RenderDialogue(string.Join("\n", turn.Segments.Select(s => s.Text)));
++        }
++
++        void RenderDialogue(string body)
++        {
++            Page(investigation.Dialogue.Catalog.Get("npc_laozhou").DisplayName, body);
++            foreach (var option in investigation.Dialogue.GetAvailableOptions(conversation))
++                AddChoice(option.Label, () => RenderTurn(investigation.Dialogue.Choose(conversation, option.OptionId)));
++            foreach (var card in investigation.Evidence.GetVisibleEvidenceRecords())
++                AddChoice("出示 " + card.Title, () => Present(card.EvidenceId));
++        }
++
++        void Present(string id)
++        {
++            var result = investigation.Dialogue.PresentEvidence(conversation, new[] { id });
++            string message = string.Join("\n", result.Segments.Select(s => s.Text));
++            if (message.Length == 0) message = result.AlreadyPresented ? "本次交谈中已出示过这份证据。" : "证据已出示，老周没有补充。";
++            RenderDialogue(message);
++        }
++
++        void Page(string title, string body)
++        {
++            choices.Clear();
++            foreach (var button in buttons) button.gameObject.SetActive(false);
++            heading.text = title;
++            description.text = body + (string.IsNullOrEmpty(investigation?.SaveNotice) ? "" : "\n" + investigation.SaveNotice);
++            Debug.Log("M4A page " + title + " | " + body);
++        }
++
++        void AddChoice(string label, Action action)
++        {
++            int index = choices.Count;
++            choices.Add(action);
++            if (buttons.Count == index)
++            {
++                var go = new GameObject("Option " + (index + 1), typeof(RectTransform), typeof(Image), typeof(Button));
++                go.transform.SetParent(sheet.transform, false);
++                Position((RectTransform)go.transform, 0, 26-index*40, 476, 35);
++                go.GetComponent<Image>().color = new Color(.14f,.27f,.28f);
++                var button = go.GetComponent<Button>();
++                button.targetGraphic = go.GetComponent<Image>();
++                button.onClick.AddListener(() => ActivateChoice(index+1));
++                var text = Instantiate(description, go.transform);
++                Position(text.rectTransform, 0, 0, 460, 32);
++                text.fontSize = 18;
++                buttons.Add(button);
++            }
++            buttons[index].gameObject.SetActive(true);
++            buttons[index].GetComponentInChildren<TMP_Text>().text = (index+1) + "   " + label;
++            Debug.Log("M4A choice " + (index+1) + " " + label);
++        }
++
++        public void ActivateChoice(int oneBased)
++        {
++            if (IsOpen && oneBased > 0 && oneBased <= choices.Count) choices[oneBased-1]();
++        }
++
++        public void ClosePanel()
++        {
++            if (conversation != null && investigation.Dialogue.GetSession(conversation).IsOpen)
++                investigation.Dialogue.CloseSession(conversation);
++            conversation = null;
++            choices.Clear();
++            sheet.SetActive(false);
++            reticle.SetActive(true);
++        }
++
++        void OnDestroy()
++        {
++            if (investigation != null) investigation.Dialogue.ExpireOpenSessions();
++            if (font) Destroy(font);
+         }
+     }
+ }
+diff --git a/EchoLostAndFound_WebGL/Assets/Tests/Editor/M3A.EditMode.asmdef b/EchoLostAndFound_WebGL/Assets/Tests/Editor/M3A.EditMode.asmdef
+index 43cbf25..eb4879c 100644
+--- a/EchoLostAndFound_WebGL/Assets/Tests/Editor/M3A.EditMode.asmdef
++++ b/EchoLostAndFound_WebGL/Assets/Tests/Editor/M3A.EditMode.asmdef
+@@ -1,6 +1,6 @@
+ {
+   "name": "M3A.EditMode",
+-  "references": ["EchoStation.Runtime", "EchoLostAndFound.WebGL.Contracts", "UnityEngine.TestRunner", "UnityEditor.TestRunner"],
++  "references": ["EchoStation.Runtime", "EchoLostAndFound.Shared", "EchoLostAndFound.Evidence", "EchoLostAndFound.Dialogue", "EchoLostAndFound.MockAi", "EchoLostAndFound.WebGL.Contracts", "UnityEngine.TestRunner", "UnityEditor.TestRunner"],
+   "includePlatforms": ["Editor"],
+   "overrideReferences": true,
+   "precompiledReferences": ["nunit.framework.dll"],

@@ -1,0 +1,985 @@
+{
+  "url": "http://127.0.0.1:18748",
+  "profile": "C:\\Users\\10509\\AppData\\Local\\Temp\\echo-m4a-chrome-pG5M8h",
+  "renderer": "Chromium headless + SwiftShader (ANGLE)",
+  "resources": [
+    {
+      "url": "http://127.0.0.1:18748/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/style.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/unity-logo-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/progress-bar-empty-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/fullscreen-button.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/progress-bar-full-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/unity-logo-title-footer.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18748/Build/M4A-Station.loader.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18748/Build/M4A-Station.framework.js.gz",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "encoding": "gzip"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/favicon.ico",
+      "status": 200,
+      "mimeType": "image/x-icon"
+    },
+    {
+      "url": "http://127.0.0.1:18748/Build/M4A-Station.wasm.gz",
+      "status": 200,
+      "mimeType": "application/wasm",
+      "encoding": "gzip"
+    },
+    {
+      "url": "http://127.0.0.1:18748/Build/M4A-Station.data.gz",
+      "status": 200,
+      "mimeType": "application/octet-stream",
+      "encoding": "gzip"
+    },
+    {
+      "url": "http://127.0.0.1:18748/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/style.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:18748/Build/M4A-Station.loader.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/unity-logo-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/progress-bar-empty-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/progress-bar-full-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/unity-logo-title-footer.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18748/TemplateData/fullscreen-button.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18748/Build/M4A-Station.framework.js.gz",
+      "status": 200,
+      "mimeType": "text/javascript",
+      "encoding": "gzip"
+    },
+    {
+      "url": "http://127.0.0.1:18748/Build/M4A-Station.data.gz",
+      "status": 200,
+      "mimeType": "application/octet-stream",
+      "encoding": "gzip"
+    },
+    {
+      "url": "http://127.0.0.1:18748/Build/M4A-Station.wasm.gz",
+      "status": 200,
+      "mimeType": "application/wasm",
+      "encoding": "gzip"
+    }
+  ],
+  "consoles": [
+    {
+      "type": "log",
+      "message": "[UnityCache] 'http://127.0.0.1:18748/Build/M4A-Station.data.gz' successfully downloaded and stored in the browser cache"
+    },
+    {
+      "type": "log",
+      "message": "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-remapper-allocator-initial-capacity=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-cache-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-typetree-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-main=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System module state changed to: Initialized.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Initialized fallback backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xdecafbad\n"
+    },
+    {
+      "type": "log",
+      "message": "Loading player data from data.unity3d\n"
+    },
+    {
+      "type": "log",
+      "message": "Initialize engine version: 6000.3.29f1 (96d2fe17529c)\n"
+    },
+    {
+      "type": "log",
+      "message": "Creating WebGL 2.0 context."
+    },
+    {
+      "type": "log",
+      "message": "Renderer: WebKit WebGL\n"
+    },
+    {
+      "type": "log",
+      "message": "Vendor:   WebKit\n"
+    },
+    {
+      "type": "log",
+      "message": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n"
+    },
+    {
+      "type": "log",
+      "message": "GLES:     3\n"
+    },
+    {
+      "type": "log",
+      "message": " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear OVR_multiview2 WEBGL_clip_cull_distance WEBGL_compressed_texture_astc WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_comp\n"
+    },
+    {
+      "type": "log",
+      "message": "ression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_OVR_multiview2 GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_astc GL_WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_stencil_texturing\n"
+    },
+    {
+      "type": "log",
+      "message": "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Selected backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Name: PhysX\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xf2b8ea05\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] SDK Version: 4.1.2\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Integration Version: 1.0.0\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Threading Mode: Single-Threaded\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System initialize...\n"
+    },
+    {
+      "type": "log",
+      "message": "UnloadTime: 0.500000 ms\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A font StationChinese SDF 怀=True 证据=True\n"
+    },
+    {
+      "type": "warning",
+      "message": "Additional Lights Cookie Format (GrayscaleHigh) is not supported by the platform. Falling back to 32-bit format (RGBA8 UNorm)\n"
+    },
+    {
+      "type": "log",
+      "message": "Audio context resumed after 7.187 seconds."
+    },
+    {
+      "type": "log",
+      "message": "M4A event 149cb05c-c63e-4b57-9762-a284a06f3cad dialogue.session_opened \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 老周\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 400a6af5-f940-4c93-81fc-c967053c63b3 dialogue.turn_completed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 先不问这个\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event dd7c5213-6334-4951-ae79-f59ca745a029 dialogue.session_closed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 6ef99f6b-4346-48a3-9b9e-97ce6ee643cb evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event bedb9436-ded1-4c3c-96a6-dc0af4df93ca evidence.registered E02\n"
+    },
+    {
+      "type": "warning",
+      "message": "Manual synchronization of Unity Application.persistentDataPath via JS_FileSystem_Sync() is deprecated and will be later removed in a future Unity version. The persistent data directory will be automatically synchronized instead on file modification. Pass config.autoSyncPersistentDataPath = true; to configuration in createUnityInstance() to opt in to the new behavior."
+    },
+    {
+      "type": "log",
+      "message": "M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 维修柜\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 96fb7a88-d004-4143-ae05-ff6909afd670 evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 怀表 · 表盘 | 指针停在 9:17。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 翻看背刻、编号和表冠\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 怀表\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event ee5e20d4-c160-4bd0-8708-881c86016101 evidence.fields_observed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 28394527-e4bf-4d27-ad74-9d0d6eaef6dd evidence.registered E01\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 返回车站\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event a4ee8925-083a-4e3d-8ec1-54562fa41ac1 dialogue.session_opened \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 老周\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 1a14a3cb-2bf2-48c2-a359-c5d1c22cab7a dialogue.evidence_presented \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 4ff1cff1-011a-4d32-93ac-b17dba3dd178 dialogue.disclosure_triggered D01\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 再问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 94a92ed5-c6c8-40c0-ada5-bf47c03ce73f dialogue.turn_completed \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 先不问这个\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 先不问这个\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-remapper-allocator-initial-capacity=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-cache-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-typetree-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-main=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System module state changed to: Initialized.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Initialized fallback backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xdecafbad\n"
+    },
+    {
+      "type": "log",
+      "message": "Loading player data from data.unity3d\n"
+    },
+    {
+      "type": "log",
+      "message": "Initialize engine version: 6000.3.29f1 (96d2fe17529c)\n"
+    },
+    {
+      "type": "log",
+      "message": "Creating WebGL 2.0 context."
+    },
+    {
+      "type": "log",
+      "message": "Renderer: WebKit WebGL\n"
+    },
+    {
+      "type": "log",
+      "message": "Vendor:   WebKit\n"
+    },
+    {
+      "type": "log",
+      "message": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n"
+    },
+    {
+      "type": "log",
+      "message": "GLES:     3\n"
+    },
+    {
+      "type": "log",
+      "message": " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear OVR_multiview2 WEBGL_clip_cull_distance WEBGL_compressed_texture_astc WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_comp\n"
+    },
+    {
+      "type": "log",
+      "message": "ression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_OVR_multiview2 GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_astc GL_WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_stencil_texturing\n"
+    },
+    {
+      "type": "log",
+      "message": "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Selected backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Name: PhysX\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xf2b8ea05\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] SDK Version: 4.1.2\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Integration Version: 1.0.0\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Threading Mode: Single-Threaded\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System initialize...\n"
+    },
+    {
+      "type": "log",
+      "message": "UnloadTime: 0.100000 ms\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A font StationChinese SDF 怀=True 证据=True\n"
+    },
+    {
+      "type": "log",
+      "message": "[UnityCache] 'http://127.0.0.1:18748/Build/M4A-Station.data.gz' successfully downloaded and stored in the browser cache"
+    },
+    {
+      "type": "warning",
+      "message": "Additional Lights Cookie Format (GrayscaleHigh) is not supported by the platform. Falling back to 32-bit format (RGBA8 UNorm)\n"
+    },
+    {
+      "type": "log",
+      "message": "Audio context resumed after 6.906 seconds."
+    },
+    {
+      "type": "log",
+      "message": "M4A event 71007b57-a3e4-4ab0-9ebf-568f7728d018 dialogue.session_opened \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E01 停表与编号\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 老周\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 0b70124d-c0c4-417a-a026-4f9883f97f3f dialogue.evidence_presented \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event e676d16c-c605-48a5-97eb-3adc060998e9 dialogue.disclosure_triggered D01\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 再问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 3 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 4 出示 E02 配电故障卡\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 5 出示 E01 停表与编号\n"
+    }
+  ],
+  "exceptions": [],
+  "dialogs": [],
+  "steps": [
+    {
+      "name": "loaded",
+      "detail": "coldLoadMs=1328",
+      "page": "",
+      "at": "2026-11-23T11:25:33.998Z"
+    },
+    {
+      "name": "pointer-locked",
+      "detail": "",
+      "page": "",
+      "at": "2026-11-23T11:25:34.875Z"
+    },
+    {
+      "name": "page:老周",
+      "detail": "",
+      "page": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+      "at": "2026-11-23T11:25:35.415Z"
+    },
+    {
+      "name": "choose:问站台那晚的照明#1",
+      "detail": "",
+      "page": "M4A page 老周 | 站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。\n",
+      "at": "2026-11-23T11:25:36.516Z"
+    },
+    {
+      "name": "choose:结束对话#2",
+      "detail": "",
+      "page": "M4A page 老周 | 站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。\n",
+      "at": "2026-11-23T11:25:37.672Z"
+    },
+    {
+      "name": "page:E02",
+      "detail": "",
+      "page": "M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。\n",
+      "at": "2026-11-23T11:25:43.663Z"
+    },
+    {
+      "name": "choose:返回车站#1",
+      "detail": "",
+      "page": "M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。\n",
+      "at": "2026-11-23T11:25:44.768Z"
+    },
+    {
+      "name": "page:怀表",
+      "detail": "",
+      "page": "M4A page 怀表 · 表盘 | 指针停在 9:17。\n",
+      "at": "2026-11-23T11:25:51.762Z"
+    },
+    {
+      "name": "choose:翻看背刻、编号和表冠#1",
+      "detail": "",
+      "page": "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n",
+      "at": "2026-11-23T11:25:52.921Z"
+    },
+    {
+      "name": "page:E01",
+      "detail": "",
+      "page": "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n",
+      "at": "2026-11-23T11:25:52.922Z"
+    },
+    {
+      "name": "choose:返回车站#1",
+      "detail": "",
+      "page": "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n",
+      "at": "2026-11-23T11:25:54.022Z"
+    },
+    {
+      "name": "choose:出示 E02#3",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-23T11:25:59.271Z"
+    },
+    {
+      "name": "page:我的灯到二十才摆好",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-23T11:25:59.271Z"
+    },
+    {
+      "name": "choose:再问站台那晚的照明#2",
+      "detail": "",
+      "page": "M4A page 老周 | 站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。\n",
+      "at": "2026-11-23T11:26:00.415Z"
+    },
+    {
+      "name": "choose:出示 E02#3",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-23T11:26:02.141Z"
+    },
+    {
+      "name": "repeat-presentation",
+      "detail": "d01Events=1",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-23T11:26:02.142Z"
+    },
+    {
+      "name": "choose:出示 E02#3",
+      "detail": "",
+      "page": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+      "at": "2026-11-23T11:26:12.221Z"
+    }
+  ],
+  "browser": "Chrome/157.0.8103.79",
+  "coldLoadMs": 1327.6999999955297,
+  "webgl": {
+    "api": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "vh": 4096
+  },
+  "repeatPresentationPage": "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+  "d01Events": 1,
+  "reloadMs": 1004.5999999940395,
+  "pages": [
+    "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+    "M4A page 老周 | 站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。\n",
+    "M4A page E02 · 配电故障卡 | 站台照明支路进水跳闸 21:17。21:20 内侧油灯临时补照。本夜该支路未恢复。\n",
+    "M4A page 怀表 · 表盘 | 指针停在 9:17。\n",
+    "M4A page E01 · 停表与编号 | 表面 21:17。背刻 0412·0916。后盖边钢印 QH-283。侧冠凹陷，冠轴可见偏斜。\n盘面读数不能单独证明坠表时刻。物件编号与背刻不能单独证明领取授权\n",
+    "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+    "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+    "M4A page 老周 | 站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。\n",
+    "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n",
+    "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+    "M4A page 老周 | 进水，二十一点十七。我的灯到二十才摆好。是黑过，中间那点我记混了。\n"
+  ],
+  "interactions": [
+    "Station interaction: 老周\n",
+    "Station interaction: 维修柜\n",
+    "Station interaction: 怀表\n",
+    "Station interaction: 老周\n",
+    "Station interaction: 老周\n"
+  ],
+  "repeatPage": "M4A page 老周 | 站台那晚在我印象里一直亮着。我还把那盏油灯拖到里头去了。\n",
+  "completed": true,
+  "stderr": "Created TensorFlow Lite XNNPACK delegate for CPU.\r\n"
+}

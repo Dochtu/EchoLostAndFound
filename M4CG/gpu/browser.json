@@ -1,0 +1,422 @@
+{
+  "phase": "gpu",
+  "url": "http://127.0.0.1:18843",
+  "profile": "C:\\Users\\10509\\AppData\\Local\\Temp\\echo-m4c-chrome-0E0xqX",
+  "renderer": "Chromium headed + system GPU (D3D11/ANGLE)",
+  "resources": [
+    {
+      "url": "http://127.0.0.1:18843/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:18843/TemplateData/style.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:18843/Build/M4C-Closeout-Player.loader.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18843/TemplateData/unity-logo-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18843/TemplateData/progress-bar-full-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18843/TemplateData/progress-bar-empty-dark.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18843/TemplateData/unity-logo-title-footer.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18843/TemplateData/fullscreen-button.png",
+      "status": 200,
+      "mimeType": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:18843/Build/M4C-Closeout-Player.framework.js.gz",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:18843/Build/M4C-Closeout-Player.wasm.gz",
+      "status": 200,
+      "mimeType": "application/wasm"
+    },
+    {
+      "url": "http://127.0.0.1:18843/TemplateData/favicon.ico",
+      "status": 200,
+      "mimeType": "image/x-icon"
+    },
+    {
+      "url": "http://127.0.0.1:18843/Build/M4C-Closeout-Player.data.gz",
+      "status": 200,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "url": "http://127.0.0.1:18843/api/v1/meta",
+      "status": 200,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18843/api/v1/sessions",
+      "status": 201,
+      "mimeType": "application/json"
+    },
+    {
+      "url": "http://127.0.0.1:18843/api/v1/sessions/8c76691e-ab43-49b8-b31c-8f5cef4bc0f0/cancel",
+      "status": 200,
+      "mimeType": "application/json"
+    }
+  ],
+  "requests": [
+    {
+      "id": "29508.14",
+      "method": "GET",
+      "url": "http://127.0.0.1:18843/api/v1/meta",
+      "body": null
+    },
+    {
+      "id": "29508.15",
+      "method": "POST",
+      "url": "http://127.0.0.1:18843/api/v1/sessions",
+      "body": null
+    },
+    {
+      "id": "29508.16",
+      "method": "POST",
+      "url": "http://127.0.0.1:18843/api/v1/sessions/8c76691e-ab43-49b8-b31c-8f5cef4bc0f0/cancel",
+      "body": null
+    }
+  ],
+  "consoles": [
+    {
+      "type": "log",
+      "message": "[UnityCache] 'http://127.0.0.1:18843/Build/M4C-Closeout-Player.data.gz' successfully downloaded and stored in the browser cache"
+    },
+    {
+      "type": "log",
+      "message": "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-remapper-allocator-initial-capacity=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-cache-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-typetree-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-allocator-block-size=16777216\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-temp-allocator-size-main=4194304\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n"
+    },
+    {
+      "type": "log",
+      "message": "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System module state changed to: Initialized.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Initialized fallback backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xdecafbad\n"
+    },
+    {
+      "type": "log",
+      "message": "Loading player data from data.unity3d\n"
+    },
+    {
+      "type": "log",
+      "message": "Initialize engine version: 6000.3.29f1 (96d2fe17529c)\n"
+    },
+    {
+      "type": "log",
+      "message": "Creating WebGL 2.0 context."
+    },
+    {
+      "type": "log",
+      "message": "Renderer: WebKit WebGL\n"
+    },
+    {
+      "type": "log",
+      "message": "Vendor:   WebKit\n"
+    },
+    {
+      "type": "log",
+      "message": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n"
+    },
+    {
+      "type": "log",
+      "message": "GLES:     3\n"
+    },
+    {
+      "type": "log",
+      "message": " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_render_snorm EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge EXT_texture_norm16 KHR_parallel_shader_compile NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear OVR_multiview2 WEBGL_blend_func_extended WEBGL_clip_cull_distance WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_provoking_vertex WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_render_snorm GL_EXT_\n"
+    },
+    {
+      "type": "log",
+      "message": "texture_compression_bptc GL_EXT_texture_compression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_KHR_parallel_shader_compile GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_OVR_multiview2 GL_WEBGL_blend_func_extended GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_provoking_vertex GL_WEBGL_stencil_texturing\n"
+    },
+    {
+      "type": "log",
+      "message": "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Selected backend.\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Name: PhysX\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Id: 0xf2b8ea05\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] SDK Version: 4.1.2\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Integration Version: 1.0.0\n"
+    },
+    {
+      "type": "log",
+      "message": "[Physics::Module] Threading Mode: Single-Threaded\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/CoreSRP/CoreCopy shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal Render Pipeline/StencilDitherMaskSeed shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "ERROR: Shader "
+    },
+    {
+      "type": "log",
+      "message": "Hidden/Universal/HDRDebugView shader is not supported on this GPU (none of subshaders/fallbacks are suitable)\n"
+    },
+    {
+      "type": "log",
+      "message": "Input System initialize...\n"
+    },
+    {
+      "type": "log",
+      "message": "UnloadTime: 0.400000 ms\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A font M4CChapterFont 怀=True 证据=True\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C online dialogue ready, provider=mock base=http://127.0.0.1:18843\n"
+    },
+    {
+      "type": "log",
+      "message": "Audio context resumed after 15.799 seconds."
+    },
+    {
+      "type": "log",
+      "message": "M4C probe pos=0.00,-2.00 yaw=0 pitch=0 target=老周\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event a0390565-d5fd-4394-9346-b451064591bd dialogue.session_opened \n"
+    },
+    {
+      "type": "log",
+      "message": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 1 问站台那晚的照明\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A choice 2 结束对话\n"
+    },
+    {
+      "type": "log",
+      "message": "Station interaction: 老周\n"
+    },
+    {
+      "type": "log",
+      "message": "M4C server session 8c76691e-ab43-49b8-b31c-8f5cef4bc0f0 for npc_laozhou\n"
+    },
+    {
+      "type": "log",
+      "message": "M4A event 19e23406-6930-43e3-9510-f45340844f29 dialogue.session_closed \n"
+    }
+  ],
+  "exceptions": [],
+  "dialogs": [],
+  "steps": [
+    {
+      "name": "loaded",
+      "detail": "coldLoadMs=1508",
+      "page": "",
+      "at": "2026-11-24T06:25:47.073Z"
+    },
+    {
+      "name": "pointer-locked",
+      "detail": "",
+      "page": "",
+      "at": "2026-11-24T06:25:47.742Z"
+    },
+    {
+      "name": "page:老周",
+      "detail": "",
+      "page": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+      "at": "2026-11-24T06:25:48.285Z"
+    }
+  ],
+  "browser": "Chrome/157.0.8103.79",
+  "coldLoadMs": 1508,
+  "frameSample": {
+    "ms": 10000.799999999253,
+    "ticks": 601,
+    "drawFrames": 601,
+    "drawFPS": 60.09519238461372,
+    "p95GapMs": 16.900000000000546,
+    "visibility": "visible"
+  },
+  "webgl": {
+    "api": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4060 Laptop GPU (0x000028E0) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "laozhouOpening": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+  "physicalInput": {
+    "browser_pid": 31072,
+    "action": "type",
+    "sent": [],
+    "reason": "isolated browser is not foreground"
+  },
+  "nativeEvents": [],
+  "nativePage": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+  "afterEscape": "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n",
+  "pages": [
+    "M4A page 老周 | 这封从旧库搬过两回。我来对号，你来签。先看表背，失物只认号。\n"
+  ],
+  "interactions": [
+    "Station interaction: 老周\n"
+  ],
+  "mirrorLogs": [],
+  "freeTextLogs": [],
+  "completed": true,
+  "soft": [],
+  "stderr": ""
+}

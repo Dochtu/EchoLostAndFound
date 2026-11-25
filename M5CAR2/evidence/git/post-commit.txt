@@ -1,0 +1,419 @@
+﻿# M5-C-A-R2 post-commit evidence
+# generated: 2026-11-25 (local)
+
+## git log -1 --format=fuller
+commit c3563bd3067972ca26cff57059673c7e77d804a8
+Author:     LZ0625 <1050973528@qq.com>
+AuthorDate: Wed Nov 25 18:13:41 2026 +0800
+Commit:     LZ0625 <1050973528@qq.com>
+CommitDate: Wed Nov 25 18:13:41 2026 +0800
+
+    M5-C-A R2: archive server source and acceptance evidence
+
+## git show --stat --oneline HEAD
+c3563bd M5-C-A R2: archive server source and acceptance evidence
+ .gitignore                                         |    24 +
+ M5CAR1/deploy/DEPLOY_R1.md                         |    62 +
+ M5CAR1/deploy/build_candidate_r1.ps1               |    63 +
+ M5CAR1/e2e/run_e2e_r1.py                           |   928 +
+ M5CAR1/evidence/browser/browser_smoke.json         |   789 +
+ M5CAR1/evidence/browser/build_manifest.sha256      |     5 +
+ .../browser/candidate_probe/candidate_probe.json   |    36 +
+ .../browser/candidate_probe/virtual_120s.png       |   Bin 0 -> 15967 bytes
+ .../browser/candidate_probe/virtual_60s.png        |   Bin 0 -> 15970 bytes
+ .../diagnostics/chrome_wait_diagnostic.json        |   488 +
+ .../browser/diagnostics/real_timeout_20s.png       |   Bin 0 -> 15559 bytes
+ .../browser/diagnostics/real_timeout_45s.png       |   Bin 0 -> 15559 bytes
+ .../browser/diagnostics/virtual_time_30s.png       |   Bin 0 -> 15569 bytes
+ M5CAR1/evidence/browser/dom.html                   |   133 +
+ M5CAR1/evidence/browser/gpu_probe/angle_d3d11.png  |   Bin 0 -> 15959 bytes
+ .../evidence/browser/gpu_probe/angle_d3d11_gpu.png |   Bin 0 -> 15972 bytes
+ M5CAR1/evidence/browser/gpu_probe/gpu_probe.json   |    24 +
+ M5CAR1/evidence/browser/screenshot.png             |   Bin 0 -> 15559 bytes
+ M5CAR1/evidence/e2e/e2e_r1_results.json            |   376 +
+ M5CAR1/evidence/git/commit_file_list.txt           |   159 +
+ M5CAR1/evidence/security/legacy_scan_replay.json   |    26 +
+ M5CAR1/evidence/security/prompt_samples.json       |    85 +
+ M5CAR1/evidence/security/prompt_samples.md         |   199 +
+ M5CAR1/evidence/security/secret_scan.json          |   193 +
+ M5CAR1/evidence/tests/collect_only.txt             |   Bin 0 -> 2452 bytes
+ M5CAR1/evidence/tests/junit_r1.xml                 |     1 +
+ M5CAR1/evidence/tests/pytest_r1.txt                |    10 +
+ M5CAR1/reports/M5CAR1_Budget_TestResults.md        |    97 +
+ M5CAR1/reports/M5CAR1_CompletionMatrix.md          |   149 +
+ M5CAR1/reports/M5CAR1_Delivery_Report.md           |   129 +
+ M5CAR1/reports/M5CAR1_Handoff.md                   |   103 +
+ M5CAR1/reports/M5CAR1_Integration_TestResults.md   |   109 +
+ M5CAR1/reports/M5CAR1_ModelScope_Preflight.md      |   115 +
+ M5CAR1/reports/M5CAR1_SecurityReview.md            |   141 +
+ M5CAR1/reports/browser_smoke_report.md             |   106 +
+ M5CAR1/tools/_debug_token_tight.py                 |    74 +
+ M5CAR1/tools/browser_smoke.py                      |   926 +
+ M5CAR1/tools/build_packages.py                     |   181 +
+ M5CAR1/tools/candidate_probe.py                    |   153 +
+ M5CAR1/tools/capture_prompt_samples.py             |   121 +
+ M5CAR1/tools/diagnose_chrome_wait.py               |   182 +
+ M5CAR1/tools/list_commit_files.py                  |    96 +
+ M5CAR1/tools/make_build_manifest.py                |    65 +
+ M5CAR1/tools/render_probe.py                       |   125 +
+ M5CAR1/tools/scan_secrets.py                       |   225 +
+ M5CAR2/deploy/DEPLOY_R2.md                         |    71 +
+ M5CAR2/e2e/run_e2e_r2.py                           |   928 +
+ M5CAR2/evidence/browser/build_manifest.sha256      |    17 +
+ M5CAR2/evidence/e2e/e2e_r2_console.txt             |   Bin 0 -> 10436 bytes
+ M5CAR2/evidence/e2e/e2e_r2_results.json            |   376 +
+ M5CAR2/evidence/git/commit_file_list.txt           |   202 +
+ M5CAR2/evidence/git/source_sha256.txt              |    74 +
+ M5CAR2/evidence/git/status-all.txt                 | 33595 +++++++++++++++++++
+ M5CAR2/evidence/packages.json                      |    50 +
+ M5CAR2/evidence/security/secret_scan.json          |   221 +
+ M5CAR2/evidence/security/secret_scan_console.txt   |   Bin 0 -> 924 bytes
+ M5CAR2/evidence/tests/junit_r2.xml                 |     1 +
+ M5CAR2/evidence/tests/pytest_r2.txt                |   Bin 0 -> 1602 bytes
+ M5CAR2/evidence/tests/tests_summary.json           |   132 +
+ M5CAR2/reports/M5CAR2_ClientIntegrationContract.md |   106 +
+ M5CAR2/reports/M5CAR2_CompletionMatrix.md          |    74 +
+ M5CAR2/reports/M5CAR2_Delivery_Report.md           |    70 +
+ M5CAR2/reports/M5CAR2_Git_Report.md                |   104 +
+ M5CAR2/reports/M5CAR2_Handoff.md                   |    74 +
+ M5CAR2/reports/M5CAR2_ModelScope_Preflight.md      |   144 +
+ M5CAR2/reports/M5CAR2_TestResults.md               |    93 +
+ M5CAR2/tools/build_packages_r2.py                  |   288 +
+ M5CAR2/tools/build_reports_zip.py                  |    55 +
+ M5CAR2/tools/list_commit_files_r2.py               |   127 +
+ M5CAR2/tools/scan_secrets_r2.py                    |   225 +
+ M5CAR2/tools/summarize_tests.py                    |   109 +
+ Server/.dockerignore                               |    12 +
+ Server/.env.example                                |   112 +
+ Server/.gitignore                                  |     6 +
+ Server/API_CONTRACT.md                             |   419 +
+ Server/DEPLOYMENT.md                               |   207 +
+ Server/Dockerfile                                  |    42 +
+ Server/Dockerfile.modelscope                       |    29 +
+ Server/HandoffToCodex_M4B.md                       |   130 +
+ Server/README.md                                   |   107 +
+ Server/UnityIntegrationGuide.md                    |   215 +
+ Server/app/__init__.py                             |     1 +
+ Server/app/breaker.py                              |    77 +
+ Server/app/budget.py                               |   803 +
+ Server/app/config.py                               |   384 +
+ Server/app/content.py                              |   420 +
+ Server/app/content/ch01_dialogue.json              |   169 +
+ Server/app/content/ch01_evidence.json              |   280 +
+ Server/app/content/mock_ai_fixtures.json           |    67 +
+ Server/app/entry.py                                |    17 +
+ Server/app/errors.py                               |    78 +
+ Server/app/knowledge.py                            |   276 +
+ Server/app/ledger_admin.py                         |   223 +
+ Server/app/logging_utils.py                        |    68 +
+ Server/app/main.py                                 |   614 +
+ Server/app/middleware.py                           |   116 +
+ Server/app/model_state.py                          |   156 +
+ Server/app/network.py                              |    50 +
+ Server/app/policy.py                               |   451 +
+ Server/app/providers/__init__.py                   |     1 +
+ Server/app/providers/base.py                       |   110 +
+ Server/app/providers/factory.py                    |    35 +
+ Server/app/providers/llm_provider.py               |   495 +
+ Server/app/providers/mock_provider.py              |   186 +
+ Server/app/rate_limit.py                           |    88 +
+ Server/app/schemas.py                              |    59 +
+ Server/app/security.py                             |   192 +
+ Server/app/server_entry.py                         |    71 +
+ Server/app/sessions.py                             |   202 +
+ Server/app/static_site.py                          |   165 +
+ Server/docker-compose.yml                          |    16 +
+ Server/pytest.ini                                  |     3 +
+ Server/requirements-dev.txt                        |     2 +
+ Server/requirements.txt                            |     9 +-
+ Server/tests/conftest.py                           |   110 +
+ Server/tests/llm_support.py                        |   127 +
+ Server/tests/test_budget.py                        |   299 +
+ Server/tests/test_concurrency.py                   |   222 +
+ Server/tests/test_content.py                       |    70 +
+ Server/tests/test_contract.py                      |    96 +
+ Server/tests/test_entry_mode.py                    |   258 +
+ Server/tests/test_evidence.py                      |   148 +
+ Server/tests/test_guards.py                        |    66 +
+ Server/tests/test_integration.py                   |   113 +
+ Server/tests/test_isolation.py                     |   133 +
+ Server/tests/test_knowledge_safety.py              |   275 +
+ Server/tests/test_ledger_admin.py                  |   144 +
+ Server/tests/test_ledger_faults.py                 |   350 +
+ Server/tests/test_llm.py                           |   181 +
+ Server/tests/test_llm_transport.py                 |   354 +
+ Server/tests/test_model_state.py                   |   198 +
+ Server/tests/test_providers.py                     |   103 +
+ Server/tests/test_proxy_limiter.py                 |   219 +
+ Server/tests/test_public_safety.py                 |   199 +
+ Server/tests/test_rate_limit_m5ca.py               |   188 +
+ Server/tests/test_request_id.py                    |   143 +
+ Server/tests/test_security.py                      |    62 +
+ Server/tests/test_sessions.py                      |   143 +
+ Server/tests/test_static_site.py                   |   147 +
+ Server/tests/test_story_safety.py                  |   234 +
+ Server/tests/test_token_budget.py                  |   202 +
+ Server/tools/fake_llm_server.py                    |   196 +
+ 142 files changed, 55976 insertions(+), 1 deletion(-)
+
+## git show --name-only --format="" HEAD
+.gitignore
+M5CAR1/deploy/DEPLOY_R1.md
+M5CAR1/deploy/build_candidate_r1.ps1
+M5CAR1/e2e/run_e2e_r1.py
+M5CAR1/evidence/browser/browser_smoke.json
+M5CAR1/evidence/browser/build_manifest.sha256
+M5CAR1/evidence/browser/candidate_probe/candidate_probe.json
+M5CAR1/evidence/browser/candidate_probe/virtual_120s.png
+M5CAR1/evidence/browser/candidate_probe/virtual_60s.png
+M5CAR1/evidence/browser/diagnostics/chrome_wait_diagnostic.json
+M5CAR1/evidence/browser/diagnostics/real_timeout_20s.png
+M5CAR1/evidence/browser/diagnostics/real_timeout_45s.png
+M5CAR1/evidence/browser/diagnostics/virtual_time_30s.png
+M5CAR1/evidence/browser/dom.html
+M5CAR1/evidence/browser/gpu_probe/angle_d3d11.png
+M5CAR1/evidence/browser/gpu_probe/angle_d3d11_gpu.png
+M5CAR1/evidence/browser/gpu_probe/gpu_probe.json
+M5CAR1/evidence/browser/screenshot.png
+M5CAR1/evidence/e2e/e2e_r1_results.json
+M5CAR1/evidence/git/commit_file_list.txt
+M5CAR1/evidence/security/legacy_scan_replay.json
+M5CAR1/evidence/security/prompt_samples.json
+M5CAR1/evidence/security/prompt_samples.md
+M5CAR1/evidence/security/secret_scan.json
+M5CAR1/evidence/tests/collect_only.txt
+M5CAR1/evidence/tests/junit_r1.xml
+M5CAR1/evidence/tests/pytest_r1.txt
+M5CAR1/reports/M5CAR1_Budget_TestResults.md
+M5CAR1/reports/M5CAR1_CompletionMatrix.md
+M5CAR1/reports/M5CAR1_Delivery_Report.md
+M5CAR1/reports/M5CAR1_Handoff.md
+M5CAR1/reports/M5CAR1_Integration_TestResults.md
+M5CAR1/reports/M5CAR1_ModelScope_Preflight.md
+M5CAR1/reports/M5CAR1_SecurityReview.md
+M5CAR1/reports/browser_smoke_report.md
+M5CAR1/tools/_debug_token_tight.py
+M5CAR1/tools/browser_smoke.py
+M5CAR1/tools/build_packages.py
+M5CAR1/tools/candidate_probe.py
+M5CAR1/tools/capture_prompt_samples.py
+M5CAR1/tools/diagnose_chrome_wait.py
+M5CAR1/tools/list_commit_files.py
+M5CAR1/tools/make_build_manifest.py
+M5CAR1/tools/render_probe.py
+M5CAR1/tools/scan_secrets.py
+M5CAR2/deploy/DEPLOY_R2.md
+M5CAR2/e2e/run_e2e_r2.py
+M5CAR2/evidence/browser/build_manifest.sha256
+M5CAR2/evidence/e2e/e2e_r2_console.txt
+M5CAR2/evidence/e2e/e2e_r2_results.json
+M5CAR2/evidence/git/commit_file_list.txt
+M5CAR2/evidence/git/source_sha256.txt
+M5CAR2/evidence/git/status-all.txt
+M5CAR2/evidence/packages.json
+M5CAR2/evidence/security/secret_scan.json
+M5CAR2/evidence/security/secret_scan_console.txt
+M5CAR2/evidence/tests/junit_r2.xml
+M5CAR2/evidence/tests/pytest_r2.txt
+M5CAR2/evidence/tests/tests_summary.json
+M5CAR2/reports/M5CAR2_ClientIntegrationContract.md
+M5CAR2/reports/M5CAR2_CompletionMatrix.md
+M5CAR2/reports/M5CAR2_Delivery_Report.md
+M5CAR2/reports/M5CAR2_Git_Report.md
+M5CAR2/reports/M5CAR2_Handoff.md
+M5CAR2/reports/M5CAR2_ModelScope_Preflight.md
+M5CAR2/reports/M5CAR2_TestResults.md
+M5CAR2/tools/build_packages_r2.py
+M5CAR2/tools/build_reports_zip.py
+M5CAR2/tools/list_commit_files_r2.py
+M5CAR2/tools/scan_secrets_r2.py
+M5CAR2/tools/summarize_tests.py
+Server/.dockerignore
+Server/.env.example
+Server/.gitignore
+Server/API_CONTRACT.md
+Server/DEPLOYMENT.md
+Server/Dockerfile
+Server/Dockerfile.modelscope
+Server/HandoffToCodex_M4B.md
+Server/README.md
+Server/UnityIntegrationGuide.md
+Server/app/__init__.py
+Server/app/breaker.py
+Server/app/budget.py
+Server/app/config.py
+Server/app/content.py
+Server/app/content/ch01_dialogue.json
+Server/app/content/ch01_evidence.json
+Server/app/content/mock_ai_fixtures.json
+Server/app/entry.py
+Server/app/errors.py
+Server/app/knowledge.py
+Server/app/ledger_admin.py
+Server/app/logging_utils.py
+Server/app/main.py
+Server/app/middleware.py
+Server/app/model_state.py
+Server/app/network.py
+Server/app/policy.py
+Server/app/providers/__init__.py
+Server/app/providers/base.py
+Server/app/providers/factory.py
+Server/app/providers/llm_provider.py
+Server/app/providers/mock_provider.py
+Server/app/rate_limit.py
+Server/app/schemas.py
+Server/app/security.py
+Server/app/server_entry.py
+Server/app/sessions.py
+Server/app/static_site.py
+Server/docker-compose.yml
+Server/pytest.ini
+Server/requirements-dev.txt
+Server/requirements.txt
+Server/tests/conftest.py
+Server/tests/llm_support.py
+Server/tests/test_budget.py
+Server/tests/test_concurrency.py
+Server/tests/test_content.py
+Server/tests/test_contract.py
+Server/tests/test_entry_mode.py
+Server/tests/test_evidence.py
+Server/tests/test_guards.py
+Server/tests/test_integration.py
+Server/tests/test_isolation.py
+Server/tests/test_knowledge_safety.py
+Server/tests/test_ledger_admin.py
+Server/tests/test_ledger_faults.py
+Server/tests/test_llm.py
+Server/tests/test_llm_transport.py
+Server/tests/test_model_state.py
+Server/tests/test_providers.py
+Server/tests/test_proxy_limiter.py
+Server/tests/test_public_safety.py
+Server/tests/test_rate_limit_m5ca.py
+Server/tests/test_request_id.py
+Server/tests/test_security.py
+Server/tests/test_sessions.py
+Server/tests/test_static_site.py
+Server/tests/test_story_safety.py
+Server/tests/test_token_budget.py
+Server/tools/fake_llm_server.py
+
+## git status --porcelain=v1 (post-commit working tree)
+ M EchoLostAndFound_WebGL/Assets/Settings/DefaultVolumeProfile.asset
+ M EchoLostAndFound_WebGL/Assets/Settings/Mobile_RPAsset.asset
+ M EchoLostAndFound_WebGL/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+ M EchoLostAndFound_WebGL/Assets/Station/Editor/SceneSetup.cs
+ M EchoLostAndFound_WebGL/Assets/Station/M2Interactable.cs
+ M EchoLostAndFound_WebGL/Assets/Station/Materials/Brass.mat
+ M EchoLostAndFound_WebGL/Assets/Station/Materials/Enamel.mat
+ M EchoLostAndFound_WebGL/Assets/Station/Materials/Porcelain.mat
+ M EchoLostAndFound_WebGL/Assets/Station/Materials/Stone.mat
+ M EchoLostAndFound_WebGL/Assets/Station/Materials/Timber.mat
+ M EchoLostAndFound_WebGL/Assets/Station/Scenes/Station.unity
+ M EchoLostAndFound_WebGL/Assets/Station/Station.Runtime.asmdef
+ M EchoLostAndFound_WebGL/Assets/Station/StationHud.cs
+ M EchoLostAndFound_WebGL/Assets/Station/StationInput.inputactions
+ M EchoLostAndFound_WebGL/Assets/Station/StationPlayer.cs
+ M EchoLostAndFound_WebGL/Assets/Tests/Editor/M3A.EditMode.asmdef
+ M EchoLostAndFound_WebGL/Packages/manifest.json
+ M EchoLostAndFound_WebGL/Packages/packages-lock.json
+ M EchoLostAndFound_WebGL/ProjectSettings/GraphicsSettings.asset
+ M EchoLostAndFound_WebGL/ProjectSettings/ProjectSettings.asset
+ M EchoLostAndFound_WebGL/ProjectSettings/ShaderGraphSettings.asset
+ M EchoLostAndFound_WebGL/ProjectSettings/URPProjectSettings.asset
+ M EchoLostAndFound_WebGL/ProjectSettings/UnityConnectSettings.asset
+?? .codex/
+?? .vsconfig
+?? Deploy/
+?? Docs/AgentHandoff/DSH/M4A_Takeover/
+?? EchoLostAndFound_M3B_Delivery_2026-11-23.zip.sha256.txt
+?? EchoLostAndFound_M4B_Delivery_2026-11-23.zip.sha256.txt
+?? EchoLostAndFound_WebGL/Assets/Station/Editor/ChapterFontBaker.cs
+?? EchoLostAndFound_WebGL/Assets/Station/Editor/ChapterFontBaker.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Station/Editor/ChineseFontBaker.cs
+?? EchoLostAndFound_WebGL/Assets/Station/Editor/ChineseFontBaker.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Station/StationApiClient.cs
+?? EchoLostAndFound_WebGL/Assets/Station/StationApiClient.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Station/StationChapterHud.cs
+?? EchoLostAndFound_WebGL/Assets/Station/StationChapterHud.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Station/StationDialogueBridge.cs
+?? EchoLostAndFound_WebGL/Assets/Station/StationDialogueBridge.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Station/StationInvestigation.cs
+?? EchoLostAndFound_WebGL/Assets/Station/StationInvestigation.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Station/StationInvestigationGates.cs
+?? EchoLostAndFound_WebGL/Assets/Station/StationInvestigationGates.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Station/StationTargets.cs
+?? EchoLostAndFound_WebGL/Assets/Station/StationTargets.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Tests/Editor/M4AInvestigationTests.cs
+?? EchoLostAndFound_WebGL/Assets/Tests/Editor/M4AInvestigationTests.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Tests/Editor/M4CChapterCloseoutTests.cs
+?? EchoLostAndFound_WebGL/Assets/Tests/Editor/M4CChapterCloseoutTests.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Tests/Editor/M4CInvestigationTests.cs
+?? EchoLostAndFound_WebGL/Assets/Tests/Editor/M4CInvestigationTests.cs.meta
+?? EchoLostAndFound_WebGL/Assets/Tests/PlayMode.meta
+?? EchoLostAndFound_WebGL/Assets/Tests/PlayMode/
+?? EchoLostAndFound_WebGL/Assets/_Project/Resources.meta
+?? EchoLostAndFound_WebGL/Assets/_Project/Resources/
+?? EchoLostAndFound_WebGL/Assets/_Project/Scripts.meta
+?? EchoLostAndFound_WebGL/Assets/_Project/Scripts/
+?? EchoLostAndFound_WebGL/ProjectSettings/PackageManager.policy
+?? EchoLostAndFound_WebGL/ProjectSettings/SceneTemplateSettings.json
+?? M4A-QA/
+?? M4C/
+?? M4CG/
+?? M4CG_Backup_Verification.md
+?? M4CG_Delivery_Report.md
+?? M4CG_Git_Inventory.md
+?? M4CG_Remaining_Risks.md
+?? M4CG_Reports_20261124.zip.sha256.txt
+?? M4CG_Runtime_Quality_Report.md
+?? M4C_CompletionMatrix.md
+?? M4C_CompletionMatrix_Updated.md
+?? M4C_Delivery_Report.md
+?? M4C_FileChanges.md
+?? M4C_FileChanges_Updated.md
+?? M4C_HandoffToCodex.md
+?? M4C_Handoff_Report.md
+?? M4C_ModelScope_Preflight.md
+?? M4C_Remaining_Tasks_Report.md
+?? M4C_TestResults.md
+?? M4C_TestResults_Updated.md
+?? M4C_WebGL_Report.md
+?? M4C_WebGL_Verification.md
+?? M5B/
+?? M5BR1_Package_SHA256.txt
+?? M5CA/
+?? M5CAR1/MANIFEST.txt
+?? M5CAR1/evidence/e2e/state/
+?? M5CAR1/evidence/git/source_sha256.txt
+?? M5CAR1/evidence/packages.json
+?? M5CAR1/evidence/packages/
+?? M5CAR1/local_candidate/
+?? M5CAR1_LocalWebGLCandidate_20261125-1400.sha256
+?? M5CAR1_Package_SHA256.txt
+?? M5CAR2/evidence/e2e/state/
+?? M5CAR2/evidence/git/post-commit.txt
+?? M5CAR2/packages/
+?? M5CAR2_LocalWebGLCandidate.sha256
+?? M5CAR2_Package_SHA256.txt
+?? M5CA_Package_SHA256.txt
+?? M6A_Reports/
+?? M6A_Reports_20261125.zip.sha256.txt
+?? M6A_Work/
+?? M6B_Reports.zip.sha256.txt
+?? M6B_Reports/
+?? M6B_Work/
+?? M6C_Lite_Reports.zip.sha256.txt
+?? M6C_Lite_Reports/
+?? M6C_Reports.zip.sha256.txt
+?? M6C_Reports/
+?? M6C_Work/
+?? M6Pre/
+?? MANIFEST.txt
+?? Server/TEST_RESULTS.md
+?? _probe_root.txt
+
+## untracked file count (git status --porcelain=v1 -uall)
+untracked_entries_uall: 33472

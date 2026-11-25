@@ -1,0 +1,44 @@
+EchoLostAndFound M3-B test run
+Timestamp: 2026-11-23 18:50:01 +08:00
+Compiler: C:\Program Files\dotnet\sdk\11.0.100\Roslyn\bincore\csc.dll
+Module TFM refs: C:\Program Files\dotnet\packs\NETStandard.Library.Ref\2.1.0\ref\netstandard2.1
+Runner TFM refs: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.15\ref\net10.0
+Content root: C:\Users\10509\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{14852452-2e9b-4d61-be94-e091410f39aa}\Temp\Echo-M4A-logic-74fc2ec4e8f848348d938e5ed6568940
+
+Content root: C:\Users\10509\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{14852452-2e9b-4d61-be94-e091410f39aa}\Temp\Echo-M4A-logic-74fc2ec4e8f848348d938e5ed6568940
+Evidence catalog: 5 cards (story-v1.0-phase2)
+Dialogue catalog: 2 NPCs (story-v1.0-phase2)
+Mock fixtures: 7 scenarios (mock-deterministic)
+
+== EchoLostAndFound M3-B tests ==
+PASS  Evidence_CompleteCardIsAcquiredWithEvents  (5 ms)
+PASS  Evidence_ObservationIsIdempotent  (0 ms)
+PASS  Evidence_DuplicateRegistrationIsIdempotent  (0 ms)
+PASS  Evidence_IncompleteRegistrationFails  (1 ms)
+PASS  Evidence_InvalidIdsAreRejected  (0 ms)
+PASS  Evidence_SnapshotRoundTrips  (2 ms)
+PASS  Evidence_SnapshotRejectsCorruption  (0 ms)
+PASS  Evidence_CatalogJsonRejectsAnomalies  (0 ms)
+PASS  Evidence_SnapshotJsonRejectsAnomalies  (0 ms)
+PASS  Dialogue_SessionTransitionsAndFixedLines  (4 ms)
+PASS  Dialogue_ConditionalOptionUnlocksAfterDisclosure  (5 ms)
+PASS  Dialogue_EvidencePresentationTriggersD01  (0 ms)
+PASS  Dialogue_D02RequiresBothDocuments  (0 ms)
+PASS  Dialogue_D02VerificationForLaozhouHasNoLine  (0 ms)
+PASS  Dialogue_D03RequiresWatchAndInspection  (0 ms)
+PASS  Dialogue_PresentationRejectsUnknownEvidence  (0 ms)
+PASS  Dialogue_FreeTextFallbackNeverChangesState  (2 ms)
+PASS  Dialogue_FreeTextUsesMockBridgeOnly  (1 ms)
+PASS  Dialogue_SessionLifecycleAndExpiry  (0 ms)
+PASS  Dialogue_CatalogJsonRejectsAnomalies  (1 ms)
+PASS  Mock_CompletedReplyIsSyntheticAndDeterministic  (0 ms)
+PASS  Mock_TimeoutAndTransportErrorFallBack  (0 ms)
+PASS  Mock_InvalidAndUnsafeOutputAreRejected  (0 ms)
+PASS  Mock_NoMatchAndUnknownNpcFallBack  (0 ms)
+PASS  Mock_EvidenceConditionsGateScenarios  (0 ms)
+PASS  Mock_ContentVersionMismatchFallsBack  (0 ms)
+PASS  Mock_FixtureJsonRejectsAnomalies  (0 ms)
+PASS  LlmAdapter_MapsTransportFailuresToFallbacks  (5 ms)
+PASS  Integration_OfflineInvestigationFlow  (0 ms)
+
+Total: 29  Passed: 29  Failed: 0
