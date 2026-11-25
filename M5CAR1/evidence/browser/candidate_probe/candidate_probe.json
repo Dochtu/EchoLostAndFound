@@ -1,0 +1,36 @@
+{
+  "port": 8787,
+  "web_root": "G:\\projects\\EchoLostAndFound\\M5CAR1\\local_candidate\\webgl",
+  "server_ready": true,
+  "health_model_status": "mock",
+  "virtual_60s": {
+    "virtual_budget_ms": 60000,
+    "wall_clock_s": 2.4,
+    "exit_code": 0,
+    "png_bytes": 15970,
+    "unique_colors": 624,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  "virtual_120s": {
+    "virtual_budget_ms": 120000,
+    "wall_clock_s": 2.0,
+    "exit_code": 0,
+    "png_bytes": 15967,
+    "unique_colors": 624,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  "api_requests": [
+    "INFO:     127.0.0.1:60458 - \"GET /api/v1/health HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:60478 - \"GET /api/v1/health HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:61162 - \"GET /api/v1/meta HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:52454 - \"GET /api/v1/meta HTTP/1.1\" 200 OK"
+  ],
+  "business_api_calls": [],
+  "asset_requests": []
+}

@@ -1,0 +1,24 @@
+{
+  "url": "http://127.0.0.1:18241/",
+  "server_ready": true,
+  "angle_d3d11": {
+    "exit_code": 0,
+    "png": "M5CAR1\\evidence\\browser\\gpu_probe\\angle_d3d11.png",
+    "png_bytes": 15959,
+    "unique_colors": 624,
+    "size": [
+      1280,
+      800
+    ]
+  },
+  "angle_d3d11_gpu": {
+    "exit_code": 0,
+    "png": "M5CAR1\\evidence\\browser\\gpu_probe\\angle_d3d11_gpu.png",
+    "png_bytes": 15972,
+    "unique_colors": 624,
+    "size": [
+      1280,
+      800
+    ]
+  }
+}

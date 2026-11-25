@@ -74,3 +74,27 @@ Desktop.ini
 /M3A-Backups/
 # M3-A validation logs retained as delivery evidence
 !/Docs/AgentHandoff/Codex/M3A-Logs/*.log
+
+# --- M5-C-A engineering protection patch (reviewed 2026-11-25) -------------
+# Browser profile capture directories (local only; never publish credentials)
+/M5B/edge-profile/
+/M5B/pkg/
+/M5B/r1/pkg/
+/profile
+# Local recovery/scratch trees already treated as out-of-band backups
+/M4A-Backups/
+/acl-recovery/
+# Ad-hoc local package/report archives at the repository root
+/*.zip
+/M5B_Reports_20261124.zip
+/M5BR1_Reports.zip
+# Budget ledgers and their SQLite side files (never commit usage/quota state)
+llm-usage.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+/Server/.local/
+/Server/pytest-verbose.txt
+# M5-C-A scratch temp directory used only by local test runs
+/.m5ca_tmp/
+# /M5CA/evidence/ is delivered inside the acceptance zip, not tracked in Git.
+/M5CA/evidence/

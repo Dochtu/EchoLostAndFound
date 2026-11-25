@@ -1,0 +1,67 @@
+{
+  "provider_id": "mock-deterministic",
+  "content_version": "story-v1.0-phase2",
+  "scenarios": [
+    {
+      "scenario_id": "mock.laozhou.light",
+      "npc_id": "npc_laozhou",
+      "behavior": "reply",
+      "input_keywords": ["灯", "照明"],
+      "requires_evidence_ids": [],
+      "excludes_evidence_ids": [],
+      "raw_reply_json": "{\"npc_id\":\"npc_laozhou\",\"text\":\"（模拟回复·仅测试，非正式台词）这一问先记在值班本上。\",\"suggested_topic_id\":\"opt.laozhou.ask_b01\"}"
+    },
+    {
+      "scenario_id": "mock.laozhou.timeout",
+      "npc_id": "npc_laozhou",
+      "behavior": "timeout",
+      "input_keywords": ["超时测试"],
+      "requires_evidence_ids": [],
+      "excludes_evidence_ids": []
+    },
+    {
+      "scenario_id": "mock.laozhou.transport_error",
+      "npc_id": "npc_laozhou",
+      "behavior": "transport_error",
+      "input_keywords": ["错误测试"],
+      "requires_evidence_ids": [],
+      "excludes_evidence_ids": []
+    },
+    {
+      "scenario_id": "mock.laozhou.invalid_output",
+      "npc_id": "npc_laozhou",
+      "behavior": "reply",
+      "input_keywords": ["坏输出测试"],
+      "requires_evidence_ids": [],
+      "excludes_evidence_ids": [],
+      "raw_reply_json": "{\"npc_id\":\"npc_laozhou\",\"suggested_topic_id\":\"opt.laozhou.ask_b01\"}"
+    },
+    {
+      "scenario_id": "mock.laozhou.unsafe_output",
+      "npc_id": "npc_laozhou",
+      "behavior": "reply",
+      "input_keywords": ["不安全测试"],
+      "requires_evidence_ids": [],
+      "excludes_evidence_ids": [],
+      "raw_reply_json": "{\"npc_id\":\"npc_laozhou\",\"text\":\"<script>alert(1)</script>\"}"
+    },
+    {
+      "scenario_id": "mock.linyao.receipts",
+      "npc_id": "npc_linyao",
+      "behavior": "reply",
+      "input_keywords": [],
+      "requires_evidence_ids": ["E03", "E04"],
+      "excludes_evidence_ids": [],
+      "raw_reply_json": "{\"npc_id\":\"npc_linyao\",\"text\":\"（模拟回复·仅测试，非正式台词）凭号我核对过了。\"}"
+    },
+    {
+      "scenario_id": "mock.laozhou.watch_and_power",
+      "npc_id": "npc_laozhou",
+      "behavior": "reply",
+      "input_keywords": [],
+      "requires_evidence_ids": ["E01", "E02"],
+      "excludes_evidence_ids": [],
+      "raw_reply_json": "{\"npc_id\":\"npc_laozhou\",\"text\":\"（模拟回复·仅测试，非正式台词）两样东西都把时间对上了。\"}"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# ModelScope 创空间 Docker Studio variant.
+#
+# Hard platform requirements (verified against the official docs on 2026-11-23):
+#   * the app must listen on 0.0.0.0:7860 (8080 is occupied by the platform);
+#   * the base image may come from the ModelScope registry;
+#   * runtime configuration is injected as environment variables in the Studio
+#     settings page, not at build time;
+#   * only /mnt/workspace survives a restart; this service is stateless on
+#     purpose, so no volume is required.
+FROM modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/python:3.10
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    MODEL_PROVIDER=mock \
+    CONTENT_DIR=/home/user/app/app/content
+
+WORKDIR /home/user/app
+
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY app ./app
+
+EXPOSE 7860
+
+# ``app.server_entry`` is the only deployment entrypoint: it disables Uvicorn's
+# own ``--proxy-headers`` rewriting so the application remains the single owner
+# of client-address resolution.
+CMD ["python", "-m", "app.server_entry"]

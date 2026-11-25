@@ -1,0 +1,132 @@
+{
+  "suite": "M5-C-A-R2",
+  "junit": "M5CAR2/evidence/tests/junit_r2.xml",
+  "totals": {
+    "tests": 278,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "time": 13.655
+  },
+  "outcomes": {
+    "passed": 278,
+    "failed": 0,
+    "error": 0,
+    "skipped": 0
+  },
+  "per_module": {
+    "test_budget": {
+      "tests": 16,
+      "failed": 0
+    },
+    "test_concurrency": {
+      "tests": 5,
+      "failed": 0
+    },
+    "test_content": {
+      "tests": 5,
+      "failed": 0
+    },
+    "test_contract": {
+      "tests": 11,
+      "failed": 0
+    },
+    "test_entry_mode": {
+      "tests": 22,
+      "failed": 0
+    },
+    "test_evidence": {
+      "tests": 9,
+      "failed": 0
+    },
+    "test_guards": {
+      "tests": 6,
+      "failed": 0
+    },
+    "test_integration": {
+      "tests": 3,
+      "failed": 0
+    },
+    "test_isolation": {
+      "tests": 8,
+      "failed": 0
+    },
+    "test_knowledge_safety": {
+      "tests": 16,
+      "failed": 0
+    },
+    "test_ledger_admin": {
+      "tests": 5,
+      "failed": 0
+    },
+    "test_ledger_faults": {
+      "tests": 14,
+      "failed": 0
+    },
+    "test_llm": {
+      "tests": 8,
+      "failed": 0
+    },
+    "test_llm_transport": {
+      "tests": 16,
+      "failed": 0
+    },
+    "test_model_state": {
+      "tests": 14,
+      "failed": 0
+    },
+    "test_providers": {
+      "tests": 10,
+      "failed": 0
+    },
+    "test_proxy_limiter": {
+      "tests": 14,
+      "failed": 0
+    },
+    "test_public_safety": {
+      "tests": 10,
+      "failed": 0
+    },
+    "test_rate_limit_m5ca": {
+      "tests": 13,
+      "failed": 0
+    },
+    "test_request_id": {
+      "tests": 12,
+      "failed": 0
+    },
+    "test_security": {
+      "tests": 12,
+      "failed": 0
+    },
+    "test_sessions": {
+      "tests": 13,
+      "failed": 0
+    },
+    "test_static_site": {
+      "tests": 11,
+      "failed": 0
+    },
+    "test_story_safety": {
+      "tests": 11,
+      "failed": 0
+    },
+    "test_token_budget": {
+      "tests": 14,
+      "failed": 0
+    }
+  },
+  "baseline_r1": {
+    "junit": "M5CAR1/evidence/tests/junit_r1.xml",
+    "totals": {
+      "tests": 278,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 13.143
+    },
+    "removed_test_ids": [],
+    "added_test_ids": [],
+    "same_test_ids": true
+  }
+}

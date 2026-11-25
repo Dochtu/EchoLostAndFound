@@ -1,1 +1,8 @@
-# Python dependencies will be added when the server is implemented.
+# Runtime dependencies. Versions are the ones installed and tested locally
+# (Python 3.12.14) on 2026-11-23; they are all widely used packages, not
+# experimental ones.
+fastapi==0.165.0
+starlette==1.10.0
+pydantic==2.14.4
+uvicorn==0.54.0
+httpx==0.28.1

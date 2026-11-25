@@ -1,0 +1,26 @@
+{
+  "scanned_files": 82,
+  "scanned_roots": [
+    "Server/app",
+    "Server/tests",
+    "Server/tools",
+    "M5CA",
+    "Server/Docs",
+    "Server/.env.example",
+    "Server/Dockerfile",
+    "Server/README.md",
+    "Server/DEPLOYMENT.md",
+    "Server/API_CONTRACT.md",
+    "Server/requirements.txt",
+    "Server/requirements-dev.txt",
+    ".gitignore"
+  ],
+  "credential_hits": [],
+  "tracked_files": 1176,
+  "sensitive_tracked_files": [],
+  "index_clean": true,
+  "notes": [
+    "Scan is heuristic; .gitignore cannot detect a secret embedded in a normal file.",
+    "Fake/test keys (test-key-not-a-real-secret) are placeholders and are excluded."
+  ]
+}

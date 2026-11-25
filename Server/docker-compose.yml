@@ -1,0 +1,16 @@
+# Local smoke test only. For a public deployment use TLS and a real provider
+# through environment variables; do not bake keys into this file.
+services:
+  npc-ai:
+    build: .
+    image: echolostfound-npc-ai:local
+    ports:
+      - "7860:7860"
+    environment:
+      MODEL_PROVIDER: "${MODEL_PROVIDER:-mock}"
+      CORS_ALLOWED_ORIGINS: "${CORS_ALLOWED_ORIGINS:-http://localhost:8080}"
+      # Uncomment for a real model; prefer an untracked .env file over CLI values.
+      # LLM_BASE_URL: "${LLM_BASE_URL}"
+      # LLM_MODEL: "${LLM_MODEL}"
+      # LLM_API_KEY: "${LLM_API_KEY}"
+    restart: unless-stopped

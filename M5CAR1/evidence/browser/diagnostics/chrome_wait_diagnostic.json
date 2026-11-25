@@ -1,0 +1,488 @@
+{
+  "generated_at": "2026-11-25T12:22:31.960812+08:00",
+  "health": {
+    "ok": true,
+    "elapsed_s": 1.563
+  },
+  "direct_http_data": {
+    "url": "http://127.0.0.1:18240/Build/M4C-Closeout-Player.data.gz",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "content_encoding": "gzip",
+    "content_length": "10109066",
+    "decoded_bytes": 18416897,
+    "decoded_sha256": "496be4df1da65a962e96a06a04a25653fe03d5caee799d2851d5c17e3618880d"
+  },
+  "variants": [
+    {
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_s": 1.218,
+      "args": [
+        "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "--headless=new",
+        "--disable-gpu",
+        "--no-sandbox",
+        "--no-first-run",
+        "--user-data-dir=C:\\Users\\10509\\AppData\\Local\\Temp\\echo-virtual_time_30s-22a3mb_g",
+        "--window-size=1280,800",
+        "--virtual-time-budget=30000",
+        "--enable-logging=stderr",
+        "--v=0",
+        "--screenshot=G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\diagnostics\\virtual_time_30s.png",
+        "http://127.0.0.1:18240/"
+      ],
+      "screenshot": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\diagnostics\\virtual_time_30s.png",
+      "screenshot_bytes": 15569,
+      "screenshot_sha256": "9ce4a600776aad9042e1f5ec9fad3a4faedd69f7bab458c6bdd095349fa92809",
+      "stderr_log": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\diagnostics\\virtual_time_30s.stderr.log",
+      "requests_during_variant": 12,
+      "paths_during_variant": [
+        "/",
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/TemplateData/fullscreen-button.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico",
+        "/Build/M4C-Closeout-Player.data.gz"
+      ],
+      "requested_paths": [
+        "/",
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/TemplateData/fullscreen-button.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico",
+        "/Build/M4C-Closeout-Player.data.gz"
+      ],
+      "data_requested": true,
+      "wasm_requested": true,
+      "result": "captured"
+    },
+    {
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_s": 1.078,
+      "args": [
+        "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "--headless=new",
+        "--disable-gpu",
+        "--no-sandbox",
+        "--no-first-run",
+        "--user-data-dir=C:\\Users\\10509\\AppData\\Local\\Temp\\echo-real_timeout_20s-38gnq4d4",
+        "--window-size=1280,800",
+        "--timeout=20000",
+        "--enable-logging=stderr",
+        "--v=0",
+        "--screenshot=G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\diagnostics\\real_timeout_20s.png",
+        "http://127.0.0.1:18240/"
+      ],
+      "screenshot": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\diagnostics\\real_timeout_20s.png",
+      "screenshot_bytes": 15559,
+      "screenshot_sha256": "8315ab90122424879230502310e535ee0e5c978aca13fed2ef678d1eccc5eb39",
+      "stderr_log": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\diagnostics\\real_timeout_20s.stderr.log",
+      "requests_during_variant": 12,
+      "paths_during_variant": [
+        "/",
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/fullscreen-button.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico",
+        "/Build/M4C-Closeout-Player.data.gz"
+      ],
+      "requested_paths": [
+        "/",
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/fullscreen-button.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico",
+        "/Build/M4C-Closeout-Player.data.gz"
+      ],
+      "data_requested": true,
+      "wasm_requested": true,
+      "result": "captured"
+    },
+    {
+      "exit_code": 0,
+      "timed_out": false,
+      "duration_s": 1.156,
+      "args": [
+        "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "--headless=new",
+        "--disable-gpu",
+        "--no-sandbox",
+        "--no-first-run",
+        "--user-data-dir=C:\\Users\\10509\\AppData\\Local\\Temp\\echo-real_timeout_45s-2n_dtvcx",
+        "--window-size=1280,800",
+        "--timeout=45000",
+        "--enable-logging=stderr",
+        "--v=0",
+        "--screenshot=G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\diagnostics\\real_timeout_45s.png",
+        "http://127.0.0.1:18240/"
+      ],
+      "screenshot": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\diagnostics\\real_timeout_45s.png",
+      "screenshot_bytes": 15559,
+      "screenshot_sha256": "8315ab90122424879230502310e535ee0e5c978aca13fed2ef678d1eccc5eb39",
+      "stderr_log": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\diagnostics\\real_timeout_45s.stderr.log",
+      "requests_during_variant": 12,
+      "paths_during_variant": [
+        "/",
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/TemplateData/fullscreen-button.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico",
+        "/Build/M4C-Closeout-Player.data.gz"
+      ],
+      "requested_paths": [
+        "/",
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/TemplateData/fullscreen-button.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico",
+        "/Build/M4C-Closeout-Player.data.gz"
+      ],
+      "data_requested": true,
+      "wasm_requested": true,
+      "result": "captured"
+    }
+  ],
+  "loader_snippets": {
+    "dataUrl": [
+      "||function(){};var o,m={canvas:t,webglContextAttributes:{preserveDrawingBuffer:!1,powerPreference:2},wasmFileSize:45868147,cacheControl:function(e){return e==m.dataUrl||e.match(/\\.bundle/)?\"must-revalidate\":\"no-store\"},streamingAssetsUrl:\"StreamingAssets\",downloadProgress:{},deinitializers:[],intervals:{},setInterval:function(e,t){e=window.setInterval(e,t);r",
+      "t.body.removeChild(i)})}).then(function(e){m.webAssemblyTimeStart=performance.now(),e(m),m.codeDownloadTimeEnd=performance.now()-o}),performance.now()),a=(T(t=\"dataUrl\"),e=m.cacheControl(m[t]),n=m.companyName&&m.productName?m.cachedFetch:m.fetchWithProgress,s=m[t],r=/file:\\/\\//.exec(s)?\"same-origin\":void 0,n(m[t],{method:\"GET\",companyName:m.companyName,produ"
+    ],
+    "getContext": [
+      ".2\":\"Server 2003\",\"NT 6.0\":\"Vista\",\"NT 6.1\":\"7\",\"NT 6.2\":\"8\",\"NT 6.3\":\"8.1\",\"NT 10.0\":\"10\"}[r]||r,webgpuVersion=0,(f=document.createElement(\"canvas\"))&&(u=(p=f.getContext(\"webgl2\"))?2:0,p||(p=f&&f.getContext(\"webgl\"))&&(u=1),p&&(o=p.getExtension(\"WEBGL_debug_renderer_info\")&&p.getParameter(37446)||p.getParameter(7937)));var f=\"undefined\"!=typeof SharedArrayB",
+      "T 6.1\":\"7\",\"NT 6.2\":\"8\",\"NT 6.3\":\"8.1\",\"NT 10.0\":\"10\"}[r]||r,webgpuVersion=0,(f=document.createElement(\"canvas\"))&&(u=(p=f.getContext(\"webgl2\"))?2:0,p||(p=f&&f.getContext(\"webgl\"))&&(u=1),p&&(o=p.getExtension(\"WEBGL_debug_renderer_info\")&&p.getParameter(37446)||p.getParameter(7937)));var f=\"undefined\"!=typeof SharedArrayBuffer,p=\"object\"==typeof WebAssembly&"
+    ],
+    "instantiateStreaming": [],
+    "WebGL is not supported": []
+  },
+  "server_stop": {
+    "exit_code": 1,
+    "still_running": false
+  },
+  "access_log": {
+    "request_count": 38,
+    "requests": [
+      {
+        "method": "GET",
+        "path": "/api/v1/health",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.data.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/style.css",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.loader.js",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-empty-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-full-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-title-footer.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/fullscreen-button.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.framework.js.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.wasm.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/favicon.ico",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.data.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/style.css",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.loader.js",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-empty-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-full-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/fullscreen-button.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-title-footer.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.framework.js.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.wasm.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/favicon.ico",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.data.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/style.css",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.loader.js",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-full-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-empty-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-title-footer.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/fullscreen-button.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.framework.js.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.wasm.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/favicon.ico",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.data.gz",
+        "status": 200
+      }
+    ],
+    "requested_paths": [
+      "/api/v1/health",
+      "/Build/M4C-Closeout-Player.data.gz",
+      "/",
+      "/TemplateData/style.css",
+      "/Build/M4C-Closeout-Player.loader.js",
+      "/TemplateData/unity-logo-dark.png",
+      "/TemplateData/progress-bar-empty-dark.png",
+      "/TemplateData/progress-bar-full-dark.png",
+      "/TemplateData/unity-logo-title-footer.png",
+      "/TemplateData/fullscreen-button.png",
+      "/Build/M4C-Closeout-Player.framework.js.gz",
+      "/Build/M4C-Closeout-Player.wasm.gz",
+      "/TemplateData/favicon.ico"
+    ],
+    "statuses": {
+      "/api/v1/health": [
+        200
+      ],
+      "/Build/M4C-Closeout-Player.data.gz": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "/": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/style.css": [
+        200,
+        200,
+        200
+      ],
+      "/Build/M4C-Closeout-Player.loader.js": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/unity-logo-dark.png": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/progress-bar-empty-dark.png": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/progress-bar-full-dark.png": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/unity-logo-title-footer.png": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/fullscreen-button.png": [
+        200,
+        200,
+        200
+      ],
+      "/Build/M4C-Closeout-Player.framework.js.gz": [
+        200,
+        200,
+        200
+      ],
+      "/Build/M4C-Closeout-Player.wasm.gz": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/favicon.ico": [
+        200,
+        200,
+        200
+      ]
+    },
+    "requested_asset_paths": [
+      "/Build/M4C-Closeout-Player.data.gz",
+      "/TemplateData/style.css",
+      "/Build/M4C-Closeout-Player.loader.js",
+      "/TemplateData/unity-logo-dark.png",
+      "/TemplateData/progress-bar-empty-dark.png",
+      "/TemplateData/progress-bar-full-dark.png",
+      "/TemplateData/unity-logo-title-footer.png",
+      "/TemplateData/fullscreen-button.png",
+      "/Build/M4C-Closeout-Player.framework.js.gz",
+      "/Build/M4C-Closeout-Player.wasm.gz",
+      "/TemplateData/favicon.ico"
+    ]
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "generated_at": "2026-11-25T04:28:07+00:00",
+  "finished_at": "2026-11-25T04:28:26+00:00",
+  "driver": "M5CAR1/e2e/run_e2e_r1.py",
+  "fake_upstream": "Server/tools/fake_llm_server.py (local socket, no model)",
+  "real_model_called": false,
+  "checks": [
+    {
+      "id": "M0",
+      "name": "mock service starts through app.server_entry",
+      "passed": true,
+      "detail": "http://127.0.0.1:18080"
+    },
+    {
+      "id": "M1",
+      "name": "health contract reports mock mode and an unverified synthetic provider",
+      "passed": true,
+      "detail": {
+        "entry_mode": "mock",
+        "model_status": "mock",
+        "model_ready": false,
+        "is_synthetic": true
+      }
+    },
+    {
+      "id": "M2",
+      "name": "E01-E05 can be presented to the server one by one",
+      "passed": true,
+      "detail": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "D01-D03 and REC.engraving trigger through disclosed evidence (server-side only, no Unity ending)",
+      "passed": true,
+      "detail": {
+        "D01": [
+          "D01"
+        ],
+        "D02_laozhou": [
+          "D02"
+        ],
+        "D02_linyao": [
+          "D02"
+        ],
+        "D03": [
+          "D03"
+        ],
+        "REC.engraving": [
+          "REC.engraving"
+        ]
+      }
+    },
+    {
+      "id": "M4",
+      "name": "a NEW plain HTTP client reads the same server-side session state (this is NOT a browser refresh or save restore)",
+      "passed": true,
+      "detail": {
+        "presented": [
+          "E02"
+        ],
+        "disclosures": [
+          "D01"
+        ]
+      }
+    },
+    {
+      "id": "M5",
+      "name": "two sessions for the same NPC keep separate evidence and disclosure state",
+      "passed": true,
+      "detail": {
+        "a": [
+          "opt.laozhou.ask_b01",
+          "opt.laozhou.repeat_b01",
+          "opt.laozhou.leave"
+        ],
+        "b": [
+          "opt.laozhou.ask_b01",
+          "opt.laozhou.leave"
+        ]
+      }
+    },
+    {
+      "id": "M6",
+      "name": "mock mode answers from approved fixed content and marks it synthetic",
+      "passed": true,
+      "detail": {
+        "source": "fixed_line",
+        "provider": {
+          "kind": "mock",
+          "id": "fixed-line-content",
+          "is_synthetic": true
+        }
+      }
+    },
+    {
+      "id": "M7",
+      "name": "D01-D03 are reachable in both evidence orders (server-side prerequisites only, NOT a Unity ending)",
+      "passed": true,
+      "detail": [
+        [
+          "D01",
+          "D02",
+          "D03"
+        ],
+        [
+          "D01",
+          "D02",
+          "D03"
+        ]
+      ]
+    },
+    {
+      "id": "L0",
+      "name": "live service starts with a verified ledger",
+      "passed": true,
+      "detail": "http://127.0.0.1:18081"
+    },
+    {
+      "id": "L1",
+      "name": "configured but unproven: health separates readiness from a verified model",
+      "passed": true,
+      "detail": {
+        "model_status": "configured_unverified",
+        "model_ready": false,
+        "model_available": true
+      }
+    },
+    {
+      "id": "L2",
+      "name": "the Fake upstream answers a free turn, and the service still reports it as synthetic: a Fake LLM is NOT a real model",
+      "passed": true,
+      "detail": {
+        "source": "external_model",
+        "provider": {
+          "kind": "external_model",
+          "id": "external-llm",
+          "is_synthetic": true
+        },
+        "model_status": "test_upstream_verified",
+        "model_ready": false
+      }
+    },
+    {
+      "id": "L5",
+      "name": "the API key never appears in a turn envelope",
+      "passed": true,
+      "detail": "searched turn JSON"
+    },
+    {
+      "id": "L3",
+      "name": "upstream failures degrade safely with exactly one call each (no automatic retry)",
+      "passed": true,
+      "detail": [
+        {
+          "marker": "[[fake:401]]",
+          "status": 200,
+          "source": "fallback",
+          "fallback_reason": "model_unavailable",
+          "upstream_calls": 1
+        },
+        {
+          "marker": "[[fake:429]]",
+          "status": 200,
+          "source": "fallback",
+          "fallback_reason": "model_unavailable",
+          "upstream_calls": 1
+        },
+        {
+          "marker": "[[fake:500]]",
+          "status": 200,
+          "source": "fallback",
+          "fallback_reason": "model_unavailable",
+          "upstream_calls": 1
+        },
+        {
+          "marker": "[[fake:badjson]]",
+          "status": 200,
+          "source": "fallback",
+          "fallback_reason": "invalid_output",
+          "upstream_calls": 1
+        },
+        {
+          "marker": "[[fake:truncate]]",
+          "status": 200,
+          "source": "fallback",
+          "fallback_reason": "invalid_output",
+          "upstream_calls": 1
+        },
+        {
+          "marker": "[[fake:unsafe]]",
+          "status": 200,
+          "source": "fallback",
+          "fallback_reason": "unsafe_output",
+          "upstream_calls": 1
+        },
+        {
+          "marker": "[[fake:leak]]",
+          "status": 200,
+          "source": "fallback",
+          "fallback_reason": "invalid_output",
+          "upstream_calls": 1
+        }
+      ]
+    },
+    {
+      "id": "L4",
+      "name": "a timed-out turn degrades to deterministic content and is still counted",
+      "passed": true,
+      "detail": {
+        "source": "fallback",
+        "fallback_reason": "invalid_output",
+        "upstream_calls": 1
+      }
+    },
+    {
+      "id": "L6",
+      "name": "the game still serves approved fixed content after model failures",
+      "passed": true,
+      "detail": {
+        "source": "fixed_line"
+      }
+    },
+    {
+      "id": "L7",
+      "name": "the health ledger reports settled token usage instead of zero",
+      "passed": true,
+      "detail": {
+        "global_used": 9,
+        "tokens_used": 5362
+      }
+    },
+    {
+      "id": "R1",
+      "name": "the ledger generation and usage survive a process restart (local process only, NOT platform persistence)",
+      "passed": true,
+      "detail": {
+        "epoch_before": "1d1a47fd9805",
+        "epoch_after": "1d1a47fd9805",
+        "used_before": 9,
+        "used_after": 9
+      }
+    },
+    {
+      "id": "R2",
+      "name": "after a restart the old conversation id returns 404, so the client must re-establish the session (server-side behaviour, NOT browser recovery)",
+      "passed": true,
+      "detail": {
+        "status": 404,
+        "code": "NOT_FOUND"
+      }
+    },
+    {
+      "id": "R3",
+      "name": "a new session works after the restart",
+      "passed": true,
+      "detail": {
+        "source": "fixed_line"
+      }
+    },
+    {
+      "id": "B0",
+      "name": "tight-budget service starts",
+      "passed": true,
+      "detail": "http://127.0.0.1:18082"
+    },
+    {
+      "id": "B1",
+      "name": "the global request limit is enforced and no upstream call happens after it",
+      "passed": true,
+      "detail": {
+        "first_three": [
+          "external_model",
+          "external_model",
+          "external_model"
+        ],
+        "blocked_reason": "budget_global_exhausted",
+        "extra_upstream_calls": 0
+      }
+    },
+    {
+      "id": "B2",
+      "name": "the token budget refuses requests before calling the upstream",
+      "passed": true,
+      "detail": {
+        "attempts": [
+          {
+            "source": "external_model",
+            "reason": null
+          },
+          {
+            "source": "external_model",
+            "reason": null
+          },
+          {
+            "source": "external_model",
+            "reason": null
+          },
+          {
+            "source": "external_model",
+            "reason": null
+          },
+          {
+            "source": "external_model",
+            "reason": null
+          },
+          {
+            "source": "external_model",
+            "reason": null
+          },
+          {
+            "source": "external_model",
+            "reason": null
+          },
+          {
+            "source": "external_model",
+            "reason": null
+          },
+          {
+            "source": "external_model",
+            "reason": null
+          },
+          {
+            "source": "fallback",
+            "reason": "budget_token_exhausted"
+          }
+        ],
+        "tokens_used": 180,
+        "token_limit": 1000,
+        "extra_upstream_calls": 0
+      }
+    },
+    {
+      "id": "B3",
+      "name": "a corrupt ledger makes the live service refuse to start",
+      "passed": true,
+      "detail": {
+        "exit_code": 1,
+        "log_tail": [
+          "RuntimeError: APP_ENTRY_MODE=live refused: budget ledger unusable (ledger_corrupt)"
+        ]
+      }
+    },
+    {
+      "id": "P1",
+      "name": "with --no-proxy-headers semantics a forged X-Forwarded-For cannot buy a fresh client bucket",
+      "passed": true,
+      "detail": {
+        "first": 200,
+        "second": 429
+      }
+    },
+    {
+      "id": "P2",
+      "name": "creating new sessions cannot bypass the new-session client budget",
+      "passed": true,
+      "detail": [
+        201,
+        201,
+        429,
+        429
+      ]
+    }
+  ],
+  "passed": true,
+  "notes": [
+    "All traffic is 127.0.0.1. No real model, no API key, no credits.",
+    "Docker is NOT used for this run; the FastAPI app is the same code path.",
+    "Session state lives in process memory; restart 404 is expected."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-11-25T18:13:34+08:00",
+  "round": "M5-C-A-R2",
+  "server_source": {
+    "path": "M5CAR2/packages/ServerSource.zip",
+    "files": 74,
+    "bytes": 163583,
+    "sha256": "9ae2c2b41c2c062ace0c3ac7d0fea10114ef08015e71ecec4c71f47e2d05d9c5"
+  },
+  "deployment_candidate": {
+    "path": "M5CAR2/packages/DeploymentCandidate.zip",
+    "files": 40,
+    "bytes": 91956,
+    "sha256": "511cea99af444df89a2c3d7f04650a095f28368c301e5dbcddcf80b0f17a3db3"
+  },
+  "local_webgl_candidate": {
+    "directory": "M5CAR1/local_candidate/webgl",
+    "files": 17,
+    "bytes": 21412143,
+    "zip": "M5CAR1_LocalWebGLCandidate_20261125-1400.zip",
+    "zip_bytes": 20861535,
+    "zip_sha256": "0e408df23251b1e4bdc56bdb6bfd44d83e8a41c3693f86dbfa0e87b8d2ae9bb2",
+    "zip_matches_directory": true,
+    "provenance": {
+      "source_dir": "Builds/M4C-Closeout-Player",
+      "files_compared": 17,
+      "mismatches": [],
+      "byte_identical": true
+    },
+    "manifest": "M5CAR2/evidence/browser/build_manifest.sha256",
+    "rebuilt_this_round": false,
+    "note": "M4C-Closeout WebGL build reused for server-integration verification; not rebuilt because Unity/M6-C is outside this round's write scope."
+  },
+  "source_manifest": "M5CAR2/evidence/git/source_sha256.txt",
+  "deployment_app_matches_source": true,
+  "excluded_private_state": [
+    "Server/.venv/**",
+    "Server/.local/**",
+    "M5CAR2/evidence/e2e/state/*.sqlite3",
+    "M5CAR1/evidence/e2e/state/*.sqlite3",
+    "browser profiles",
+    "*.zip inside M5CAR2/packages (the archives themselves)",
+    "Server/pytest-verbose.txt"
+  ],
+  "reports": {
+    "path": "M5CAR2_Reports.zip",
+    "bytes": 330636,
+    "sha256": "da535413670cb107e6f09bec0b0420506c877a1a47474af4e3a96eada2e87e89"
+  }
+}

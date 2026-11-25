@@ -1,0 +1,789 @@
+{
+  "generated_at": "2026-11-25T12:29:08+08:00",
+  "harness": "G:\\projects\\EchoLostAndFound\\M5CAR1\\tools\\browser_smoke.py",
+  "url": "http://127.0.0.1:18240/",
+  "web_root": "G:\\projects\\EchoLostAndFound\\M5CAR1\\local_candidate\\webgl",
+  "notes": [
+    ".data.gz was requested only during the asset probe: the capture invocations exit when --virtual-time-budget expires (~1 s) and can abort the in-flight data request",
+    "chrome_asset_probe exit_code 1 is the harness killing Chrome right after the .data.gz request was observed, not a crash",
+    "Unity engine booted in headless Chrome: version 6000.3.29f1, webgl2_context=True, player_data=True",
+    "Unity reported 3 shader(s) unsupported on this GPU (headless SwiftShader): Hidden/CoreSRP/CoreCopy; Hidden/Universal Render Pipeline/StencilDitherMaskSeed; Hidden/Universal/HDRDebugView; the build's rendering path cannot be validated here",
+    "Unity logged scene load (UnloadTime) in headless Chrome, so the runtime and game bootstrap ran; gameplay and rendering are still unverified",
+    "screenshot_non_blank is null: not analysed (Pillow unavailable); only screenshot_bytes and screenshot_sha256 were recorded",
+    "canvas_present_in_dom only proves the <canvas id=\"unity-canvas\"> element exists in the dumped DOM, not that Unity initialised"
+  ],
+  "http_checks": [
+    {
+      "name": "root_html",
+      "path": "/",
+      "url": "http://127.0.0.1:18240/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length_header": "5689",
+      "content_encoding": null,
+      "bytes": 5689,
+      "body_sha256": "ea25b1685c2c8d41f65e263a52b060706277de43b7eb9072609305e972ba82fb",
+      "elapsed_s": 0.016,
+      "ok": true,
+      "local_file": "G:\\projects\\EchoLostAndFound\\M5CAR1\\local_candidate\\webgl\\index.html",
+      "local_sha256": "ea25b1685c2c8d41f65e263a52b060706277de43b7eb9072609305e972ba82fb",
+      "matches_local_file": true,
+      "body_contains_unity_canvas": true,
+      "title": "Unity Web Player | EchoLostAndFound WebGL"
+    },
+    {
+      "name": "loader_js",
+      "path": "/Build/M4C-Closeout-Player.loader.js",
+      "url": "http://127.0.0.1:18240/Build/M4C-Closeout-Player.loader.js",
+      "status": 200,
+      "content_type": "text/javascript; charset=utf-8",
+      "content_length_header": "26983",
+      "content_encoding": null,
+      "bytes": 26983,
+      "body_sha256": "7383dbd34a10fbc790a2837d4fd7967224e6cc96370847c057b047fb0429cc2b",
+      "elapsed_s": 0.0,
+      "ok": true,
+      "local_file": "G:\\projects\\EchoLostAndFound\\M5CAR1\\local_candidate\\webgl\\Build\\M4C-Closeout-Player.loader.js",
+      "local_sha256": "7383dbd34a10fbc790a2837d4fd7967224e6cc96370847c057b047fb0429cc2b",
+      "matches_local_file": true
+    }
+  ],
+  "access_log": {
+    "request_count": 38,
+    "requests": [
+      {
+        "method": "GET",
+        "path": "/api/v1/health",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.loader.js",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/style.css",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.loader.js",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-empty-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-full-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-title-footer.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/fullscreen-button.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.framework.js.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.wasm.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/favicon.ico",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/style.css",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.loader.js",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-empty-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-full-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/fullscreen-button.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-title-footer.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.framework.js.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.wasm.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/favicon.ico",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/style.css",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.loader.js",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-empty-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/progress-bar-full-dark.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/unity-logo-title-footer.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/fullscreen-button.png",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.framework.js.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.wasm.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/TemplateData/favicon.ico",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/Build/M4C-Closeout-Player.data.gz",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/meta",
+        "status": 200
+      }
+    ],
+    "requested_paths": [
+      "/api/v1/health",
+      "/",
+      "/Build/M4C-Closeout-Player.loader.js",
+      "/TemplateData/style.css",
+      "/TemplateData/unity-logo-dark.png",
+      "/TemplateData/progress-bar-empty-dark.png",
+      "/TemplateData/progress-bar-full-dark.png",
+      "/TemplateData/unity-logo-title-footer.png",
+      "/TemplateData/fullscreen-button.png",
+      "/Build/M4C-Closeout-Player.framework.js.gz",
+      "/Build/M4C-Closeout-Player.wasm.gz",
+      "/TemplateData/favicon.ico",
+      "/Build/M4C-Closeout-Player.data.gz",
+      "/api/v1/meta"
+    ],
+    "statuses": {
+      "/api/v1/health": [
+        200
+      ],
+      "/": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "/Build/M4C-Closeout-Player.loader.js": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/style.css": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/unity-logo-dark.png": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/progress-bar-empty-dark.png": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/progress-bar-full-dark.png": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/unity-logo-title-footer.png": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/fullscreen-button.png": [
+        200,
+        200,
+        200
+      ],
+      "/Build/M4C-Closeout-Player.framework.js.gz": [
+        200,
+        200,
+        200
+      ],
+      "/Build/M4C-Closeout-Player.wasm.gz": [
+        200,
+        200,
+        200
+      ],
+      "/TemplateData/favicon.ico": [
+        200,
+        200,
+        200
+      ],
+      "/Build/M4C-Closeout-Player.data.gz": [
+        200
+      ],
+      "/api/v1/meta": [
+        200
+      ]
+    },
+    "requested_asset_paths": [
+      "/Build/M4C-Closeout-Player.loader.js",
+      "/TemplateData/style.css",
+      "/TemplateData/unity-logo-dark.png",
+      "/TemplateData/progress-bar-empty-dark.png",
+      "/TemplateData/progress-bar-full-dark.png",
+      "/TemplateData/unity-logo-title-footer.png",
+      "/TemplateData/fullscreen-button.png",
+      "/Build/M4C-Closeout-Player.framework.js.gz",
+      "/Build/M4C-Closeout-Player.wasm.gz",
+      "/TemplateData/favicon.ico",
+      "/Build/M4C-Closeout-Player.data.gz"
+    ]
+  },
+  "verified": {
+    "page_served": true,
+    "loader_fetched": true,
+    "unity_data_fetched": true,
+    "unity_wasm_fetched": true,
+    "canvas_present_in_dom": true,
+    "screenshot_non_blank": null,
+    "served_matches_local_copy": true
+  },
+  "server": {
+    "started": true,
+    "port_in_use_before_start": false,
+    "command": [
+      "G:\\projects\\EchoLostAndFound\\Server\\.venv\\Scripts\\python.exe",
+      "-m",
+      "uvicorn",
+      "app.entry:app",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "18240",
+      "--no-proxy-headers",
+      "--log-level",
+      "info"
+    ],
+    "cwd": "G:\\projects\\EchoLostAndFound\\Server",
+    "env_overrides": {
+      "APP_ENTRY_MODE": "mock",
+      "MODEL_PROVIDER": "mock",
+      "WEB_ROOT": "G:\\projects\\EchoLostAndFound\\M5CAR1\\local_candidate\\webgl",
+      "LOG_LEVEL": "INFO",
+      "PYTHONUNBUFFERED": "1"
+    },
+    "log_path": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\uvicorn.log",
+    "pid": 25056,
+    "health": {
+      "ok": true,
+      "status": 200,
+      "attempts": 1,
+      "elapsed_s": 1.047,
+      "body": {
+        "request_id": "bbc5993a-a7fd-4358-89e1-173202c73818",
+        "data": {
+          "service_instance_id": "16efdd7e-11c0-46aa-8240-04d45b967869",
+          "service_name": "echolostfound-npc-ai",
+          "api_version": "1.0",
+          "schema_version": 1,
+          "content_version": "story-v1.0-phase2",
+          "ready": true,
+          "game_ready": true,
+          "entry_mode": "mock",
+          "model_available": false,
+          "model_ready": false,
+          "model_status": "mock",
+          "model_mode": "mock",
+          "provider": {
+            "kind": "mock",
+            "id": "mock-deterministic",
+            "is_synthetic": true
+          },
+          "is_synthetic": true,
+          "model": {
+            "status": "mock",
+            "verified": false,
+            "verified_test_upstream": false,
+            "configured": false,
+            "entry_mode": "mock",
+            "successes": 0,
+            "test_successes": 0,
+            "failures": 0,
+            "last_success_at": null,
+            "last_success_synthetic": null,
+            "last_failure_at": null,
+            "last_failure_detail": null
+          },
+          "ledger": {
+            "status": "mock",
+            "global_used": 0,
+            "global_limit": 30,
+            "session_limit": 8,
+            "token_limit": 60000,
+            "tokens_used": 0,
+            "epoch_fingerprint": "",
+            "persistent": false
+          },
+          "breaker": null
+        },
+        "error": null
+      }
+    },
+    "stop": {
+      "exit_code": 1,
+      "still_running": false
+    }
+  },
+  "warmup": {
+    "files_read": [
+      "G:\\projects\\EchoLostAndFound\\M5CAR1\\local_candidate\\webgl\\index.html",
+      "G:\\projects\\EchoLostAndFound\\M5CAR1\\local_candidate\\webgl\\Build\\M4C-Closeout-Player.loader.js",
+      "G:\\projects\\EchoLostAndFound\\M5CAR1\\local_candidate\\webgl\\Build\\M4C-Closeout-Player.data.gz",
+      "G:\\projects\\EchoLostAndFound\\M5CAR1\\local_candidate\\webgl\\Build\\M4C-Closeout-Player.wasm.gz",
+      "G:\\projects\\EchoLostAndFound\\M5CAR1\\local_candidate\\webgl\\Build\\M4C-Closeout-Player.framework.js.gz"
+    ],
+    "bytes_read": 21398247,
+    "note": "direct file reads to warm the OS page cache; not HTTP"
+  },
+  "chrome_screenshot": {
+    "exit_code": 0,
+    "timed_out": false,
+    "duration_s": 1.156,
+    "args": [
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "--headless=new",
+      "--disable-gpu",
+      "--no-sandbox",
+      "--no-first-run",
+      "--user-data-dir=C:\\Users\\10509\\AppData\\Local\\Temp\\echo-chrome-pp6nwykl",
+      "--window-size=1280,800",
+      "--virtual-time-budget=30000",
+      "--enable-logging=stderr",
+      "--v=0",
+      "--screenshot=G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\screenshot.png",
+      "http://127.0.0.1:18240/"
+    ],
+    "stderr_log": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\chrome_screenshot_stderr.log",
+    "stdout_log": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\chrome_screenshot_stdout.log",
+    "server_requests": {
+      "request_count": 11,
+      "paths": [
+        "/",
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/TemplateData/fullscreen-button.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico"
+      ],
+      "statuses": {
+        "/": [
+          200
+        ],
+        "/TemplateData/style.css": [
+          200
+        ],
+        "/Build/M4C-Closeout-Player.loader.js": [
+          200
+        ],
+        "/TemplateData/unity-logo-dark.png": [
+          200
+        ],
+        "/TemplateData/progress-bar-empty-dark.png": [
+          200
+        ],
+        "/TemplateData/progress-bar-full-dark.png": [
+          200
+        ],
+        "/TemplateData/unity-logo-title-footer.png": [
+          200
+        ],
+        "/TemplateData/fullscreen-button.png": [
+          200
+        ],
+        "/Build/M4C-Closeout-Player.framework.js.gz": [
+          200
+        ],
+        "/Build/M4C-Closeout-Player.wasm.gz": [
+          200
+        ],
+        "/TemplateData/favicon.ico": [
+          200
+        ]
+      },
+      "asset_paths": [
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/TemplateData/fullscreen-button.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico"
+      ]
+    },
+    "error_line_count": 0,
+    "error_line_samples": []
+  },
+  "screenshot_path": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\screenshot.png",
+  "screenshot_bytes": 15559,
+  "screenshot_sha256": "8315ab90122424879230502310e535ee0e5c978aca13fed2ef678d1eccc5eb39",
+  "chrome_dump_dom": {
+    "exit_code": 0,
+    "timed_out": false,
+    "duration_s": 1.046,
+    "args": [
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "--headless=new",
+      "--disable-gpu",
+      "--no-sandbox",
+      "--no-first-run",
+      "--user-data-dir=C:\\Users\\10509\\AppData\\Local\\Temp\\echo-chrome-36t7ch66",
+      "--window-size=1280,800",
+      "--virtual-time-budget=30000",
+      "--enable-logging=stderr",
+      "--v=0",
+      "--dump-dom",
+      "http://127.0.0.1:18240/"
+    ],
+    "stdout_log": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\dom.html",
+    "stderr_log": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\chrome_dumpdom_stderr.log",
+    "server_requests": {
+      "request_count": 11,
+      "paths": [
+        "/",
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/fullscreen-button.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico"
+      ],
+      "statuses": {
+        "/": [
+          200
+        ],
+        "/TemplateData/style.css": [
+          200
+        ],
+        "/Build/M4C-Closeout-Player.loader.js": [
+          200
+        ],
+        "/TemplateData/unity-logo-dark.png": [
+          200
+        ],
+        "/TemplateData/progress-bar-empty-dark.png": [
+          200
+        ],
+        "/TemplateData/progress-bar-full-dark.png": [
+          200
+        ],
+        "/TemplateData/fullscreen-button.png": [
+          200
+        ],
+        "/TemplateData/unity-logo-title-footer.png": [
+          200
+        ],
+        "/Build/M4C-Closeout-Player.framework.js.gz": [
+          200
+        ],
+        "/Build/M4C-Closeout-Player.wasm.gz": [
+          200
+        ],
+        "/TemplateData/favicon.ico": [
+          200
+        ]
+      },
+      "asset_paths": [
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/fullscreen-button.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico"
+      ]
+    },
+    "error_line_count": 0,
+    "error_line_samples": []
+  },
+  "dom_path": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\dom.html",
+  "dom_bytes": 6028,
+  "dom_contains_unity_canvas": true,
+  "chrome_asset_probe": {
+    "args": [
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "--headless=new",
+      "--disable-gpu",
+      "--no-sandbox",
+      "--no-first-run",
+      "--user-data-dir=C:\\Users\\10509\\AppData\\Local\\Temp\\echo-chrome-ppg8_zh9",
+      "--window-size=1280,800",
+      "--enable-logging=stderr",
+      "--v=0",
+      "http://127.0.0.1:18240/"
+    ],
+    "exit_code": 1,
+    "terminated_by_harness": true,
+    "elapsed_s": 4.657,
+    "data_bundle_seen": true,
+    "timeout_s": 90.0,
+    "settle_s": 3.0,
+    "timed_out": false,
+    "stdout_log": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\chrome_probe_stdout.log",
+    "stderr_log": "G:\\projects\\EchoLostAndFound\\M5CAR1\\evidence\\browser\\chrome_probe_stderr.log",
+    "stdout_bytes": 0,
+    "stderr_bytes": 16066,
+    "error_line_count": 3,
+    "error_line_samples": [
+      "[42916:38004:1125/122915.559:INFO:CONSOLE:9] \"ERROR: Shader \", source: http://127.0.0.1:18240/Build/M4C-Closeout-Player.framework.js.gz (9)",
+      "[42916:38004:1125/122915.559:INFO:CONSOLE:9] \"ERROR: Shader \", source: http://127.0.0.1:18240/Build/M4C-Closeout-Player.framework.js.gz (9)",
+      "[42916:38004:1125/122915.563:INFO:CONSOLE:9] \"ERROR: Shader \", source: http://127.0.0.1:18240/Build/M4C-Closeout-Player.framework.js.gz (9)"
+    ],
+    "unity": {
+      "engine_version": "6000.3.29f1",
+      "webgl_context_created": true,
+      "webgl_renderer": "WebKit WebGL",
+      "player_data_loading": true,
+      "gpu_process_crashed": false,
+      "console_line_count": 69,
+      "shaders_not_supported": [
+        "Hidden/CoreSRP/CoreCopy",
+        "Hidden/Universal Render Pipeline/StencilDitherMaskSeed",
+        "Hidden/Universal/HDRDebugView"
+      ],
+      "audio_context_blocked_count": 7,
+      "scene_load_log_seen": true,
+      "game_code_log_seen": true
+    },
+    "server_requests": {
+      "request_count": 13,
+      "paths": [
+        "/",
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/TemplateData/fullscreen-button.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico",
+        "/Build/M4C-Closeout-Player.data.gz",
+        "/api/v1/meta"
+      ],
+      "statuses": {
+        "/": [
+          200
+        ],
+        "/TemplateData/style.css": [
+          200
+        ],
+        "/Build/M4C-Closeout-Player.loader.js": [
+          200
+        ],
+        "/TemplateData/unity-logo-dark.png": [
+          200
+        ],
+        "/TemplateData/progress-bar-empty-dark.png": [
+          200
+        ],
+        "/TemplateData/progress-bar-full-dark.png": [
+          200
+        ],
+        "/TemplateData/unity-logo-title-footer.png": [
+          200
+        ],
+        "/TemplateData/fullscreen-button.png": [
+          200
+        ],
+        "/Build/M4C-Closeout-Player.framework.js.gz": [
+          200
+        ],
+        "/Build/M4C-Closeout-Player.wasm.gz": [
+          200
+        ],
+        "/TemplateData/favicon.ico": [
+          200
+        ],
+        "/Build/M4C-Closeout-Player.data.gz": [
+          200
+        ],
+        "/api/v1/meta": [
+          200
+        ]
+      },
+      "asset_paths": [
+        "/TemplateData/style.css",
+        "/Build/M4C-Closeout-Player.loader.js",
+        "/TemplateData/unity-logo-dark.png",
+        "/TemplateData/progress-bar-empty-dark.png",
+        "/TemplateData/progress-bar-full-dark.png",
+        "/TemplateData/unity-logo-title-footer.png",
+        "/TemplateData/fullscreen-button.png",
+        "/Build/M4C-Closeout-Player.framework.js.gz",
+        "/Build/M4C-Closeout-Player.wasm.gz",
+        "/TemplateData/favicon.ico",
+        "/Build/M4C-Closeout-Player.data.gz"
+      ]
+    }
+  },
+  "evidence_by_run": {
+    "chrome_screenshot": [
+      "/",
+      "/TemplateData/style.css",
+      "/Build/M4C-Closeout-Player.loader.js",
+      "/TemplateData/unity-logo-dark.png",
+      "/TemplateData/progress-bar-empty-dark.png",
+      "/TemplateData/progress-bar-full-dark.png",
+      "/TemplateData/unity-logo-title-footer.png",
+      "/TemplateData/fullscreen-button.png",
+      "/Build/M4C-Closeout-Player.framework.js.gz",
+      "/Build/M4C-Closeout-Player.wasm.gz",
+      "/TemplateData/favicon.ico"
+    ],
+    "chrome_dump_dom": [
+      "/",
+      "/TemplateData/style.css",
+      "/Build/M4C-Closeout-Player.loader.js",
+      "/TemplateData/unity-logo-dark.png",
+      "/TemplateData/progress-bar-empty-dark.png",
+      "/TemplateData/progress-bar-full-dark.png",
+      "/TemplateData/fullscreen-button.png",
+      "/TemplateData/unity-logo-title-footer.png",
+      "/Build/M4C-Closeout-Player.framework.js.gz",
+      "/Build/M4C-Closeout-Player.wasm.gz",
+      "/TemplateData/favicon.ico"
+    ],
+    "chrome_asset_probe": [
+      "/",
+      "/TemplateData/style.css",
+      "/Build/M4C-Closeout-Player.loader.js",
+      "/TemplateData/unity-logo-dark.png",
+      "/TemplateData/progress-bar-empty-dark.png",
+      "/TemplateData/progress-bar-full-dark.png",
+      "/TemplateData/unity-logo-title-footer.png",
+      "/TemplateData/fullscreen-button.png",
+      "/Build/M4C-Closeout-Player.framework.js.gz",
+      "/Build/M4C-Closeout-Player.wasm.gz",
+      "/TemplateData/favicon.ico",
+      "/Build/M4C-Closeout-Player.data.gz",
+      "/api/v1/meta"
+    ]
+  }
+}

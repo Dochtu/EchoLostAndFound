@@ -1,0 +1,85 @@
+{
+  "forbidden_hits": [],
+  "content_version": "story-v1.0-phase2",
+  "stages": {
+    "npc_laozhou@初始（无证据、无观察字段、无披露）": {
+      "known_evidence": [],
+      "available_topics": [
+        "opt.laozhou.ask_b01",
+        "opt.laozhou.leave"
+      ],
+      "withheld_count": 5,
+      "system_tokens": 453,
+      "evidence_tokens": 29,
+      "prompt_sha256_len": 535
+    },
+    "npc_linyao@初始（无证据、无观察字段、无披露）": {
+      "known_evidence": [],
+      "available_topics": [
+        "opt.linyao.ask_other",
+        "opt.linyao.leave"
+      ],
+      "withheld_count": 5,
+      "system_tokens": 450,
+      "evidence_tokens": 29,
+      "prompt_sha256_len": 532
+    },
+    "npc_laozhou@已取得 E01 并观察到表背刻字": {
+      "known_evidence": [
+        "E01"
+      ],
+      "available_topics": [
+        "opt.laozhou.ask_b01",
+        "opt.laozhou.leave"
+      ],
+      "withheld_count": 4,
+      "system_tokens": 472,
+      "evidence_tokens": 50,
+      "prompt_sha256_len": 557
+    },
+    "npc_linyao@已取得 E01 并观察到表背刻字": {
+      "known_evidence": [
+        "E01"
+      ],
+      "available_topics": [
+        "opt.linyao.ask_engraving",
+        "opt.linyao.ask_other",
+        "opt.linyao.leave"
+      ],
+      "withheld_count": 4,
+      "system_tokens": 492,
+      "evidence_tokens": 50,
+      "prompt_sha256_len": 592
+    },
+    "npc_laozhou@已触发 D01、D03（老周已作证）": {
+      "known_evidence": [
+        "E01",
+        "E02",
+        "E05"
+      ],
+      "available_topics": [
+        "opt.laozhou.ask_b01",
+        "opt.laozhou.repeat_b01",
+        "opt.laozhou.leave"
+      ],
+      "withheld_count": 2,
+      "system_tokens": 516,
+      "evidence_tokens": 71,
+      "prompt_sha256_len": 620
+    },
+    "npc_linyao@已触发 D01、D03（老周已作证）": {
+      "known_evidence": [
+        "E01"
+      ],
+      "available_topics": [
+        "opt.linyao.ask_engraving",
+        "opt.linyao.ask_other",
+        "opt.linyao.leave"
+      ],
+      "withheld_count": 4,
+      "system_tokens": 492,
+      "evidence_tokens": 50,
+      "prompt_sha256_len": 592
+    }
+  }
+}
